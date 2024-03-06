@@ -1,2 +1,5 @@
 # Ignore le contenu du dossier "data"
 data/*
+$ git rm -r --cached chatbot
+$ git add .gitignore
+$ git commit -m "Ignore virtual environments"
