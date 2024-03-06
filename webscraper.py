@@ -134,6 +134,3 @@ if __name__ == "__main__":
     text = get_data('tigre')
     if(text != None): #Si on n'a pas déjà les données
         generate_json(text)
-
-
-    get_data("data.txt", True)  # On sauvegarde le contenu de la page dans un fichier
