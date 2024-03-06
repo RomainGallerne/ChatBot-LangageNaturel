@@ -19,14 +19,21 @@ def find_relation_with_nodes_and_type(data, word1, word2, relation_type):
     if word1_node is None or word2_node is None or relation_type_info is None:
         return None
 
-    # Rechercher la relation qui contient les deux mots et le type de relation spécifié
-    matching_relation = next((rel for rel in relations if
-                              (rel["node1"] == word1_node["eid"] and rel["node2"] == word2_node["eid"] and
-                               rel["type"] == relation_type_info["rtid"]) or
-                              (rel["node2"] == word1_node["eid"] and rel["node1"] == word2_node["eid"] and
-                               rel["type"] == relation_type_info["rtid"])), None)
+    # Rechercher toutes les relations qui contiennent les deux mots et le type de relation spécifié
+    matching_relations = [rel for rel in relations if
+                          (rel["node1"] == word1_node["eid"] and rel["node2"] == word2_node["eid"] and
+                           rel["type"] == relation_type_info["rtid"]) or
+                          (rel["node2"] == word1_node["eid"] and rel["node1"] == word2_node["eid"] and
+                           rel["type"] == relation_type_info["rtid"])]
 
-    return matching_relation
+    if not matching_relations:
+        return None
+
+    # Trier les relations en fonction du rang (si le rang est disponible)
+    matching_relations.sort(key=lambda x: x.get('rank', float('inf')))
+
+    # Renvoyer la relation avec le rang le plus élevé
+    return matching_relations[0]
 
 def main():
     # Charger les données JSON depuis un fichier ou une variable
