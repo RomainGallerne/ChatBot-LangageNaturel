@@ -1,4 +1,5 @@
 import requests
+from bs4 import BeautifulSoup
 
 url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=tigre&rel="  # Remplacez ceci par l'URL de la page que vous souhaitez récupérer
 
