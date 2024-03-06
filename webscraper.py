@@ -4,6 +4,13 @@ import json
 
 def http_request(data : str):
     url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + data + "&rel="
+    try:
+        reponse = requests.get(url)
+    except requests.exceptions.RequestException as e:
+        print("Erreur lors de la récupération de la page :", e)
+    print("Données acquises")
+    return reponse.text
+
 
 def get_data(data : str, test: bool = False):
     try:
@@ -42,13 +49,6 @@ def edit_json(file : str, JSON_new : str):
         json_existing_text = JSON_new
     with open('data/data.json', 'w', encoding='utf-8') as json_file:
         json.dump(json_existing_text, json_file, ensure_ascii=False, indent=4)
-    else:
-        # Sauvegarde du contenu de la page dans un fichier qui sera dans un dossier data
-        with open(f"data/{file}", "w", encoding="utf-8") as f:
-            f.write(response.text)
-    # Si test est vrai, on affiche le contenu de la page
-    if test:
-        print(response.text)
 
 def generate_json(text : str):
     # Crée un objet BeautifulSoup pour analyser le contenu HTML
@@ -115,6 +115,6 @@ def generate_json(text : str):
   
 
 if __name__ == "__main__":
-    text = get_data('tigre')
+    text = get_data('couleur')
     if(text != None): #Si on n'a pas déjà les données
         generate_json(text)
