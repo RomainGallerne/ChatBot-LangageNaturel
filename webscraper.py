@@ -4,22 +4,6 @@ import json
 
 def http_request(data : str):
     url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + data + "&rel="
-url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=tigre&rel="
-
-def get_data(file: str, test: bool = False):
-    """
-    Fonction qui va sauvegarder fichier dans un .txt
-    @param file: str
-    """
-    # Déclaration de la variable globale url
-    global url
-    # Envoi de la requête HTTP GET pour récupérer la page
-    try:
-        response = requests.get(url)
-    except requests.exceptions.RequestException as e:
-        print("Erreur lors de la récupération de la page :", e)
-    print("Données acquises.")
-    return response.text
 
 def get_data(data : str, test: bool = False):
     try:
