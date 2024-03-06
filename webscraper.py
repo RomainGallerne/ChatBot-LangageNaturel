@@ -23,5 +23,17 @@ def get_data(file: str, test: bool = False):
     if test:
         print(response.text)
 
+def generate_json(file : str){
+     # Crée un objet BeautifulSoup pour analyser le contenu HTML
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # Trouve toutes les balises <code> et extrait leur contenu
+    code_tags = soup.find_all('CODE')
+    for code_tag in code_tags:
+        print(code_tag.text)
+}
+
 if __name__ == "__main__":
     get_data("data.txt", True)  # On sauvegarde le contenu de la page dans un fichier
+
+
