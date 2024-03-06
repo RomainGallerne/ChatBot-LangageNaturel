@@ -16,22 +16,14 @@ def get_data(file: str, test: bool = False):
     except requests.exceptions.RequestException as e:
         print("Erreur lors de la récupération de la page :", e)
     else: 
-        # Sauvegarde du contenu de la page dans un fichier
-        with open(file, "w", encoding="utf-8") as f:  # Spécification de l'encodage utf-8
+        # Sauvegarde du contenu de la page dans un fichier qui est dans un dossier data
+        with open("data/" + file, "w") as f:
             f.write(response.text)
     # Si test est vrai, on affiche le contenu de la page
     if test:
         print(response.text)
 
-def generate_json(file : str){
-     # Crée un objet BeautifulSoup pour analyser le contenu HTML
-    soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Trouve toutes les balises <code> et extrait leur contenu
-    code_tags = soup.find_all('CODE')
-    for code_tag in code_tags:
-        print(code_tag.text)
-}
 
 if __name__ == "__main__":
     get_data("data.txt", True)  # On sauvegarde le contenu de la page dans un fichier
