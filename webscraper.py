@@ -40,8 +40,8 @@ def edit_json(file : str, JSON_new : str):
             json_existing_text["relation"] += JSON_new["relation"]
     except FileNotFoundError as fnfe :
         json_existing_text = JSON_new
-    with open('data/data.json', 'w', encoding='utf-8') as json_file:
-        json.dump(json_existing_text, json_file, ensure_ascii=False, indent=4)
+        with open('data/data.json', 'w', encoding='utf-8') as json_file:
+            json.dump(json_existing_text, json_file, ensure_ascii=False, indent=4)
     else:
         # Sauvegarde du contenu de la page dans un fichier qui sera dans un dossier data
         with open(f"data/{file}", "w", encoding="utf-8") as f:
