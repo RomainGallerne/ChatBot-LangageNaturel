@@ -1,40 +1,9 @@
-import requests
-from bs4 import BeautifulSoup
 import json
+from data_collector.webScraper import *
 
-def http_request(data : str):
-    url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + data + "&rel="
-    try:
-        reponse = requests.get(url)
-    except requests.exceptions.RequestException as e:
-        print("Erreur lors de la récupération de la page :", e)
-    print("Données acquises")
-    return reponse.text
-
-
-def get_data(data : str, test: bool = False):
-    try:
-        with open("data/data_list.txt", 'r', encoding='utf-8') as txt_file:
-            contenu = txt_file.read()
-            lines = contenu.split('\n')
-            if not(data in lines) :
-                with open("data/data_list.txt", 'w', encoding='utf-8') as txt_file:
-                    chaine = contenu + str(data) + '\n'
-                    txt_file.write(chaine)
-
-                    print("Téléchargement des données requises...")
-                    return http_request(data)
-            else :
-                print("Données déjà acquises.")
-                return None
-
-    except FileNotFoundError as fnfe :
-        with open("data/data_list.txt", 'w', encoding='utf-8') as txt_file:
-            chaine = str(data) + '\n'
-            txt_file.write(chaine)
-
-            print("Téléchargement des données requises...")
-            return http_request(data)
+###################################################
+#                 JSON file editor                #
+###################################################
 
 def edit_json(file : str, JSON_new : str):
     # Écrire la liste mise à jour dans le fichier JSON
@@ -49,6 +18,12 @@ def edit_json(file : str, JSON_new : str):
         json_existing_text = JSON_new
     with open('data/data.json', 'w', encoding='utf-8') as json_file:
         json.dump(json_existing_text, json_file, ensure_ascii=False, indent=4)
+
+
+
+###################################################
+#         JSON file generator from data           #
+###################################################
 
 def generate_json(text : str):
     # Crée un objet BeautifulSoup pour analyser le contenu HTML
@@ -112,9 +87,14 @@ def generate_json(text : str):
                 line_dict["rank"] = None
             JSON_new["relation"].append(line_dict)
     edit_json("data/data.json", JSON_new)
-  
+    
 
-if __name__ == "__main__":
-    text = get_data('couleur')
-    if(text != None): #Si on n'a pas déjà les données
-        generate_json(text)
+###################################################
+#           Main test function                    #
+###################################################
+
+def processData(text : str = ""):
+    #text = input("donnee a recuperer : ")
+    if(not(data_acquired(text))):
+        reponse = http_request(text)
+        generate_json(reponse)
