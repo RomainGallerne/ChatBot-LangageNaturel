@@ -5,14 +5,19 @@
     ],
     "noeud": [
         {"eid": 74657,"name": "pigeon","w": 928, "formated name": null},
-        {"eid": 222644,"name": "gris>40056","w": 70, "formated name": "gris>couleur"}
+        {"eid": 222644,"name": "gris>40056","w": 70, "formated name": "gris>couleur"},
+        {"eid": 2226477,"name": "animal","w": 70, "formated name": "animal"},
+        {"eid": 222,"name": "piaf","w": 70, "formated name": "piaf"}
     ],
     "type_relation": [
         {"rtid": 0,"trname": "r_associated", "trgpname":"idée associée"},
-        {"rtid": 1,"trname": "r_raff_sem", "trgpname":"raffinement sémantique"}
+        {"rtid": 1,"trname": "r_raff_sem", "trgpname":"raffinement sémantique"},
+        {"rtid": 2,"trname": "r_isa", "trgpname":"raffinement sémantique"}
     ],
     "relation": [
-        {"rid": 23931625,"node1": 74657,"node2": 239128,"type": 0,"w": 1000000,"wnormed": null,"rank": null},
-        {"rid": 3164679,"node1": 74657,"node2": 222644,"type": 106,"w": 628,"wnormed": 1,"rank": 1}
+        {"rid": 31,"node1": 74657,"node2": 2226477,"type": 2,"w": 628,"wnormed": 1,"rank": 1},
+        {"rid": 32,"node1": 74657,"node2": 222,"type": 2,"w": 628,"wnormed": 1,"rank": 2},
+        {"rid": 33,"node1": 2226477,"node2": 222644,"type": 0,"w": 628,"wnormed": 1,"rank": null},
+        {"rid": 34,"node1": 222,"node2": 222644,"type": 0,"w": 628,"wnormed": 1,"rank": 6}
     ]
 }

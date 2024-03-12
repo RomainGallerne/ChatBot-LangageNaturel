@@ -1,35 +1,57 @@
 import json
 from collections import deque
-# note
-    # fonction qui cherche une relation indirecte entre deux mots en profondeur
-    # ce ne prend pas les deux sens comme je le fait dans la fonction find_relation_with_nodes_and_type
-    # je parcours toutes les relations qui contiennent le noeud1 et pour chaque noeud associer a ce noeud1, je vais regarder si il n as pas la relation directe sinon je descend encore...
-    # je neprend pas e ncompte non plus les types de relation dans le parcours en profondeur, je me contente de verifier profondeur par profondeur si il y a une relation directe avec le type de realtion correspondant a celle de base.
-        # il  y a peut etre des specififite ou si on est une relation particuliere, meme si  c est pas exactement celle de base, cam arche quand meme...a voir
-def find_indirect_relation_bfs(word1_node, word_node_cible, relation_type_info, relations, nodes, list_relations):
+
+###########################################################
+# Fonctions pour la recherche indirecte version inductive #
+###########################################################
+
+def find_indirect_relation_deep_inductive(word1_node, word2_node, relation_type_info, relations, nodes, list_arguments, list_chemin, types_relations, depth=0):
     """
     Chercher une relation indirecte entre deux mots en utilisant
-    @param word1_node: le noeud du premier mot qui etait le second mot a l etape precedente (pigeon ass gris : existe pas donc on cherche prend une des realtion dont le premier mot est gris...)
-    @param word_node_cible: le noeud du mot cible
+    @param word1_node: le noeud du premier mot
+    @param word_node_cible: le noeud du deuxieme mot
     @param relation_type_info: le type de relation de base
-    @param relations: les relations entre les mots
-    @param nodes: les noeuds des mots  
-    @return: la relation indirecte entre les deux mots
+    @param relations: list de relations disponibles
+    @param nodes: liste des noeuds disponibles
+    @param list_arguments: liste des arguments qui permetra de repondre à la question 
+    @param list_chemin: liste des noeuds parcourus
+    @param types_relations : list de touts les types de relations possibles
+    @param depth: la profondeur de la relation
+    @return: 
     """
-    #print("word1_node", word1_node, "word2_node", word2_node, "relation_type_info", relation_type_info, "relations", relations)
-    for rel in relations:
-        if rel["node1"] == word1_node["eid"]:
-            # si lien directe trouvé
-            if rel["node2"] == word_node_cible["eid"] and rel["type"] == relation_type_info["rtid"]:
-                list_relations.append(rel)
-            # si pas de lien directe, on cherche une relation indirecte au la profondeur + 1
-            # recherche du mot par rapport a l id noeud2
-            word2_node_new = next((node for node in nodes if node["eid"] == rel["node2"]), None)
-            if word2_node_new:
-                # appel recursif pour chercher une ou des relations indirectes
-                find_indirect_relation_bfs(word2_node_new, word_node_cible, relation_type_info, relations, nodes, list_relations)
-
+    # verif si y a pas le noeud 1 avec la relation de base et le noeud 2
+    matching_relations = [rel for rel in relations if (rel["node1"] == word1_node["eid"] and rel["node2"] == word2_node["eid"] and rel["type"] == relation_type_info["rtid"])]
+    # si pas de relation directe trouvé, on cherche une relation indirecte (inductive) recursivement pour avoir tous les niveaux de relations
+    if not matching_relations:
+        # recuperer l ensemble des relations ou le noeud 1 est == a word1_node et que le type est "is_a"
+        list_relations_match = [relation for relation in relations if relation["node1"] == word1_node["eid"] and ([relations_is_a for relations_is_a in types_relations if relations_is_a["trname"] == "r_isa"][0]["rtid"] == relation["type"])]
+        # trie les relations en fonction du rang (si le rang est disponible)
+        list_relations_match.sort(key=lambda x: x.get('rank', float('inf')) if x.get('rank') is not None else float('inf'))
+        # parours en profondeur les relations
+        for relation in list_relations_match:
+            # recuperer le noeud associe a word1_node
+            node2 = next((node for node in nodes if node["eid"] == relation["node2"]), None)
+            # save la relation
+            list_chemin.append(relation)
+            # appeler la fonction recursivement
+            find_indirect_relation_deep_inductive(node2, word2_node, relation_type_info, relations, nodes, list_arguments, list_chemin, types_relations, depth=depth+relation["rank"] if relation.get('rank') is not None else depth+0)
+            # supprimer la derniere relation
+            list_chemin.pop()
+    else:
+        list_chemin.append(matching_relations[0])
+        list_arguments.append((list_chemin.copy(), depth + (matching_relations[0].get('rank', 0) or 0)))
+        list_chemin.pop()
+        return
+        
 def find_relation_with_nodes_and_type(data, word1, word2, relation_type):
+    """
+    Rechercher une relation entre deux mots en utilisant les noeuds et le type de relation spécifiés
+    @param data: les données JSON
+    @param word1: le premier mot
+    @param word2: le deuxième mot
+    @param relation_type: le type de relation
+    @return: la justifiaction qui permet de repondre à la question
+    """
     # Convertir les données JSON en dictionnaires Python
     data_dict = json.loads(data)
 
@@ -49,6 +71,9 @@ def find_relation_with_nodes_and_type(data, word1, word2, relation_type):
         return None
 
     # Rechercher toutes les relations qui contiennent les deux mots et le type de relation spécifié
+    #####################
+    # Recherche directe #
+    #####################
     matching_relations = [rel for rel in relations if
                           (rel["node1"] == word1_node["eid"] and rel["node2"] == word2_node["eid"] and
                            rel["type"] == relation_type_info["rtid"]) or
@@ -56,25 +81,20 @@ def find_relation_with_nodes_and_type(data, word1, word2, relation_type):
                            rel["type"] == relation_type_info["rtid"])]
 
     # si pas de relation directe trouvé, on cherche une relation indirecte recursivement pour avoir tous les niveaux de relations
+    #######################
+    # Recherche indirecte #
+    #######################
     if not matching_relations:
         # Chercher une relation indirecte
         # parours toues les realtion qui contiennent le mot1
-        list_relations = []
-        for rel in relations:
-            if rel["node1"] == word1_node["eid"]:
-                # recherche du mot par rapport a l id noeud2
-                word2_node_new = next((node for node in nodes if node["eid"] == rel["node2"]), None)
-                if word2_node_new:
-                    # appel recursif pour chercher une ou des relations indirectes
-                    find_indirect_relation_bfs(word2_node_new, word2_node, relation_type_info, relations, nodes, list_relations)
-            # faire pareil de l autre coté...
-            # a dvp...
-
-    matching_relations = list_relations
+        list_arguments = []
+        list_chemin = []
+        find_indirect_relation_deep_inductive(word1_node, word2_node, relation_type_info, relations, nodes, list_arguments, list_chemin, types_relations)
+            
+    matching_relations = list_arguments
     print("matching_relations", matching_relations)
-    # Trier les relations en fonction du rang (si le rang est disponible)
-    matching_relations.sort(key=lambda x: x.get('rank', float('inf')))
-
+    # Trier les relations en fonction de depth
+    matching_relations.sort(key=lambda x: x[1])
     # Renvoyer la relation avec le rang le plus élevé
     return matching_relations[0] if matching_relations else None
 
@@ -97,5 +117,5 @@ def main():
         print("Aucune relation trouvée pour les mots et le type de relation spécifiés.")
 
 if __name__ == "__main__":
-    main()
+    main()# ok
 
