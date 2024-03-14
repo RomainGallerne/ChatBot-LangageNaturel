@@ -90,11 +90,16 @@ def find_relation_with_nodes_and_type(data, word1, word2, relation_type):
         # Chercher une relation indirecte
         # parours toues les realtion qui contiennent le mot1
         find_indirect_relation_deep_inductive(word1_node, word2_node, relation_type_info, relations, nodes, list_arguments, list_chemin, types_relations)
-            
-    matching_relations = list_arguments
-    print("matching_relations", matching_relations)
-    # Trier les relations en fonction de depth
-    matching_relations.sort(key=lambda x: x[1])
+        matching_relations = list_arguments
+        print("matching_relations", matching_relations)
+        # Trier les relations en fonction de depth
+        matching_relations.sort(key=lambda x: x[1])
+        # Renvoyer la relation avec le rang le plus élevé
+        return matching_relations[0] if matching_relations else None
+    
+    # Trier les relations en fonction du rang (si le rang est disponible)
+    matching_relations.sort(key=lambda x: x.get('rank', float('inf')) if x.get('rank') is not None else float('inf'))
+
     # Renvoyer la relation avec le rang le plus élevé
     return matching_relations[0] if matching_relations else None
 
