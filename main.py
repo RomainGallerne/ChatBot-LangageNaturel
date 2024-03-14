@@ -84,11 +84,11 @@ def find_relation_with_nodes_and_type(data, word1, word2, relation_type):
     #######################
     # Recherche indirecte #
     #######################
+    list_arguments = []
+    list_chemin = []
     if not matching_relations:
         # Chercher une relation indirecte
         # parours toues les realtion qui contiennent le mot1
-        list_arguments = []
-        list_chemin = []
         find_indirect_relation_deep_inductive(word1_node, word2_node, relation_type_info, relations, nodes, list_arguments, list_chemin, types_relations)
             
     matching_relations = list_arguments
