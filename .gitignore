@@ -6,3 +6,4 @@ data_collector/__pycache__/
 data/*.json
 data/*.txt
 chatbot/
+/src/data_collector/__pycache__
