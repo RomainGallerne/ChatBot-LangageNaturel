@@ -63,7 +63,6 @@ def simple_answer(dataJSON, data1, data2, relation):
     else:
         print("Aucune relation trouvée pour les mots et le type de relation spécifiés.")
 
-
 ###################################################
 #   Traitement du tuple JSON en langage naturel   #
 ###################################################

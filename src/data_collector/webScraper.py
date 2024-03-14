@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 ###################################################
 #             HTTP Request Function               #
@@ -37,6 +38,7 @@ def data_acquired(data : str):
                 return True
 
     except FileNotFoundError as fnfe :
+        Path("data").mkdir()
         with open("data/data_list.txt", 'w', encoding='utf-8') as txt_file:
             chaine = str(data) + '\n'
             txt_file.write(chaine)
