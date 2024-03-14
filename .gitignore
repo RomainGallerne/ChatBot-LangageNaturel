@@ -1,4 +1,5 @@
 # Ignore le contenu du dossier "data"
 data/*
 chatbot/
+src/data_collector/__pycache__
 
