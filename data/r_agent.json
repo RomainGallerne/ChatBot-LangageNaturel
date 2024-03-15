@@ -1,0 +1,38 @@
+{
+    "type_noeud": {
+        "4": {
+            "ntname": "n_pos"
+        },
+        "15": {
+            "ntname": "n_relation_name"
+        }
+    },
+    "noeud": {
+        "15010442": {
+            "name": "r_agent",
+            "w": "0",
+            "formated name": null
+        },
+        "15010428": {
+            "name": "Relation:Name",
+            "w": "50",
+            "formated name": null
+        }
+    },
+    "type_relation": {
+        "4": {
+            "trname": "r_pos",
+            "trgpname": "POS"
+        }
+    },
+    "relation": {
+        "392040676": {
+            "node1": 15010442,
+            "node2": 15010428,
+            "type": 4,
+            "w": 30,
+            "wnormed": 1.0,
+            "rank": 1
+        }
+    }
+}

@@ -7,13 +7,14 @@ from pathlib import Path
 ###################################################
 
 def http_request(data : str):
-    print("Telechargement des données requises...")
-    url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + data + "&rel="
+    splited_data = data.split(">")
+    clean_data = splited_data[0]
+    print("Telechargement des données de : " + clean_data)
+    url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + clean_data + "&rel="
     try:
         reponse = requests.get(url)
     except requests.exceptions.RequestException as e:
         print("Erreur lors de la récupération de la page :", e)
-    print("Donnees acquises")
     return reponse.text
 
 ###################################################
@@ -22,25 +23,16 @@ def http_request(data : str):
 #            Retourne Faux sinon                  #
 ###################################################
 
-def data_acquired(data : str):
+def data_already_acquired(data : str):
+    splited_data = data.split(">")
+    clean_data = splited_data[0]
     try:
-        with open("data/data_list.txt", 'r', encoding='utf-8') as txt_file:
-            contenu = txt_file.read()
-            lines = contenu.split('\n')
-            if not(data in lines) :
-                with open("data/data_list.txt", 'w', encoding='utf-8') as txt_file:
-                    chaine = contenu + str(data) + '\n'
-                    txt_file.write(chaine)
-
-                    return False
-            else :
-                print("Données déjà acquises.")
-                return True
-
+        with open("data/"+clean_data+".json", 'r', encoding='utf-8') as json_file:
+            #print("Données déjà acquises.")
+            return True
     except FileNotFoundError as fnfe :
-        Path("data").mkdir()
-        with open("data/data_list.txt", 'w', encoding='utf-8') as txt_file:
-            chaine = str(data) + '\n'
-            txt_file.write(chaine)
-
-            return False
+        try :
+            Path("data").mkdir()
+        except FileExistsError as fee :
+            None
+        return False
