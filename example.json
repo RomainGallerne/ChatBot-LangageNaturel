@@ -15,9 +15,10 @@
         {"rtid": 2,"trname": "r_isa", "trgpname":"raffinement sémantique"}
     ],
     "relation": [
-        {"rid": 31,"node1": 74657,"node2": 2226477,"type": 2,"w": 628,"wnormed": 1,"rank": 1},
-        {"rid": 32,"node1": 74657,"node2": 222,"type": 2,"w": 628,"wnormed": 1,"rank": 2},
-        {"rid": 33,"node1": 2226477,"node2": 222644,"type": 0,"w": 628,"wnormed": 1,"rank": null},
-        {"rid": 34,"node1": 222,"node2": 222644,"type": 0,"w": 628,"wnormed": 1,"rank": 6}
+        {"rid": 31,"node1": 74657,"node2": 2226477,"type": 2,"w": 628,"wnormed": 1,"rank": 2},
+        {"rid": 32,"node1": 74657,"node2": 222,"type": 2,"w": 628,"wnormed": 1,"rank": 1},
+        {"rid": 33,"node1": 2226477,"node2": 222,"type": 0,"w": 628,"wnormed": 1,"rank": 2},
+        {"rid": 34,"node1": 222,"node2": 222,"type": 0,"w": 628,"wnormed": 1,"rank": 6},
+        {"rid": 35,"node1": 2226477,"node2": 222644,"type": 0,"w": 628,"wnormed": 1,"rank": 6}
     ]
 }

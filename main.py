@@ -19,6 +19,10 @@ def find_indirect_relation_deep_inductive(word1_node, word2_node, relation_type_
     @param depth: la profondeur de la relation
     @return: 
     """
+    
+    # max depth
+    if depth > 3:
+        return False
     # verif si y a pas le noeud 1 avec la relation de base et le noeud 2
     matching_relations = [rel for rel in relations if (rel["node1"] == word1_node["eid"] and rel["node2"] == word2_node["eid"] and rel["type"] == relation_type_info["rtid"])]
     # si pas de relation directe trouvé, on cherche une relation indirecte (inductive) recursivement pour avoir tous les niveaux de relations
@@ -34,14 +38,19 @@ def find_indirect_relation_deep_inductive(word1_node, word2_node, relation_type_
             # save la relation
             list_chemin.append(relation)
             # appeler la fonction recursivement
-            find_indirect_relation_deep_inductive(node2, word2_node, relation_type_info, relations, nodes, list_arguments, list_chemin, types_relations, depth=depth+relation["rank"] if relation.get('rank') is not None else depth+0)
-            # supprimer la derniere relation
-            list_chemin.pop()
+            arret = find_indirect_relation_deep_inductive(node2, word2_node, relation_type_info, relations, nodes, list_arguments, list_chemin, types_relations, depth + 1)
+            # si arret est vrai, on sort de la boucle
+            if arret:
+                return True
+            else:
+                # supprimer la derniere relation
+                list_chemin.pop()
+        return False
     else:
         list_chemin.append(matching_relations[0])
-        list_arguments.append((list_chemin.copy(), depth + (matching_relations[0].get('rank', 0) or 0)))
-        list_chemin.pop()
-        return
+        list_arguments.append((list_chemin.copy(), depth))
+        #list_chemin.pop()
+        return True
         
 def find_relation_with_nodes_and_type(data, word1, word2, relation_type):
     """
@@ -87,9 +96,10 @@ def find_relation_with_nodes_and_type(data, word1, word2, relation_type):
     list_arguments = []
     list_chemin = []
     if not matching_relations:
+        #print("Pas de relation directe trouvé")
         # Chercher une relation indirecte
         # parours toues les realtion qui contiennent le mot1
-        find_indirect_relation_deep_inductive(word1_node, word2_node, relation_type_info, relations, nodes, list_arguments, list_chemin, types_relations)
+        arret = find_indirect_relation_deep_inductive(word1_node, word2_node, relation_type_info, relations, nodes, list_arguments, list_chemin, types_relations)
         matching_relations = list_arguments
         print("matching_relations", matching_relations)
         # Trier les relations en fonction de depth
@@ -105,7 +115,7 @@ def find_relation_with_nodes_and_type(data, word1, word2, relation_type):
 
 def main():
     # Charger les données JSON depuis un fichier ou une variable
-    with open("data/example.json", "r", encoding="utf-8") as file:
+    with open("data/data.json", "r", encoding="utf-8") as file:
         data = file.read()
 
     # Entrer les mots et le type de relation
