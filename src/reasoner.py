@@ -5,7 +5,7 @@ from main import load_data
 ###################################################
 
 def node_id_to_name(id, dataJSON):
-  return dataJSON["noeud"][id]["name"]
+  return str(dataJSON["noeud"][str(id)]["name"])
 
 def node_name_to_id(data, dataJSON):
   noeuds = dataJSON["noeud"]
@@ -14,7 +14,7 @@ def node_name_to_id(data, dataJSON):
       return int(cle)
     
 def relation_id_to_name(id, dataJSON):
-  return dataJSON["type_relation"][id]["trname"]
+  return str(dataJSON["type_relation"][id]["trname"])
 
 def relation_name_to_id(data, dataJSON):
   relations = dataJSON["type_relation"]
@@ -26,47 +26,71 @@ def relation_name_to_id(data, dataJSON):
 #        Fonctions d'interrogation simple         #
 ###################################################
 
-def interrogation_simple(data1, data2, relation, dataJSON):
+def relation_existe(data1, data2, relation, dataJSON):
   relations = dataJSON["relation"]
   for cle, valeur in relations.items() :
     if(int(valeur["type"]) == relation_name_to_id(relation, dataJSON)):
       if (int(valeur["node1"]) == node_name_to_id(data1, dataJSON)):
         if (int(valeur["node2"]) == node_name_to_id(data2, dataJSON)):
-          reponse = "["+data1+", "+relation+", "+data2+"]\n"
-          return True, reponse
-  return False, ""
+          if (int(valeur["node2"]) == node_name_to_id(data2, dataJSON)):
+            if (int(valeur["w"]) > 0.0):
+              return "vrai"
+            else :
+              return "faux"
+  return "nsp"
 
 ###################################################
 #             Fonctions d'induction               #
 ###################################################
 
-def interrogation_induction(data1, data2, relation, dataJSON1, dataJSON2, antecedants = "", niveau_induction = 1):
-  # On explore jusque 3 de profondeurs
-  if(niveau_induction >= 3):
-    return False, ""
-  
-  else:
-    relations1 = dataJSON1["relation"]
-    liste_element = {}
+def recherche_generique(data, dataJSON):
+  relations = dataJSON["relation"]
+  generiques = []
+  for cle, valeur in relations.items() :
+    if (int(valeur["node1"]) == int(node_name_to_id(data, dataJSON))) and (int(valeur["type"]) == 6): # La relation r_isa a pour id 6
+      generiques.append(valeur["node2"])
+      if(len(generiques) >= 10):
+        break
+  return generiques
 
-    for cle, valeur in relations1.items() :
-      if(int(valeur["type"]) == 6): # La relation r_isa a pour id 6
-        if (int(valeur["node1"]) == int(node_name_to_id(data1, dataJSON1))):
-          liste_element[valeur["rank"]] = str(valeur["node2"])
 
-    rang_trie = sorted(liste_element.keys())
-    for rang in rang_trie[:3]:
-      data_intermediaire = node_id_to_name(liste_element[rang], dataJSON1)
-      validite, rep = interrogation_simple(data_intermediaire, data2, relation, dataJSON2)
-      if(validite):
-        reponse = "["+data1+", r_isa, "+data_intermediaire+"]\n"
-        reponse += rep
-        return True, reponse
-      else :
-        validite, rep =  interrogation_induction(data_intermediaire, data2, relation, load_data(data_intermediaire), dataJSON2, antecedants + "["+data1+", r_isa, "+data_intermediaire+"]\n", niveau_induction+1)
-        if(validite):
-          reponse = "["+data1+", r_isa, "+data_intermediaire+"]\n"
-          reponse += rep
-          return True, reponse
-      
-    return False, ""
+def deduction(data1, data2, relation, dataJSON1, dataJSON2):
+  relations1 = dataJSON1["relation"]
+  deductions = []
+  data1_id = int(node_name_to_id(data1,dataJSON1))
+  data2_id = int(node_name_to_id(data2,dataJSON2))
+  relation_id = int(node_name_to_id(relation, dataJSON1))
+
+  generiques_data1 = recherche_generique(data1,dataJSON1)
+
+  for generique in generiques_data1 :
+    dataJSON_G = load_data(str(node_id_to_name(generique, dataJSON1)))
+    relationsG = dataJSON_G["relation"]
+    for cle, valeur in relationsG.items() :
+      if(int(valeur["type"]) == relation_id):
+        if (int(valeur["node1"]) == generique):
+          if (int(valeur["node2"]) == data2_id):
+            deductions.append([valeur["rank"],valeur["w"],str(node_id_to_name(generique, dataJSON_G))])
+
+  generiques_data2 = recherche_generique(data2,dataJSON2)
+
+  for generique in generiques_data2 :
+    dataJSON_G = load_data(str(node_id_to_name(generique, dataJSON2)))
+    relationsG = dataJSON_G["relation"]
+    for cle, valeur in relationsG.items() :
+      if(int(valeur["type"]) == relation_id):
+        if (int(valeur["node2"]) == generique):
+          if (int(valeur["node1"]) == data1_id):
+            deductions.append([valeur["rank"],valeur["w"],str(node_id_to_name(generique, dataJSON_G))])
+
+  for generique1 in generiques_data1 :
+    dataJSON_G1 = load_data(str(node_id_to_name(generique1, dataJSON1)))
+    relations_G1 = dataJSON_G1["relation"]
+    for cle, valeur in relations_G1.items() :
+        if(int(valeur["type"]) == relation_id):
+          if (int(valeur["node1"]) == generique1):
+            for generique2 in generiques_data2 :
+              if (int(valeur["node2"]) == generique2):
+                deductions.append([valeur["rank"],valeur["w"],str(node_id_to_name(generique1, dataJSON_G1)),str(node_id_to_name(generique2, dataJSON_G1))])
+
+  return deductions

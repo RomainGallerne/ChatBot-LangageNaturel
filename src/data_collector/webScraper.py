@@ -9,7 +9,7 @@ from pathlib import Path
 def http_request(data : str):
     splited_data = data.split(">")
     clean_data = splited_data[0]
-    print("Telechargement des données de : " + clean_data)
+    print("Telechargement des données de : '" + clean_data + "'...")
     url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + clean_data + "&rel="
     try:
         reponse = requests.get(url)

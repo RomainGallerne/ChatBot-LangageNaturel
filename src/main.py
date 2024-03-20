@@ -36,33 +36,56 @@ def JSON_to_nat(jsonFile : list, jsonLine : list):
 ###################################################
 
 def main():
-    data1 = input("data 1 : ")
-    data2 = input("data 2 : ")
-    relation = input("relation : ")
+    print("---------------------\nEntrez la requête au format :\n 'pigeon r_agent-1 voler'\n---------------------\n")
+    prompt = input()
+
+    try :
+        data1, relation, data2 = prompt.split(" ")
+    except ValueError as ve :
+        print("Saisi incorrect")
+        return -1
 
     try:
         dataJSON1 = load_data(data1)
         dataJSON2 = load_data(data2)
     except AttributeError as ae :
         print("Saisi incorrect")
+        return -1
 
-    validite1, reponse1 = interrogation_simple(data1, data2, relation, dataJSON1)
-    validite2, reponse2 = interrogation_simple(data1, data2, relation, dataJSON2)
-    if(validite1):
-        print(reponse1)
-    elif(validite2):
-        print("Cette propriété est VRAI.")
-        print("Elle est obtenue de la manière suivante : ")
-        print(reponse2)
+    print("\n---------------------\n")
+    val_relation = None
+
+    validite1 = relation_existe(data1, data2, relation, dataJSON1)
+    validite2 = relation_existe(data1, data2, relation, dataJSON2)
+
+    deductions = deduction(data1, data2, relation, dataJSON1, dataJSON2)
+    deductions = sorted(deductions, key=lambda x: x[0])
+
+    if(validite1=="vrai" or validite2=="vrai"):
+        #La relation est donc VRAIE
+        print("Cette propriété est VRAIE :")
+        val_relation = True
+    elif(validite1=="faux" or validite2=="faux"):
+        #La relation est donc FAUSSE
+        print("Cette propriété est FAUSSE :")
+        val_relation = False
     else :
-        validite, reponse = interrogation_induction(data1, data2, relation, dataJSON1, dataJSON2)
-        if(validite):
-            print("Cette propriété est VRAI.")
-            print("Elle est obtenue de la manière suivante : ")
-            print(reponse)
+        #La relation est de type INCONNUE
+        print("Cette propriété est INDETERMINEE :")
+        None
 
-        else :
-            print("Cette propriété est FAUSSE.\n Rien ne permet de l'affirmer.")
+    rang = 0
+    while(rang <= 10):
+        if(deductions[rang][1] >= 0.0): verite = "oui"
+        else: verite  ="non"
+        chaine = rang+"|"+verite+"|"+deductions[rang][2]+"|"
+        if(len(deductions[rang] > 3)):
+            chaine += " & "
+            chaine += deductions[rang][3]
+        chaine += "|"
+        chaine += str(float(deductions[rang][1]) / float(deductions[rang][0]))
+        print(chaine)
+        rang += 1
 
 if __name__ == "__main__":
     main()

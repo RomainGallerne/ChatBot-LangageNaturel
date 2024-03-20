@@ -76,7 +76,6 @@ def generate_json(data : str, json_text : str):
 def processData(data : str = ""):
     #text = input("donnee a recuperer : ")
     if(not(data_already_acquired(data))):
-        print("Acquisition de nouvelles données...")
         reponse = http_request(data)
         generate_json(data, reponse)
         return True
