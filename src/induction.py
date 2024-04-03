@@ -51,7 +51,7 @@ def interrogation_induction(data_1_, data_2_, relation, dataJSON1, dataJSON2):
         * inductive = trouve un spécifique pour lequel la répons est vraie
 
         chat r_agent-1 miauler  ⇒ oui car  
-        chat r_hypo chat de gouttière et  chat de gouttière r_agent-1 miauler
+        chat r_syn chat de gouttière et  chat de gouttière r_agent-1 miauler
 
     """
     list_valide = []
@@ -84,9 +84,9 @@ def interrogation_induction(data_1_, data_2_, relation, dataJSON1, dataJSON2):
         relation_type_id = next((rtid for rtid, relation in types_relations_2.items() if relation["trname"] == "r_syn"), None)
 
     # trie dans l ordre croissant
-    # trie les relations en fonction du rang (si le rang est disponible)
     list_relations_match = [cle for cle, valeur in relations_1.items() if valeur["node1"] == data_1 and valeur["type"] == int(relation_type_id)]
 
+    # trie les relations en fonction du rang (si le rang est disponible)
     list_relations_match.sort(key=lambda x: relations_1[x].get('rank', float('inf')) if relations_1[x].get('rank') is not None else float('inf'))
     #print("list relation match first mot and r_sin : ",list_relations_match)
 
