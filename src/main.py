@@ -55,36 +55,71 @@ def main():
     print("\n---------------------\n")
     val_relation = None
 
-    validite1 = relation_existe(data1, data2, relation, dataJSON1)
-    validite2 = relation_existe(data1, data2, relation, dataJSON2)
+    #validite1 = relation_existe(data1, data2, relation, dataJSON1)
+    #validite2 = relation_existe(data1, data2, relation, dataJSON2)
 
     deductions = deduction(data1, data2, relation, dataJSON1, dataJSON2)
-    deductions = sorted(deductions, key=lambda x: x[0])
+    #print(deductions)
 
-    if(validite1=="vrai" or validite2=="vrai"):
-        #La relation est donc VRAIE
+    resultat_global = 0
+
+    for ded in deductions:
+        resultat_global += ded[3]
+        if(ded[1] != None and ded[2] != None):
+            confiance = 3.0*float(ded[3]) / (float(ded[0])+float(ded[1])/1.5+float(ded[2])/1.5)
+        elif(ded[1] != None):
+            confiance = 3.0*float(ded[3]) / (float(ded[0])+float(ded[1]))
+        elif(ded[2] != None):
+            confiance = 3.0*float(ded[3]) / (float(ded[0])+float(ded[2]))
+        ded.append(abs(confiance))
+
+
+    deductions = sorted(deductions, key=lambda x: x[6], reverse=True)
+    #print(deductions)
+
+    if(resultat_global >= 5.0):
         print("Cette propriété est VRAIE :")
-        val_relation = True
-    elif(validite1=="faux" or validite2=="faux"):
-        #La relation est donc FAUSSE
+    elif(resultat_global <= -5.0):
         print("Cette propriété est FAUSSE :")
-        val_relation = False
-    else :
-        #La relation est de type INCONNUE
-        print("Cette propriété est INDETERMINEE :")
-        None
+    else:
+        print("Cette propriété est INDETERMINE :")
 
-    rang = 0
-    while(rang <= 10):
-        if(deductions[rang][1] >= 0.0): verite = "oui"
-        else: verite  ="non"
-        chaine = rang+"|"+verite+"|"+deductions[rang][2]+"|"
-        if(len(deductions[rang] > 3)):
-            chaine += " & "
-            chaine += deductions[rang][3]
+    rang, rang_affiche = 0, 0
+    while(rang < 5):
+        try:
+            if(deductions[rang][3] > 0.0 and resultat_global >= 5.0): 
+                verite = "oui"
+            elif(deductions[rang][3] < 0.0 and resultat_global <= -5.0): 
+                verite  ="non"
+            elif(resultat_global >= -5.0 and resultat_global <= 5.0):
+                if(deductions[rang][3] > 0.0): verite = "oui"
+                else: verite = "non"
+            else:
+                rang += 1 
+                continue
+        except IndexError:
+            break
+
+        if(deductions[rang][1] != None and deductions[rang][2] != None):
+            chaine = str(rang_affiche)+"|"+verite+"|"+data1+" r_isa "+str(deductions[rang][4])+" & "
+            chaine += data2+" r_isa "+str(nouvelles_deductions[rang][5])+"&"
+            chaine += str(nouvelles_deductions[rang][4])+" "+relation+" "+str(deductions[rang][5])
+            confiance = nouvelles_deductions[rang][6]
+
+        elif(deductions[rang][2] == None):
+            chaine = str(rang_affiche)+"|"+verite+"|"+data1+" r_isa "+str(deductions[rang][4])+" & "
+            chaine += str(deductions[rang][4])+" "+relation+" "+data2
+            confiance = deductions[rang][6]
+
+        elif(deductions[rang][1] == None):
+            chaine = str(rang_affiche)+"|"+verite+"|"+data2+" r_isa "+str(deductions[rang][5])+" & "
+            chaine += data1+" "+relation+" "+str(deductions[rang][5])
+            confiance = deductions[rang][6]
+        
         chaine += "|"
-        chaine += str(float(deductions[rang][1]) / float(deductions[rang][0]))
+        chaine += str(confiance)
         print(chaine)
+        rang_affiche += 1
         rang += 1
 
 if __name__ == "__main__":
