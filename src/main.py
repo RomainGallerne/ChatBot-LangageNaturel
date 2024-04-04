@@ -1,4 +1,5 @@
 import json
+import os
 from data_collector.dataProcessing import *
 from reasoner import *
 
@@ -32,10 +33,68 @@ def JSON_to_nat(jsonFile : list, jsonLine : list):
     return word1["name"], relation["trname"], word2["name"]
 
 ###################################################
+#            Fonction de nettoyage               #
+###################################################
+def clear_console():
+    # Efface la console en imprimant 100 retours à la ligne
+    os.system('cls' if os.name == 'nt' else 'clear')  # Pour Windows et Unix/Linux
+
+###################################################
+#             Fonction d'Affichage                #
+###################################################
+
+def affichage(arguments_global, resultat_global, data1, data2, relation):
+    if(resultat_global >= 5.0):
+        print("Cette propriété est VRAIE :")
+    elif(resultat_global <= -5.0):
+        print("Cette propriété est FAUSSE :")
+    else:
+        print("Cette propriété est INDETERMINE :")
+
+    rang, rang_affiche = 0, 0
+    while(rang < 5):
+        try:
+            if(arguments_global[rang][3] > 0.0 and resultat_global >= 5.0): 
+                verite = "oui"
+            elif(arguments_global[rang][3] < 0.0 and resultat_global <= -5.0): 
+                verite  ="non"
+            elif(resultat_global >= -5.0 and resultat_global <= 5.0):
+                if(arguments_global[rang][3] > 0.0): verite = "oui"
+                else: verite = "non"
+            else:
+                rang += 1 
+                continue
+        except IndexError:
+            break
+
+        if(arguments_global[rang][1] != None and arguments_global[rang][2] != None):
+            chaine = str(rang_affiche) + " | " + verite + " | [" + data1 + " r_isa " + str(arguments_global[rang][4]) + "] & ["
+            chaine += data2 + " r_isa " + str(arguments_global[rang][5]) + "] & ["
+            chaine += str(arguments_global[rang][4]) + " " + relation + " " + str(arguments_global[rang][5]) + "]"
+            confiance = arguments_global[rang][6]
+
+        elif(arguments_global[rang][2] == None):
+            chaine = str(rang_affiche) + " | " + verite + " | [" + data1 + " r_isa " + str(arguments_global[rang][4]) + "] & ["
+            chaine += str(arguments_global[rang][4]) + " " + relation + " " + data2 + "]"
+            confiance = arguments_global[rang][6]
+
+        elif(arguments_global[rang][1] == None):
+            chaine = str(rang_affiche) + " | " + verite + " | [" +data2 + " r_isa "+str(arguments_global[rang][5])+"] & ["
+            chaine += data1 + " " + relation + " " + str(arguments_global[rang][5]) + "]"
+            confiance = arguments_global[rang][6]
+        
+        chaine += " | "
+        chaine += str(confiance)
+        print(chaine)
+        rang_affiche += 1
+        rang += 1
+
+###################################################
 #              Fonction Principal                 #
 ###################################################
 
 def main():
+    clear_console()
     print("---------------------\nEntrez la requête au format :\n 'pigeon r_agent-1 voler'\n---------------------\n")
     prompt = input()
 
@@ -53,74 +112,18 @@ def main():
         return -1
 
     print("\n---------------------\n")
-    val_relation = None
+    resultats_deductions = 0
+    resultats_induction = 0
+    resultats_transitivite = 0
 
-    #validite1 = relation_existe(data1, data2, relation, dataJSON1)
-    #validite2 = relation_existe(data1, data2, relation, dataJSON2)
+    deductions, resultats_deductions = get_clean_deduction_results(data1, data2, relation, dataJSON1, dataJSON2)
+    inductions, resultats_inductions = [],0
+    transitivite, resultats_transitivite = [],0
 
-    deductions = deduction(data1, data2, relation, dataJSON1, dataJSON2)
-    #print(deductions)
+    resultat_global = resultats_deductions + resultats_induction + resultats_transitivite
+    arguments_global = deductions + inductions + transitivite
 
-    resultat_global = 0
-
-    for ded in deductions:
-        resultat_global += ded[3]
-        if(ded[1] != None and ded[2] != None):
-            confiance = 3.0*float(ded[3]) / (float(ded[0])+float(ded[1])/1.5+float(ded[2])/1.5)
-        elif(ded[1] != None):
-            confiance = 3.0*float(ded[3]) / (float(ded[0])+float(ded[1]))
-        elif(ded[2] != None):
-            confiance = 3.0*float(ded[3]) / (float(ded[0])+float(ded[2]))
-        ded.append(abs(confiance))
-
-
-    deductions = sorted(deductions, key=lambda x: x[6], reverse=True)
-    #print(deductions)
-
-    if(resultat_global >= 5.0):
-        print("Cette propriété est VRAIE :")
-    elif(resultat_global <= -5.0):
-        print("Cette propriété est FAUSSE :")
-    else:
-        print("Cette propriété est INDETERMINE :")
-
-    rang, rang_affiche = 0, 0
-    while(rang < 5):
-        try:
-            if(deductions[rang][3] > 0.0 and resultat_global >= 5.0): 
-                verite = "oui"
-            elif(deductions[rang][3] < 0.0 and resultat_global <= -5.0): 
-                verite  ="non"
-            elif(resultat_global >= -5.0 and resultat_global <= 5.0):
-                if(deductions[rang][3] > 0.0): verite = "oui"
-                else: verite = "non"
-            else:
-                rang += 1 
-                continue
-        except IndexError:
-            break
-
-        if(deductions[rang][1] != None and deductions[rang][2] != None):
-            chaine = str(rang_affiche)+"|"+verite+"|"+data1+" r_isa "+str(deductions[rang][4])+" & "
-            chaine += data2+" r_isa "+str(nouvelles_deductions[rang][5])+"&"
-            chaine += str(nouvelles_deductions[rang][4])+" "+relation+" "+str(deductions[rang][5])
-            confiance = nouvelles_deductions[rang][6]
-
-        elif(deductions[rang][2] == None):
-            chaine = str(rang_affiche)+"|"+verite+"|"+data1+" r_isa "+str(deductions[rang][4])+" & "
-            chaine += str(deductions[rang][4])+" "+relation+" "+data2
-            confiance = deductions[rang][6]
-
-        elif(deductions[rang][1] == None):
-            chaine = str(rang_affiche)+"|"+verite+"|"+data2+" r_isa "+str(deductions[rang][5])+" & "
-            chaine += data1+" "+relation+" "+str(deductions[rang][5])
-            confiance = deductions[rang][6]
-        
-        chaine += "|"
-        chaine += str(confiance)
-        print(chaine)
-        rang_affiche += 1
-        rang += 1
+    affichage(arguments_global, resultat_global, data1, data2, relation)
 
 if __name__ == "__main__":
     main()
