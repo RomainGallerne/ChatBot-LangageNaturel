@@ -51,15 +51,18 @@ def affichage(arguments_global, resultat_global, data1, data2, relation):
     else:
         print("Cette propriété est INDETERMINE :")
 
+    #arguments_global
+    #[relation_rank, relation_weight, element1_generique_w/rank, element2_generique_w/rank, element1_generique, element2_generique]
+
     rang, rang_affiche = 0, 0
     while(rang < 5):
         try:
-            if(arguments_global[rang][3] > 0.0 and resultat_global >= 5.0): 
+            if(arguments_global[rang][1] > 0.0 and resultat_global >= 5.0): 
                 verite = "oui"
-            elif(arguments_global[rang][3] < 0.0 and resultat_global <= -5.0): 
+            elif(arguments_global[rang][1] < 0.0 and resultat_global <= -5.0): 
                 verite  ="non"
             elif(resultat_global >= -5.0 and resultat_global <= 5.0):
-                if(arguments_global[rang][3] > 0.0): verite = "oui"
+                if(arguments_global[rang][1] > 0.0): verite = "oui"
                 else: verite = "non"
             else:
                 rang += 1 
@@ -67,18 +70,19 @@ def affichage(arguments_global, resultat_global, data1, data2, relation):
         except IndexError:
             break
 
-        if(arguments_global[rang][1] != None and arguments_global[rang][2] != None):
+        chaine = ""
+        if(arguments_global[rang][2] != None and arguments_global[rang][3] != None):
             chaine = str(rang_affiche) + " | " + verite + " | [" + data1 + " r_isa " + str(arguments_global[rang][4]) + "] & ["
             chaine += data2 + " r_isa " + str(arguments_global[rang][5]) + "] & ["
             chaine += str(arguments_global[rang][4]) + " " + relation + " " + str(arguments_global[rang][5]) + "]"
             confiance = arguments_global[rang][6]
 
-        elif(arguments_global[rang][2] == None):
+        elif(arguments_global[rang][2] != None):
             chaine = str(rang_affiche) + " | " + verite + " | [" + data1 + " r_isa " + str(arguments_global[rang][4]) + "] & ["
             chaine += str(arguments_global[rang][4]) + " " + relation + " " + data2 + "]"
             confiance = arguments_global[rang][6]
 
-        elif(arguments_global[rang][1] == None):
+        elif(arguments_global[rang][3] != None):
             chaine = str(rang_affiche) + " | " + verite + " | [" +data2 + " r_isa "+str(arguments_global[rang][5])+"] & ["
             chaine += data1 + " " + relation + " " + str(arguments_global[rang][5]) + "]"
             confiance = arguments_global[rang][6]
@@ -122,6 +126,9 @@ def main():
 
     resultat_global = resultats_deductions + resultats_induction + resultats_transitivite
     arguments_global = deductions + inductions + transitivite
+
+    #arguments_global
+    #[relation_rank, relation_weight, element1_generique_w/rank, element2_generique_w/rank, element1_generique, element2_generique]
 
     affichage(arguments_global, resultat_global, data1, data2, relation)
 
