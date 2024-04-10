@@ -73,19 +73,20 @@ def interrogation_transitive(data_1_, data_2_, relation, dataJSON1, dataJSON2):
     
     data_1 = int(data_1)
     data_2 = int(data_2)
-    print(data_2)
+    #print(data_2)
 
     # num relation entrer
     relation_type_id_base = next((cle for cle, valeur in types_relations_2.items() if valeur["trname"] == relation), None)
-    print(relation_type_id_base)
+    #print(relation_type_id_base)
 
     # chercher relation dans le fichier 1 
-    list_relations_match = [cle for cle, valeur in relations_1.items() if valeur["node1"] == data_1 and valeur["type"] == int(relation_type_id_base) and valeur["node2"] != data_2]
-    print(list_relations_match)
+    list_relations_match = [cle for cle, valeur in relations_1.items() if valeur["node1"] == data_1 and valeur["type"] == int(relation_type_id_base) and valeur["node2"] != data_2]#and valeur["node2"] != data_2
+    #print(list_relations_match)
 
     # trie les relations en fonction du rang (si le rang est disponible)
     list_relations_match.sort(key=lambda x: relations_1[x].get('rank', float('inf')) if relations_1[x].get('rank') is not None else float('inf'))
     #print("list relation match first mot and r_sin : ",list_relations_match)
+    print([relations_1[str(relation_key)]for relation_key in list_relations_match])
 
     for relation_key in list_relations_match:
         # si il y a plus de 10 element dans la liste on arrete
