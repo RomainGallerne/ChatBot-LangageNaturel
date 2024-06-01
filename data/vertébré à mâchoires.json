@@ -1,0 +1,7054 @@
+{
+    "type_noeud": {
+        "1": {
+            "ntname": "n_term"
+        },
+        "4": {
+            "ntname": "n_pos"
+        },
+        "8": {
+            "ntname": "n_chunk"
+        },
+        "10": {
+            "ntname": "n_relation"
+        },
+        "18": {
+            "ntname": "n_data"
+        },
+        "36": {
+            "ntname": "n_data_pot"
+        },
+        "777": {
+            "ntname": "n_wikipedia"
+        }
+    },
+    "noeud": {
+        "16168824": {
+            "name": "vertébré à mâchoires",
+            "w": "0",
+            "formated name": null
+        },
+        "16168983": {
+            "name": ":r423953500",
+            "w": "0",
+            "formated name": null
+        },
+        "16168950": {
+            "name": ":r423953508",
+            "w": "0",
+            "formated name": null
+        },
+        "398564": {
+            "name": "mâchoires",
+            "w": "56",
+            "formated name": null
+        },
+        "86640": {
+            "name": "vertébré",
+            "w": "932",
+            "formated name": null
+        },
+        "116980": {
+            "name": "squelette",
+            "w": "1272",
+            "formated name": null
+        },
+        "101018": {
+            "name": "gnathostome",
+            "w": "84",
+            "formated name": null
+        },
+        "13115": {
+            "name": "mâchoire",
+            "w": "518",
+            "formated name": null
+        },
+        "222595": {
+            "name": "mâchoire>112609",
+            "w": "58",
+            "formated name": "'mâchoire>anatomie'"
+        },
+        "19058": {
+            "name": "phylogenèse",
+            "w": "70",
+            "formated name": null
+        },
+        "57901": {
+            "name": "lamproie",
+            "w": "74",
+            "formated name": null
+        },
+        "60902": {
+            "name": "dent",
+            "w": "3536",
+            "formated name": null
+        },
+        "58370": {
+            "name": "mastiquer",
+            "w": "92",
+            "formated name": null
+        },
+        "37247": {
+            "name": "cyclostome",
+            "w": "52",
+            "formated name": null
+        },
+        "220461": {
+            "name": "arbre phylogénétique",
+            "w": "8",
+            "formated name": null
+        },
+        "17046520": {
+            "name": ":r453513066",
+            "w": "0",
+            "formated name": null
+        },
+        "2586627": {
+            "name": "Gender:Mas",
+            "w": "0",
+            "formated name": null
+        },
+        "14049840": {
+            "name": "organisme vivant pluricellulaire",
+            "w": "0",
+            "formated name": null
+        },
+        "145816": {
+            "name": "cochon dInde",
+            "w": "88",
+            "formated name": null
+        },
+        "14918011": {
+            "name": "en:DNA",
+            "w": "0",
+            "formated name": null
+        },
+        "142602": {
+            "name": "cordé",
+            "w": "120",
+            "formated name": null
+        },
+        "16168935": {
+            "name": ":r423953528",
+            "w": "0",
+            "formated name": null
+        },
+        "171870": {
+            "name": "Nom:",
+            "w": "50",
+            "formated name": null
+        },
+        "73126": {
+            "name": "requin",
+            "w": "660",
+            "formated name": null
+        },
+        "17559": {
+            "name": "animal",
+            "w": "14375",
+            "formated name": null
+        },
+        "117095": {
+            "name": "zoologie",
+            "w": "2456",
+            "formated name": null
+        },
+        "64513": {
+            "name": "mordre",
+            "w": "612",
+            "formated name": null
+        },
+        "220835": {
+            "name": "baleine boréale",
+            "w": "50",
+            "formated name": null
+        },
+        "2586629": {
+            "name": "Number:Sing",
+            "w": "0",
+            "formated name": null
+        },
+        "16168931": {
+            "name": ":r423953523",
+            "w": "0",
+            "formated name": null
+        },
+        "16168933": {
+            "name": ":r423953520",
+            "w": "0",
+            "formated name": null
+        },
+        "16168934": {
+            "name": ":r423953510",
+            "w": "0",
+            "formated name": null
+        },
+        "71499": {
+            "name": "zorille",
+            "w": "50",
+            "formated name": null
+        },
+        "14940408": {
+            "name": "en:gnathostome",
+            "w": "0",
+            "formated name": null
+        },
+        "267642": {
+            "name": "organisme animal",
+            "w": "4",
+            "formated name": null
+        },
+        "194062": {
+            "name": "percefleur de Lafresnaye",
+            "w": "50",
+            "formated name": null
+        },
+        "194166": {
+            "name": "phasianelle brune",
+            "w": "50",
+            "formated name": null
+        },
+        "194168": {
+            "name": "phaéton à brins rouges",
+            "w": "50",
+            "formated name": null
+        },
+        "194294": {
+            "name": "plongeon huard",
+            "w": "50",
+            "formated name": null
+        },
+        "168216": {
+            "name": "b?uf",
+            "w": "1065",
+            "formated name": null
+        },
+        "162007": {
+            "name": "bonobo",
+            "w": "108",
+            "formated name": null
+        },
+        "102661": {
+            "name": "cercopithèque",
+            "w": "50",
+            "formated name": null
+        },
+        "25635": {
+            "name": "lion de mer",
+            "w": "60",
+            "formated name": null
+        },
+        "168290": {
+            "name": "quatre yeux",
+            "w": "50",
+            "formated name": null
+        },
+        "77762": {
+            "name": "phoque",
+            "w": "122",
+            "formated name": null
+        },
+        "168301": {
+            "name": "siciste",
+            "w": "50",
+            "formated name": null
+        },
+        "191550": {
+            "name": "yorkshire terrier",
+            "w": "50",
+            "formated name": null
+        },
+        "214689": {
+            "name": "baleine>153147",
+            "w": "92",
+            "formated name": "'baleine>mammifère marin'"
+        },
+        "219445": {
+            "name": "vigogne>77118",
+            "w": "52",
+            "formated name": "'vigogne>lama'"
+        },
+        "220850": {
+            "name": "dauphin bleu et blanc",
+            "w": "50",
+            "formated name": null
+        },
+        "220859": {
+            "name": "dauphin tacheté pantropical",
+            "w": "50",
+            "formated name": null
+        },
+        "151745": {
+            "name": "lynx roux",
+            "w": "50",
+            "formated name": null
+        },
+        "14049831": {
+            "name": "organisme vivant pluricellulaire hétérotrophe",
+            "w": "6",
+            "formated name": null
+        },
+        "1655534": {
+            "name": "c?lomate",
+            "w": "0",
+            "formated name": null
+        },
+        "12791689": {
+            "name": "acide désoxyribo-nucléique",
+            "w": "0",
+            "formated name": null
+        },
+        "56105": {
+            "name": "mâcher",
+            "w": "324",
+            "formated name": null
+        },
+        "133921": {
+            "name": "dentition",
+            "w": "460",
+            "formated name": null
+        },
+        "193958": {
+            "name": "palette de Cassin",
+            "w": "50",
+            "formated name": null
+        },
+        "193966": {
+            "name": "paradisier bleu",
+            "w": "50",
+            "formated name": null
+        },
+        "193988": {
+            "name": "paradisier rouge",
+            "w": "50",
+            "formated name": null
+        },
+        "114818": {
+            "name": "paruline",
+            "w": "52",
+            "formated name": null
+        },
+        "194002": {
+            "name": "paruline à couronne rousse",
+            "w": "50",
+            "formated name": null
+        },
+        "194032": {
+            "name": "paruline du Kentucky",
+            "w": "50",
+            "formated name": null
+        },
+        "194053": {
+            "name": "passerin nonpareil",
+            "w": "50",
+            "formated name": null
+        },
+        "194057": {
+            "name": "pélican dAmérique",
+            "w": "2",
+            "formated name": null
+        },
+        "194059": {
+            "name": "pélican thage",
+            "w": "2",
+            "formated name": null
+        },
+        "194060": {
+            "name": "pénélope de Dabbene",
+            "w": "50",
+            "formated name": null
+        },
+        "194063": {
+            "name": "perdrix bartavelle",
+            "w": "50",
+            "formated name": null
+        },
+        "194073": {
+            "name": "perroquet de Ribeiro",
+            "w": "50",
+            "formated name": null
+        },
+        "194078": {
+            "name": "perroquet maillé",
+            "w": "50",
+            "formated name": null
+        },
+        "95857": {
+            "name": "perruche",
+            "w": "118",
+            "formated name": null
+        },
+        "194090": {
+            "name": "perruche de Barraband",
+            "w": "50",
+            "formated name": null
+        },
+        "194100": {
+            "name": "perruche de Tahiti",
+            "w": "50",
+            "formated name": null
+        },
+        "194101": {
+            "name": "perruche de la Réunion",
+            "w": "50",
+            "formated name": null
+        },
+        "194111": {
+            "name": "perruche omnicolore",
+            "w": "50",
+            "formated name": null
+        },
+        "194114": {
+            "name": "perruche pygmée",
+            "w": "50",
+            "formated name": null
+        },
+        "194124": {
+            "name": "perruche à collier",
+            "w": "50",
+            "formated name": null
+        },
+        "194127": {
+            "name": "perruche à longs brins",
+            "w": "50",
+            "formated name": null
+        },
+        "194134": {
+            "name": "petit Arachnothère",
+            "w": "50",
+            "formated name": null
+        },
+        "194145": {
+            "name": "petit Pingouin",
+            "w": "50",
+            "formated name": null
+        },
+        "168074": {
+            "name": "philépitte",
+            "w": "50",
+            "formated name": null
+        },
+        "194209": {
+            "name": "pic à dos noir",
+            "w": "50",
+            "formated name": null
+        },
+        "194217": {
+            "name": "picatharte de Guinée",
+            "w": "50",
+            "formated name": null
+        },
+        "194228": {
+            "name": "pie-grièche écorcheur",
+            "w": "50",
+            "formated name": null
+        },
+        "194237": {
+            "name": "pie-grièche masquée",
+            "w": "50",
+            "formated name": null
+        },
+        "194241": {
+            "name": "pieds jaunes",
+            "w": "50",
+            "formated name": null
+        },
+        "194251": {
+            "name": "pigeon des mares",
+            "w": "50",
+            "formated name": null
+        },
+        "34775": {
+            "name": "pingouin",
+            "w": "126",
+            "formated name": null
+        },
+        "194264": {
+            "name": "pione givrée",
+            "w": "50",
+            "formated name": null
+        },
+        "194266": {
+            "name": "pione pailletée",
+            "w": "50",
+            "formated name": null
+        },
+        "194272": {
+            "name": "pioui de lEst",
+            "w": "50",
+            "formated name": null
+        },
+        "194279": {
+            "name": "pipit de Nouvelle-Guinée",
+            "w": "50",
+            "formated name": null
+        },
+        "194281": {
+            "name": "pipit des arbres",
+            "w": "50",
+            "formated name": null
+        },
+        "194282": {
+            "name": "pipit farlouse",
+            "w": "50",
+            "formated name": null
+        },
+        "194287": {
+            "name": "tangara à tête rouge",
+            "w": "50",
+            "formated name": null
+        },
+        "194290": {
+            "name": "pirolle à bec rouge",
+            "w": "50",
+            "formated name": null
+        },
+        "194297": {
+            "name": "pluvianelle magellanique",
+            "w": "50",
+            "formated name": null
+        },
+        "194312": {
+            "name": "pluvier semipalmé",
+            "w": "50",
+            "formated name": null
+        },
+        "194324": {
+            "name": "porphyrion bleu",
+            "w": "50",
+            "formated name": null
+        },
+        "194330": {
+            "name": "pouillot de Bonelli",
+            "w": "50",
+            "formated name": null
+        },
+        "194334": {
+            "name": "pouillot fitis",
+            "w": "50",
+            "formated name": null
+        },
+        "194339": {
+            "name": "pouillot à face rousse",
+            "w": "50",
+            "formated name": null
+        },
+        "151558": {
+            "name": "lapin nain",
+            "w": "60",
+            "formated name": null
+        },
+        "15295": {
+            "name": "alpaga",
+            "w": "66",
+            "formated name": null
+        },
+        "168215": {
+            "name": "b?uf musqué",
+            "w": "50",
+            "formated name": null
+        },
+        "72813": {
+            "name": "cerf",
+            "w": "176",
+            "formated name": null
+        },
+        "45320": {
+            "name": "chameau",
+            "w": "254",
+            "formated name": null
+        },
+        "168227": {
+            "name": "choeropotame",
+            "w": "50",
+            "formated name": null
+        },
+        "20337": {
+            "name": "cobe",
+            "w": "50",
+            "formated name": null
+        },
+        "168248": {
+            "name": "guemal",
+            "w": "50",
+            "formated name": null
+        },
+        "76637": {
+            "name": "isard",
+            "w": "60",
+            "formated name": null
+        },
+        "86069": {
+            "name": "kouprey",
+            "w": "50",
+            "formated name": null
+        },
+        "168269": {
+            "name": "mazame",
+            "w": "50",
+            "formated name": null
+        },
+        "64017": {
+            "name": "muntjac",
+            "w": "50",
+            "formated name": null
+        },
+        "134455": {
+            "name": "phacochère",
+            "w": "56",
+            "formated name": null
+        },
+        "11408": {
+            "name": "poudou",
+            "w": "50",
+            "formated name": null
+        },
+        "33665": {
+            "name": "yak",
+            "w": "50",
+            "formated name": null
+        },
+        "40428": {
+            "name": "agouti",
+            "w": "50",
+            "formated name": null
+        },
+        "81372": {
+            "name": "anomalure",
+            "w": "50",
+            "formated name": null
+        },
+        "57212": {
+            "name": "atèle",
+            "w": "58",
+            "formated name": null
+        },
+        "168205": {
+            "name": "avahi",
+            "w": "50",
+            "formated name": null
+        },
+        "52943": {
+            "name": "blaireau",
+            "w": "90",
+            "formated name": null
+        },
+        "168229": {
+            "name": "chozchoz",
+            "w": "50",
+            "formated name": null
+        },
+        "32529": {
+            "name": "coati",
+            "w": "50",
+            "formated name": null
+        },
+        "128845": {
+            "name": "cynocéphale",
+            "w": "56",
+            "formated name": null
+        },
+        "81105": {
+            "name": "écureuil volant",
+            "w": "80",
+            "formated name": null
+        },
+        "168241": {
+            "name": "epomophore",
+            "w": "50",
+            "formated name": null
+        },
+        "168245": {
+            "name": "gauphre",
+            "w": "50",
+            "formated name": null
+        },
+        "5762": {
+            "name": "gibbon",
+            "w": "52",
+            "formated name": null
+        },
+        "180264": {
+            "name": "gibbon à mains blanches",
+            "w": "50",
+            "formated name": null
+        },
+        "68038": {
+            "name": "macaque",
+            "w": "76",
+            "formated name": null
+        },
+        "79727": {
+            "name": "magistrat",
+            "w": "172",
+            "formated name": null
+        },
+        "51393": {
+            "name": "margay",
+            "w": "54",
+            "formated name": null
+        },
+        "168277": {
+            "name": "nyctère",
+            "w": "52",
+            "formated name": null
+        },
+        "32193": {
+            "name": "orang-outan",
+            "w": "80",
+            "formated name": null
+        },
+        "70204": {
+            "name": "oreillard",
+            "w": "56",
+            "formated name": null
+        },
+        "127523": {
+            "name": "otocyon",
+            "w": "50",
+            "formated name": null
+        },
+        "106765": {
+            "name": "paca",
+            "w": "50",
+            "formated name": null
+        },
+        "168284": {
+            "name": "petrogale",
+            "w": "50",
+            "formated name": null
+        },
+        "60851": {
+            "name": "phalanger",
+            "w": "50",
+            "formated name": null
+        },
+        "168288": {
+            "name": "poiane",
+            "w": "50",
+            "formated name": null
+        },
+        "168289": {
+            "name": "ptéronote",
+            "w": "52",
+            "formated name": null
+        },
+        "49652": {
+            "name": "rasse",
+            "w": "50",
+            "formated name": null
+        },
+        "122941": {
+            "name": "sarigue",
+            "w": "50",
+            "formated name": null
+        },
+        "168303": {
+            "name": "singe-écureuil",
+            "w": "50",
+            "formated name": null
+        },
+        "168316": {
+            "name": "tamarin-lion",
+            "w": "50",
+            "formated name": null
+        },
+        "325728": {
+            "name": "uniconte",
+            "w": "42",
+            "formated name": null
+        },
+        "16168932": {
+            "name": ":r423953531",
+            "w": "0",
+            "formated name": null
+        },
+        "14049844": {
+            "name": "organisme vivant hétérotrophe",
+            "w": "0",
+            "formated name": null
+        },
+        "259820": {
+            "name": "vivre>160251",
+            "w": "98",
+            "formated name": "'vivre>être en vie'"
+        },
+        "2442": {
+            "name": "vivre",
+            "w": "3336",
+            "formated name": null
+        },
+        "43601": {
+            "name": "se reproduire",
+            "w": "524",
+            "formated name": null
+        },
+        "251694": {
+            "name": "mourir>126720",
+            "w": "284",
+            "formated name": "'mourir>cesser de vivre'"
+        },
+        "124600": {
+            "name": "mourir",
+            "w": "2875",
+            "formated name": null
+        },
+        "43253": {
+            "name": "dormir",
+            "w": "6704",
+            "formated name": null
+        },
+        "47918": {
+            "name": "boire",
+            "w": "4658",
+            "formated name": null
+        },
+        "130164": {
+            "name": "manger",
+            "w": "10556",
+            "formated name": null
+        },
+        "33882": {
+            "name": "se nourrir",
+            "w": "456",
+            "formated name": null
+        },
+        "15441861": {
+            "name": "en:feed yourself",
+            "w": "2",
+            "formated name": null
+        },
+        "137288": {
+            "name": "salimenter",
+            "w": "170",
+            "formated name": null
+        },
+        "146885": {
+            "name": "Nom:Mas+SG",
+            "w": "50",
+            "formated name": null
+        },
+        "11008328": {
+            "name": "ADN>30051",
+            "w": "22",
+            "formated name": "'ADN>code génétique'"
+        },
+        "14917526": {
+            "name": "en:deoxyribonucleic acid",
+            "w": "0",
+            "formated name": null
+        },
+        "364788": {
+            "name": "monde animal",
+            "w": "50",
+            "formated name": null
+        },
+        "218905": {
+            "name": "faune>71539",
+            "w": "28",
+            "formated name": "'faune>animaux'"
+        },
+        "2461482": {
+            "name": "métazoaire supérieur",
+            "w": "0",
+            "formated name": null
+        },
+        "6800353": {
+            "name": "en:nervous system",
+            "w": "2",
+            "formated name": null
+        },
+        "3575927": {
+            "name": "Morpho:min",
+            "w": "50",
+            "formated name": null
+        },
+        "247057": {
+            "name": "symétrie bilatérale",
+            "w": "10",
+            "formated name": null
+        },
+        "143669": {
+            "name": "vertébrés",
+            "w": "80",
+            "formated name": null
+        },
+        "330964": {
+            "name": "cordé>117095",
+            "w": "36",
+            "formated name": "'cordé>zoologie'"
+        },
+        "233133": {
+            "name": "animal>117095",
+            "w": "914",
+            "formated name": "'animal>zoologie'"
+        },
+        "325741": {
+            "name": "choanobionte",
+            "w": "78",
+            "formated name": null
+        },
+        "325738": {
+            "name": "filozoaire",
+            "w": "86",
+            "formated name": null
+        },
+        "55823": {
+            "name": "métazoaire",
+            "w": "176",
+            "formated name": null
+        },
+        "260820": {
+            "name": "entité vivante",
+            "w": "70",
+            "formated name": null
+        },
+        "54794": {
+            "name": "eucaryote",
+            "w": "194",
+            "formated name": null
+        },
+        "265277": {
+            "name": "crâniate",
+            "w": "64",
+            "formated name": null
+        },
+        "264881": {
+            "name": "crânié",
+            "w": "56",
+            "formated name": null
+        },
+        "101689": {
+            "name": "être animé",
+            "w": "50",
+            "formated name": null
+        },
+        "329657": {
+            "name": "choano-organisme",
+            "w": "62",
+            "formated name": null
+        },
+        "265220": {
+            "name": "épineurien",
+            "w": "22",
+            "formated name": null
+        },
+        "65081": {
+            "name": "organisme vivant",
+            "w": "154",
+            "formated name": null
+        },
+        "71624": {
+            "name": "être vivant",
+            "w": "1904",
+            "formated name": null
+        },
+        "225847": {
+            "name": "organisme>71624",
+            "w": "104",
+            "formated name": "'organisme>être vivant'"
+        },
+        "237445": {
+            "name": "être>68439",
+            "w": "36",
+            "formated name": "'être>individu'"
+        },
+        "436570": {
+            "name": "entité biologique",
+            "w": "50",
+            "formated name": null
+        },
+        "317929": {
+            "name": "olfactorien",
+            "w": "42",
+            "formated name": null
+        },
+        "248081": {
+            "name": "chordé",
+            "w": "230",
+            "formated name": null
+        },
+        "325736": {
+            "name": "holozoaire",
+            "w": "60",
+            "formated name": null
+        },
+        "115304": {
+            "name": "deutérostomien",
+            "w": "114",
+            "formated name": null
+        },
+        "264908": {
+            "name": "eumétazoaire",
+            "w": "80",
+            "formated name": null
+        },
+        "264880": {
+            "name": "bilatérien",
+            "w": "80",
+            "formated name": null
+        },
+        "316850": {
+            "name": "entité physique",
+            "w": "50",
+            "formated name": null
+        },
+        "325731": {
+            "name": "opisthoconte",
+            "w": "76",
+            "formated name": null
+        },
+        "234036": {
+            "name": "être vivant>123933",
+            "w": "278",
+            "formated name": "'être vivant>entité'"
+        },
+        "391009": {
+            "name": "célomate",
+            "w": "50",
+            "formated name": null
+        },
+        "74846": {
+            "name": "corps",
+            "w": "5360",
+            "formated name": null
+        },
+        "225934": {
+            "name": "oeil>330323",
+            "w": "268",
+            "formated name": "'oeil>organe de la vue'"
+        },
+        "390927": {
+            "name": "tête>112609",
+            "w": "72",
+            "formated name": "'tête>anatomie'"
+        },
+        "219363": {
+            "name": "corps>112609",
+            "w": "216",
+            "formated name": "'corps>anatomie'"
+        },
+        "126285": {
+            "name": "dos",
+            "w": "2924",
+            "formated name": null
+        },
+        "103311": {
+            "name": "système nerveux",
+            "w": "284",
+            "formated name": null
+        },
+        "144846": {
+            "name": "tête",
+            "w": "6041",
+            "formated name": null
+        },
+        "126388": {
+            "name": "articulation",
+            "w": "766",
+            "formated name": null
+        },
+        "16747": {
+            "name": "adn",
+            "w": "164",
+            "formated name": null
+        },
+        "139779": {
+            "name": "ADN",
+            "w": "1282",
+            "formated name": null
+        },
+        "141814": {
+            "name": "vertèbre",
+            "w": "414",
+            "formated name": null
+        },
+        "83944": {
+            "name": "nerf",
+            "w": "890",
+            "formated name": null
+        },
+        "240720": {
+            "name": "squelette>112609",
+            "w": "156",
+            "formated name": "'squelette>anatomie'"
+        },
+        "77008": {
+            "name": "yeux",
+            "w": "4653",
+            "formated name": null
+        },
+        "241352": {
+            "name": "ventre>112609",
+            "w": "144",
+            "formated name": "'ventre>anatomie'"
+        },
+        "109785": {
+            "name": "peau",
+            "w": "4083",
+            "formated name": null
+        },
+        "47319": {
+            "name": "colonne vertébrale",
+            "w": "382",
+            "formated name": null
+        },
+        "213644": {
+            "name": "os>116980",
+            "w": "434",
+            "formated name": "'os>squelette'"
+        },
+        "114327": {
+            "name": "acide désoxyribonucléique",
+            "w": "140",
+            "formated name": null
+        },
+        "108463": {
+            "name": "ventre",
+            "w": "2132",
+            "formated name": null
+        },
+        "77424": {
+            "name": "oeil",
+            "w": "3370",
+            "formated name": null
+        },
+        "96211": {
+            "name": "coeur",
+            "w": "2416",
+            "formated name": null
+        },
+        "57875": {
+            "name": "tube digestif",
+            "w": "128",
+            "formated name": null
+        },
+        "326146": {
+            "name": "système nerveux en position dorsale",
+            "w": "56",
+            "formated name": null
+        },
+        "120157": {
+            "name": "règne animal",
+            "w": "106",
+            "formated name": null
+        },
+        "36886": {
+            "name": "faune",
+            "w": "2233",
+            "formated name": null
+        },
+        "1384": {
+            "name": "vivant",
+            "w": "3333",
+            "formated name": null
+        },
+        "99220": {
+            "name": "hétérotrophe",
+            "w": "70",
+            "formated name": null
+        },
+        "122864": {
+            "name": "mort",
+            "w": "7465",
+            "formated name": null
+        },
+        "330215": {
+            "name": "bilatéralement symétrique",
+            "w": "22",
+            "formated name": null
+        },
+        "15088586": {
+            "name": "en:systema nervosum",
+            "w": "0",
+            "formated name": null
+        },
+        "6935846": {
+            "name": "en:dna",
+            "w": "0",
+            "formated name": null
+        },
+        "15297314": {
+            "name": "en:deoxyribose nucleoprotein",
+            "w": "0",
+            "formated name": null
+        },
+        "16168936": {
+            "name": ":r423953533",
+            "w": "0",
+            "formated name": null
+        },
+        "25700992": {
+            "name": ":r479150485",
+            "w": "0",
+            "formated name": null
+        },
+        "16168825": {
+            "name": ":r423945641",
+            "w": "0",
+            "formated name": null
+        },
+        "16168937": {
+            "name": ":r423953517",
+            "w": "0",
+            "formated name": null
+        },
+        "16168943": {
+            "name": ":r423953483",
+            "w": "0",
+            "formated name": null
+        },
+        "16168944": {
+            "name": ":r423953530",
+            "w": "0",
+            "formated name": null
+        },
+        "16168945": {
+            "name": ":r423953543",
+            "w": "0",
+            "formated name": null
+        },
+        "16168946": {
+            "name": ":r423953521",
+            "w": "0",
+            "formated name": null
+        },
+        "180530800": {
+            "name": ":r561523933",
+            "w": "0",
+            "formated name": null
+        },
+        "238341217": {
+            "name": ":r436206827",
+            "w": "0",
+            "formated name": null
+        },
+        "241190717": {
+            "name": ":r634003725",
+            "w": "0",
+            "formated name": null
+        },
+        "16168941": {
+            "name": ":r423953513",
+            "w": "0",
+            "formated name": null
+        },
+        "16168942": {
+            "name": ":r423953506",
+            "w": "0",
+            "formated name": null
+        },
+        "16168947": {
+            "name": ":r423953503",
+            "w": "0",
+            "formated name": null
+        },
+        "16168948": {
+            "name": ":r423953539",
+            "w": "0",
+            "formated name": null
+        },
+        "16168949": {
+            "name": ":r423953499",
+            "w": "0",
+            "formated name": null
+        },
+        "16168951": {
+            "name": ":r423953525",
+            "w": "0",
+            "formated name": null
+        },
+        "16168952": {
+            "name": ":r423953529",
+            "w": "0",
+            "formated name": null
+        },
+        "16168953": {
+            "name": ":r423953490",
+            "w": "0",
+            "formated name": null
+        },
+        "16168954": {
+            "name": ":r423953485",
+            "w": "0",
+            "formated name": null
+        },
+        "16168955": {
+            "name": ":r423953498",
+            "w": "0",
+            "formated name": null
+        },
+        "16168968": {
+            "name": ":r423953524",
+            "w": "0",
+            "formated name": null
+        },
+        "274384499": {
+            "name": ":r543155329",
+            "w": "0",
+            "formated name": null
+        },
+        "94230902": {
+            "name": "Acide DésoxyriboNucléique",
+            "w": "0",
+            "formated name": null
+        },
+        "171115637": {
+            "name": ":r557081089",
+            "w": "0",
+            "formated name": null
+        },
+        "175782460": {
+            "name": ":r559114081",
+            "w": "0",
+            "formated name": null
+        },
+        "231677537": {
+            "name": ":r618097606",
+            "w": "0",
+            "formated name": null
+        },
+        "16168956": {
+            "name": ":r423945637",
+            "w": "0",
+            "formated name": null
+        },
+        "16168957": {
+            "name": ":r423953542",
+            "w": "0",
+            "formated name": null
+        },
+        "16168958": {
+            "name": ":r423953541",
+            "w": "0",
+            "formated name": null
+        },
+        "16168959": {
+            "name": ":r423953540",
+            "w": "0",
+            "formated name": null
+        },
+        "16168960": {
+            "name": ":r423953538",
+            "w": "0",
+            "formated name": null
+        },
+        "16168961": {
+            "name": ":r423953537",
+            "w": "0",
+            "formated name": null
+        },
+        "16168962": {
+            "name": ":r423953536",
+            "w": "0",
+            "formated name": null
+        },
+        "16168963": {
+            "name": ":r423953535",
+            "w": "0",
+            "formated name": null
+        },
+        "16168964": {
+            "name": ":r423953534",
+            "w": "0",
+            "formated name": null
+        },
+        "16168965": {
+            "name": ":r423953532",
+            "w": "0",
+            "formated name": null
+        },
+        "16168966": {
+            "name": ":r423953527",
+            "w": "0",
+            "formated name": null
+        },
+        "16168967": {
+            "name": ":r423953526",
+            "w": "0",
+            "formated name": null
+        },
+        "16168969": {
+            "name": ":r423953522",
+            "w": "0",
+            "formated name": null
+        },
+        "16168970": {
+            "name": ":r423953519",
+            "w": "0",
+            "formated name": null
+        },
+        "16168971": {
+            "name": ":r423953518",
+            "w": "0",
+            "formated name": null
+        },
+        "16168972": {
+            "name": ":r423953516",
+            "w": "0",
+            "formated name": null
+        },
+        "16168973": {
+            "name": ":r423953515",
+            "w": "0",
+            "formated name": null
+        },
+        "16168974": {
+            "name": ":r423953514",
+            "w": "0",
+            "formated name": null
+        },
+        "16168975": {
+            "name": ":r423953512",
+            "w": "0",
+            "formated name": null
+        },
+        "16168976": {
+            "name": ":r423953511",
+            "w": "0",
+            "formated name": null
+        },
+        "16168977": {
+            "name": ":r423953509",
+            "w": "0",
+            "formated name": null
+        },
+        "16168978": {
+            "name": ":r423953507",
+            "w": "0",
+            "formated name": null
+        },
+        "16168979": {
+            "name": ":r423953505",
+            "w": "0",
+            "formated name": null
+        },
+        "16168980": {
+            "name": ":r423953504",
+            "w": "0",
+            "formated name": null
+        },
+        "16168981": {
+            "name": ":r423953502",
+            "w": "0",
+            "formated name": null
+        },
+        "16168982": {
+            "name": ":r423953501",
+            "w": "0",
+            "formated name": null
+        },
+        "16168984": {
+            "name": ":r423953497",
+            "w": "0",
+            "formated name": null
+        },
+        "16168985": {
+            "name": ":r423953496",
+            "w": "0",
+            "formated name": null
+        },
+        "16168986": {
+            "name": ":r423953495",
+            "w": "0",
+            "formated name": null
+        },
+        "16168987": {
+            "name": ":r423953494",
+            "w": "0",
+            "formated name": null
+        },
+        "16168988": {
+            "name": ":r423953491",
+            "w": "0",
+            "formated name": null
+        },
+        "16168989": {
+            "name": ":r423953489",
+            "w": "0",
+            "formated name": null
+        },
+        "16168990": {
+            "name": ":r423953484",
+            "w": "0",
+            "formated name": null
+        },
+        "16168991": {
+            "name": ":r423953482",
+            "w": "0",
+            "formated name": null
+        },
+        "16168992": {
+            "name": ":r423953481",
+            "w": "0",
+            "formated name": null
+        },
+        "16168993": {
+            "name": ":r423953480",
+            "w": "0",
+            "formated name": null
+        },
+        "175403938": {
+            "name": ":r558800011",
+            "w": "0",
+            "formated name": null
+        },
+        "179446191": {
+            "name": ":r561013819",
+            "w": "0",
+            "formated name": null
+        },
+        "243330431": {
+            "name": ":r636168769",
+            "w": "0",
+            "formated name": null
+        },
+        "152125": {
+            "name": "Zoologie",
+            "w": "210",
+            "formated name": null
+        },
+        "4455": {
+            "name": "chien",
+            "w": "5821",
+            "formated name": null
+        },
+        "150": {
+            "name": "chat",
+            "w": "5571",
+            "formated name": null
+        },
+        "68467": {
+            "name": "poisson",
+            "w": "7284",
+            "formated name": null
+        },
+        "7710037": {
+            "name": "bardot>38295",
+            "w": "0",
+            "formated name": "'bardot>équidé'"
+        },
+        "91794": {
+            "name": "tétrapode",
+            "w": "96",
+            "formated name": null
+        },
+        "74203": {
+            "name": "colvert",
+            "w": "206",
+            "formated name": null
+        },
+        "891239": {
+            "name": "étourneau améthyste",
+            "w": "0",
+            "formated name": null
+        },
+        "171005": {
+            "name": "requin baleine",
+            "w": "8",
+            "formated name": null
+        },
+        "223691": {
+            "name": "hippocampe>68467",
+            "w": "50",
+            "formated name": "'hippocampe>poisson'"
+        },
+        "146323": {
+            "name": "mouette",
+            "w": "266",
+            "formated name": null
+        },
+        "157284": {
+            "name": "lieu>68467",
+            "w": "58",
+            "formated name": "'lieu>poisson'"
+        },
+        "94031": {
+            "name": "ide",
+            "w": "50",
+            "formated name": null
+        },
+        "118406": {
+            "name": "anatidé",
+            "w": "112",
+            "formated name": null
+        },
+        "91274": {
+            "name": "dauphin",
+            "w": "1492",
+            "formated name": null
+        },
+        "135190": {
+            "name": "lieu",
+            "w": "3965",
+            "formated name": null
+        },
+        "91927181": {
+            "name": "Bradley Lord",
+            "w": "0",
+            "formated name": null
+        },
+        "114950": {
+            "name": "esturgeon",
+            "w": "146",
+            "formated name": null
+        },
+        "23358": {
+            "name": "dorée",
+            "w": "86",
+            "formated name": null
+        },
+        "166705737": {
+            "name": "::>66:146323>24:166705735",
+            "w": "0",
+            "formated name": "'mouette [peut] fianter [endroit] passant>piéton'"
+        },
+        "66013": {
+            "name": "brème",
+            "w": "52",
+            "formated name": null
+        },
+        "170979": {
+            "name": "ide mélanote",
+            "w": "50",
+            "formated name": null
+        },
+        "213451": {
+            "name": "poussin>37194",
+            "w": "58",
+            "formated name": "'poussin>poule'"
+        },
+        "3298588": {
+            "name": "dorée>68467",
+            "w": "0",
+            "formated name": "'dorée>poisson'"
+        },
+        "129133527": {
+            "name": "::>66:150>24:129133525",
+            "w": "0",
+            "formated name": "'chat [peut] manger [objet] oiseau'"
+        },
+        "138897746": {
+            "name": "::>66:282208>24:130164",
+            "w": "0",
+            "formated name": "'mérou brun [peut] manger'"
+        },
+        "166711752": {
+            "name": "::>66:146323>24:166711750",
+            "w": "0",
+            "formated name": "'mouette [peut] fienter [endroit] voiture>automobile'"
+        },
+        "132024113": {
+            "name": "::>66:150>24:129134140",
+            "w": "0",
+            "formated name": "'chat [peut] manger [objet] Titi'"
+        },
+        "224366320": {
+            "name": "::>66:125918>24:217518292",
+            "w": "0",
+            "formated name": "'mule [peut] brouter de l'herbe [endroit] pré>champ'"
+        },
+        "874234": {
+            "name": "Neochen",
+            "w": "0",
+            "formated name": null
+        },
+        "113414161": {
+            "name": "::>66:91153>24:64513",
+            "w": "0",
+            "formated name": "'serpent [peut] mordre'"
+        },
+        "209346970": {
+            "name": "mouette de Sooty",
+            "w": "0",
+            "formated name": null
+        },
+        "1885710": {
+            "name": "cypriniforme",
+            "w": "0",
+            "formated name": null
+        },
+        "80123049": {
+            "name": "::>66:140176>24:80013580",
+            "w": "0",
+            "formated name": "'oiseau [peut] survoler [objet] forêt'"
+        },
+        "1263925": {
+            "name": "tortue méditerranéenne",
+            "w": "0",
+            "formated name": null
+        },
+        "110309": {
+            "name": "pic",
+            "w": "1145",
+            "formated name": null
+        },
+        "2950097": {
+            "name": "perroquet>2401073",
+            "w": "0",
+            "formated name": "'perroquet>poisson-perroquet'"
+        },
+        "15438": {
+            "name": "nyroque",
+            "w": "50",
+            "formated name": null
+        },
+        "217726294": {
+            "name": "::>66:228148>24:217518292",
+            "w": "0",
+            "formated name": "'mule>animal [peut] brouter de l'herbe [endroit] pré>champ'"
+        },
+        "939846": {
+            "name": "Crithagra",
+            "w": "0",
+            "formated name": null
+        },
+        "129133526": {
+            "name": "::>66:140176>26:130164",
+            "w": "0",
+            "formated name": "'oiseau [se faire] manger'"
+        },
+        "60355271": {
+            "name": "passereau jaune",
+            "w": "0",
+            "formated name": null
+        },
+        "173720565": {
+            "name": "::>66:16027678>24:44654",
+            "w": "0",
+            "formated name": "'mule>animal>équidé [peut] transporter'"
+        },
+        "224366316": {
+            "name": "::>66:125918>24:14324427",
+            "w": "0",
+            "formated name": "'mule [peut] brouter de l'herbe'"
+        },
+        "217517922": {
+            "name": "::>66:16027678>24:14324427",
+            "w": "0",
+            "formated name": "'mule>animal>équidé [peut] brouter de l'herbe'"
+        },
+        "217726354": {
+            "name": "::>66:228148>24:14324427",
+            "w": "0",
+            "formated name": "'mule>animal [peut] brouter de l'herbe'"
+        },
+        "12077981": {
+            "name": "colin lieu",
+            "w": "0",
+            "formated name": null
+        },
+        "113414164": {
+            "name": "::>66:91153>24:113414162",
+            "w": "0",
+            "formated name": "'serpent [peut] mordre [objet] proie'"
+        },
+        "897999": {
+            "name": "solitaire>140176",
+            "w": "0",
+            "formated name": "'solitaire>oiseau'"
+        },
+        "9949503": {
+            "name": "Alan Shaw Taylor",
+            "w": "0",
+            "formated name": null
+        },
+        "138897328": {
+            "name": "::>66:65754>24:138897326",
+            "w": "0",
+            "formated name": "'mérou [peut] manger [objet] calmars'"
+        },
+        "138897173": {
+            "name": "::>66:65754>24:138897171",
+            "w": "0",
+            "formated name": "'mérou [peut] manger [objet] crustacés'"
+        },
+        "129134141": {
+            "name": "::>66:230269>26:130164",
+            "w": "0",
+            "formated name": "'Titi [se faire] manger'"
+        },
+        "889986": {
+            "name": "Haemorhous",
+            "w": "0",
+            "formated name": null
+        },
+        "893004": {
+            "name": "Cinnyricinclus",
+            "w": "0",
+            "formated name": null
+        },
+        "134052": {
+            "name": "grouse",
+            "w": "50",
+            "formated name": null
+        },
+        "138898032": {
+            "name": "::>66:282208>24:138897171",
+            "w": "0",
+            "formated name": "'mérou brun [peut] manger [objet] crustacés'"
+        },
+        "138897466": {
+            "name": "::>66:65754>24:138897464",
+            "w": "0",
+            "formated name": "'mérou [peut] manger [objet] crabes'"
+        },
+        "173720850": {
+            "name": "::>66:16027678>24:173720848",
+            "w": "0",
+            "formated name": "'mule>animal>équidé [peut] transporter [endroit] sentier de montagne'"
+        },
+        "138897381": {
+            "name": "::>66:65754>24:138897379",
+            "w": "0",
+            "formated name": "'mérou [peut] manger [objet] poulpes'"
+        },
+        "138897602": {
+            "name": "::>66:65754>24:138897600",
+            "w": "0",
+            "formated name": "'mérou [peut] manger [objet] bogues'"
+        },
+        "191864685": {
+            "name": "::>66:125918>24:43404",
+            "w": "0",
+            "formated name": "'mule [peut] porter'"
+        },
+        "246847338": {
+            "name": "::>66:125918>24:676955",
+            "w": "0",
+            "formated name": "'mule [peut] porter>Ver:Inf'"
+        },
+        "224366314": {
+            "name": "::>66:125918>24:14324425",
+            "w": "0",
+            "formated name": "'mule [peut] brouter [objet] herbe'"
+        },
+        "1623822": {
+            "name": "Vireo",
+            "w": "0",
+            "formated name": null
+        },
+        "173720711": {
+            "name": "::>66:173720566>15:66156",
+            "w": "0",
+            "formated name": "'mule>animal>équidé [peut] transporter [objet] matériel [lieu] sentier'"
+        },
+        "184260400": {
+            "name": "::>66:125918>24:14470182",
+            "w": "0",
+            "formated name": "'mule [peut] transporter [objet] drogue'"
+        },
+        "173785353": {
+            "name": "::>66:228148>24:43404",
+            "w": "0",
+            "formated name": "'mule>animal [peut] porter'"
+        },
+        "173720710": {
+            "name": "::>66:16027678>24:173720708",
+            "w": "0",
+            "formated name": "'mule>animal>équidé [peut] transporter [endroit] sentier'"
+        },
+        "173720851": {
+            "name": "::>66:173720566>15:173720773",
+            "w": "0",
+            "formated name": "'mule>animal>équidé [peut] transporter [objet] matériel [lieu] sentier de montagne'"
+        },
+        "173720417": {
+            "name": "::>66:16027678>24:43404",
+            "w": "0",
+            "formated name": "'mule>animal>équidé [peut] porter'"
+        },
+        "138896947": {
+            "name": "::>66:65754>24:138896945",
+            "w": "0",
+            "formated name": "'mérou [peut] manger [objet] céphalopodes'"
+        },
+        "204827754": {
+            "name": "::>66:98300>24:2442",
+            "w": "0",
+            "formated name": "'famille [peut] vivre'"
+        },
+        "217726366": {
+            "name": "::>66:228148>24:14324425",
+            "w": "0",
+            "formated name": "'mule>animal [peut] brouter [objet] herbe'"
+        },
+        "61739769": {
+            "name": "renard à petites oreilles",
+            "w": "0",
+            "formated name": null
+        },
+        "138896944": {
+            "name": "::>66:65754>24:130164",
+            "w": "0",
+            "formated name": "'mérou [peut] manger'"
+        },
+        "191864688": {
+            "name": "::>66:125918>24:173720708",
+            "w": "0",
+            "formated name": "'mule [peut] transporter [endroit] sentier'"
+        },
+        "184260399": {
+            "name": "::>66:125918>24:44654",
+            "w": "0",
+            "formated name": "'mule [peut] transporter'"
+        },
+        "138897747": {
+            "name": "::>66:282208>24:138897600",
+            "w": "0",
+            "formated name": "'mérou brun [peut] manger [objet] bogues'"
+        },
+        "91837937": {
+            "name": "OpenCorporates",
+            "w": "0",
+            "formated name": null
+        },
+        "173785350": {
+            "name": "::>66:228148>24:44654",
+            "w": "0",
+            "formated name": "'mule>animal [peut] transporter'"
+        },
+        "217517920": {
+            "name": "::>66:16027678>24:14324425",
+            "w": "0",
+            "formated name": "'mule>animal>équidé [peut] brouter [objet] herbe'"
+        },
+        "48762505": {
+            "name": "oiseau maritime",
+            "w": "0",
+            "formated name": null
+        },
+        "191864689": {
+            "name": "::>66:125918>24:173720848",
+            "w": "0",
+            "formated name": "'mule [peut] transporter [endroit] sentier de montagne'"
+        },
+        "173785346": {
+            "name": "::>66:228148>24:173720926",
+            "w": "0",
+            "formated name": "'mule>animal [peut] transporter [endroit] chemin de montagne'"
+        },
+        "173785349": {
+            "name": "::>66:228148>24:14534783",
+            "w": "0",
+            "formated name": "'mule>animal [peut] transporter [objet] matériel'"
+        },
+        "173720418": {
+            "name": "::>66:16027678>24:112226109",
+            "w": "0",
+            "formated name": "'mule>animal>équidé [peut] porter [objet] matériel'"
+        },
+        "191864690": {
+            "name": "::>66:125918>24:173720926",
+            "w": "0",
+            "formated name": "'mule [peut] transporter [endroit] chemin de montagne'"
+        },
+        "144770": {
+            "name": "bardot",
+            "w": "52",
+            "formated name": null
+        },
+        "173785348": {
+            "name": "::>66:228148>24:173720708",
+            "w": "0",
+            "formated name": "'mule>animal [peut] transporter [endroit] sentier'"
+        },
+        "122821": {
+            "name": "poussin",
+            "w": "956",
+            "formated name": null
+        },
+        "390851": {
+            "name": "téléostomien",
+            "w": "52",
+            "formated name": null
+        },
+        "206308296": {
+            "name": "::>66:146323>24:206308294",
+            "w": "0",
+            "formated name": "'mouette [peut] survoler [objet] bateau'"
+        },
+        "191864686": {
+            "name": "::>66:125918>24:112226109",
+            "w": "0",
+            "formated name": "'mule [peut] porter [objet] matériel'"
+        },
+        "175939814": {
+            "name": "::>66:8319>24:130164",
+            "w": "0",
+            "formated name": "'renard [peut] manger'"
+        },
+        "59638": {
+            "name": "hippocampe",
+            "w": "64",
+            "formated name": null
+        },
+        "173785347": {
+            "name": "::>66:228148>24:173720848",
+            "w": "0",
+            "formated name": "'mule>animal [peut] transporter [endroit] sentier de montagne'"
+        },
+        "95914940": {
+            "name": "Système nerveux",
+            "w": "0",
+            "formated name": null
+        },
+        "265874": {
+            "name": "gnathostomes",
+            "w": "8",
+            "formated name": null
+        },
+        "191864687": {
+            "name": "::>66:125918>24:14534783",
+            "w": "0",
+            "formated name": "'mule [peut] transporter [objet] matériel'"
+        },
+        "101438254": {
+            "name": "Tube digestif",
+            "w": "0",
+            "formated name": null
+        },
+        "15324670": {
+            "name": "en:tractus gastro-intestinal",
+            "w": "0",
+            "formated name": null
+        },
+        "15047668": {
+            "name": "en:digestive tube",
+            "w": "0",
+            "formated name": null
+        },
+        "15324668": {
+            "name": "en:digestive canal",
+            "w": "0",
+            "formated name": null
+        },
+        "15047667": {
+            "name": "en:alimentary tract",
+            "w": "0",
+            "formated name": null
+        },
+        "9940395": {
+            "name": "en:intestinal tract",
+            "w": "0",
+            "formated name": null
+        },
+        "15054680": {
+            "name": "en:feed on",
+            "w": "0",
+            "formated name": null
+        },
+        "10314012": {
+            "name": "en:heterotroph",
+            "w": "0",
+            "formated name": null
+        },
+        "6947917": {
+            "name": "en:vertebrata",
+            "w": "0",
+            "formated name": null
+        },
+        "152471": {
+            "name": "canard colvert",
+            "w": "52",
+            "formated name": null
+        },
+        "222550": {
+            "name": "requin-baleine",
+            "w": "50",
+            "formated name": null
+        },
+        "150903": {
+            "name": "téléostome",
+            "w": "52",
+            "formated name": null
+        },
+        "14942852": {
+            "name": "en:orfe",
+            "w": "0",
+            "formated name": null
+        },
+        "14942850": {
+            "name": "en:ide",
+            "w": "0",
+            "formated name": null
+        },
+        "22262": {
+            "name": "solitaire",
+            "w": "1805",
+            "formated name": null
+        },
+        "1854036": {
+            "name": "vertebra",
+            "w": "0",
+            "formated name": null
+        },
+        "15324669": {
+            "name": "en:peptogaster",
+            "w": "0",
+            "formated name": null
+        },
+        "92504308": {
+            "name": "Acide désoxyribo-nucléique",
+            "w": "0",
+            "formated name": null
+        },
+        "98250167": {
+            "name": "Acide désoxyribonucléique",
+            "w": "0",
+            "formated name": null
+        },
+        "105051": {
+            "name": "col-vert",
+            "w": "50",
+            "formated name": null
+        },
+        "15104434": {
+            "name": "en:sea mew",
+            "w": "0",
+            "formated name": null
+        },
+        "32376738": {
+            "name": "en:seamew",
+            "w": "0",
+            "formated name": null
+        },
+        "15104433": {
+            "name": "en:mew gull",
+            "w": "0",
+            "formated name": null
+        },
+        "222283": {
+            "name": "colin>68467",
+            "w": "54",
+            "formated name": "'colin>poisson'"
+        },
+        "15504022": {
+            "name": "en:sea-gull",
+            "w": "0",
+            "formated name": null
+        },
+        "15450407": {
+            "name": "en:inflatable life raft",
+            "w": "0",
+            "formated name": null
+        },
+        "15138964": {
+            "name": "en:life raft",
+            "w": "0",
+            "formated name": null
+        },
+        "14958875": {
+            "name": "en:whale shark",
+            "w": "0",
+            "formated name": null
+        },
+        "46190832": {
+            "name": "Ide mélanote",
+            "w": "0",
+            "formated name": null
+        },
+        "15667949": {
+            "name": "Colvert",
+            "w": "0",
+            "formated name": null
+        },
+        "19701423": {
+            "name": "vireo",
+            "w": "0",
+            "formated name": null
+        },
+        "121223586": {
+            "name": "Canard colvert",
+            "w": "0",
+            "formated name": null
+        },
+        "178328174": {
+            "name": "Canard Colvert",
+            "w": "0",
+            "formated name": null
+        },
+        "74558": {
+            "name": "os",
+            "w": "3099",
+            "formated name": null
+        },
+        "14920526": {
+            "name": "en:digestive tract",
+            "w": "0",
+            "formated name": null
+        },
+        "674295": {
+            "name": "peau>146881",
+            "w": "0",
+            "formated name": "'peau>Nom:Fem+SG'"
+        },
+        "15047666": {
+            "name": "en:alimentary canal",
+            "w": "0",
+            "formated name": null
+        },
+        "63026": {
+            "name": "vertèbres",
+            "w": "122",
+            "formated name": null
+        },
+        "146111": {
+            "name": "Vertébrés",
+            "w": "52",
+            "formated name": null
+        },
+        "16878039": {
+            "name": "système national dinformation interrégimes de lassurance maladie (SNIIRAM)",
+            "w": "0",
+            "formated name": null
+        },
+        "6563930": {
+            "name": "aDN",
+            "w": "0",
+            "formated name": null
+        },
+        "6988": {
+            "name": "Mouette",
+            "w": "50",
+            "formated name": null
+        },
+        "14136082": {
+            "name": "orfe",
+            "w": "0",
+            "formated name": null
+        },
+        "16090441": {
+            "name": "Vertèbre",
+            "w": "0",
+            "formated name": null
+        },
+        "15050638": {
+            "name": "en:Vertebrata",
+            "w": "0",
+            "formated name": null
+        },
+        "96919": {
+            "name": "Lothaire II",
+            "w": "50",
+            "formated name": null
+        },
+        "10363495": {
+            "name": "Pierre Darquier",
+            "w": "0",
+            "formated name": null
+        }
+    },
+    "type_relation": {
+        "0": {
+            "trname": "r_associated",
+            "trgpname": "idÃ©e associÃ©e"
+        },
+        "3": {
+            "trname": "r_domain",
+            "trgpname": "domaine"
+        },
+        "4": {
+            "trname": "r_pos",
+            "trgpname": "POS"
+        },
+        "5": {
+            "trname": "r_syn",
+            "trgpname": "synonyme"
+        },
+        "6": {
+            "trname": "r_isa",
+            "trgpname": "gÃ©nÃ©rique"
+        },
+        "9": {
+            "trname": "r_has_part",
+            "trgpname": "partie"
+        },
+        "10": {
+            "trname": "r_holo",
+            "trgpname": "tout"
+        },
+        "11": {
+            "trname": "r_locution",
+            "trgpname": "locution"
+        },
+        "13": {
+            "trname": "r_agent",
+            "trgpname": "action>agent"
+        },
+        "17": {
+            "trname": "r_carac",
+            "trgpname": "caractÃ©ristique"
+        },
+        "18": {
+            "trname": "r_data",
+            "trgpname": "r_data"
+        },
+        "19": {
+            "trname": "r_lemma",
+            "trgpname": "r_lemma"
+        },
+        "23": {
+            "trname": "r_carac-1",
+            "trgpname": "caractÃ©ristique-1"
+        },
+        "24": {
+            "trname": "r_agent-1",
+            "trgpname": "agent typique-1"
+        },
+        "27": {
+            "trname": "r_domain-1",
+            "trgpname": "domaine-1"
+        },
+        "36": {
+            "trname": "r_infopot",
+            "trgpname": "information potentielle"
+        },
+        "128": {
+            "trname": "r_node2relnode-in",
+            "trgpname": "r_node2relnode-in"
+        },
+        "140": {
+            "trname": "r_node2relnode-out",
+            "trgpname": "r_node2relnode-out"
+        }
+    },
+    "relation": {
+        "423953807": {
+            "node1": 16168824,
+            "node2": 16168983,
+            "type": 128,
+            "w": 293,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423953652": {
+            "node1": 16168824,
+            "node2": 16168950,
+            "type": 128,
+            "w": 255,
+            "wnormed": 0.87,
+            "rank": 2
+        },
+        "423945816": {
+            "node1": 16168824,
+            "node2": 254877,
+            "type": 36,
+            "w": 104,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423945641": {
+            "node1": 16168824,
+            "node2": 398564,
+            "type": 9,
+            "w": 94,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423945728": {
+            "node1": 16168824,
+            "node2": 86640,
+            "type": 6,
+            "w": 85,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423965855": {
+            "node1": 16168824,
+            "node2": 116980,
+            "type": 0,
+            "w": 61,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423965856": {
+            "node1": 16168824,
+            "node2": 101018,
+            "type": 0,
+            "w": 61,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423945640": {
+            "node1": 16168824,
+            "node2": 101018,
+            "type": 5,
+            "w": 60,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423945732": {
+            "node1": 16168824,
+            "node2": 398564,
+            "type": 0,
+            "w": 59,
+            "wnormed": 0.967,
+            "rank": 2
+        },
+        "423965219": {
+            "node1": 16168824,
+            "node2": 13115,
+            "type": 0,
+            "w": 55,
+            "wnormed": 0.902,
+            "rank": 3
+        },
+        "423965220": {
+            "node1": 16168824,
+            "node2": 222595,
+            "type": 0,
+            "w": 55,
+            "wnormed": 0.902,
+            "rank": 3
+        },
+        "423945733": {
+            "node1": 16168824,
+            "node2": 2585997,
+            "type": 36,
+            "w": 55,
+            "wnormed": 0.529,
+            "rank": 2
+        },
+        "423945730": {
+            "node1": 16168824,
+            "node2": 86640,
+            "type": 0,
+            "w": 51,
+            "wnormed": 0.836,
+            "rank": 4
+        },
+        "423965857": {
+            "node1": 16168824,
+            "node2": 19058,
+            "type": 0,
+            "w": 51,
+            "wnormed": 0.836,
+            "rank": 4
+        },
+        "423965858": {
+            "node1": 16168824,
+            "node2": 57901,
+            "type": 0,
+            "w": 51,
+            "wnormed": 0.836,
+            "rank": 4
+        },
+        "423965859": {
+            "node1": 16168824,
+            "node2": 60902,
+            "type": 0,
+            "w": 51,
+            "wnormed": 0.836,
+            "rank": 4
+        },
+        "423965860": {
+            "node1": 16168824,
+            "node2": 58370,
+            "type": 0,
+            "w": 51,
+            "wnormed": 0.836,
+            "rank": 4
+        },
+        "423965861": {
+            "node1": 16168824,
+            "node2": 37247,
+            "type": 0,
+            "w": 51,
+            "wnormed": 0.836,
+            "rank": 4
+        },
+        "423965862": {
+            "node1": 16168824,
+            "node2": 220461,
+            "type": 0,
+            "w": 51,
+            "wnormed": 0.836,
+            "rank": 4
+        },
+        "453533596": {
+            "node1": 16168824,
+            "node2": 17046520,
+            "type": 128,
+            "w": 45,
+            "wnormed": 0.154,
+            "rank": 3
+        },
+        "423945726": {
+            "node1": 16168824,
+            "node2": 2586627,
+            "type": 4,
+            "w": 43,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423964017": {
+            "node1": 16168824,
+            "node2": 14049840,
+            "type": 6,
+            "w": 43,
+            "wnormed": 0.506,
+            "rank": 2
+        },
+        "605787278": {
+            "node1": 16168824,
+            "node2": 145816,
+            "type": 0,
+            "w": 42,
+            "wnormed": 0.689,
+            "rank": 5
+        },
+        "600852227": {
+            "node1": 16168824,
+            "node2": 14918011,
+            "type": 9,
+            "w": 42,
+            "wnormed": 0.447,
+            "rank": 2
+        },
+        "423964021": {
+            "node1": 16168824,
+            "node2": 142602,
+            "type": 6,
+            "w": 41,
+            "wnormed": 0.482,
+            "rank": 3
+        },
+        "423953562": {
+            "node1": 16168824,
+            "node2": 16168935,
+            "type": 128,
+            "w": 41,
+            "wnormed": 0.14,
+            "rank": 4
+        },
+        "423945727": {
+            "node1": 16168824,
+            "node2": 171870,
+            "type": 4,
+            "w": 40,
+            "wnormed": 0.93,
+            "rank": 2
+        },
+        "561227247": {
+            "node1": 16168824,
+            "node2": 73126,
+            "type": 0,
+            "w": 37,
+            "wnormed": 0.607,
+            "rank": 6
+        },
+        "423964106": {
+            "node1": 16168824,
+            "node2": 17559,
+            "type": 0,
+            "w": 36,
+            "wnormed": 0.59,
+            "rank": 7
+        },
+        "423964107": {
+            "node1": 16168824,
+            "node2": 117095,
+            "type": 0,
+            "w": 36,
+            "wnormed": 0.59,
+            "rank": 7
+        },
+        "423945637": {
+            "node1": 16168824,
+            "node2": 64513,
+            "type": 24,
+            "w": 36,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "619260820": {
+            "node1": 16168824,
+            "node2": 220835,
+            "type": 0,
+            "w": 35,
+            "wnormed": 0.574,
+            "rank": 8
+        },
+        "423945725": {
+            "node1": 16168824,
+            "node2": 2586629,
+            "type": 4,
+            "w": 35,
+            "wnormed": 0.814,
+            "rank": 3
+        },
+        "423953546": {
+            "node1": 16168824,
+            "node2": 16168931,
+            "type": 128,
+            "w": 35,
+            "wnormed": 0.119,
+            "rank": 5
+        },
+        "423953554": {
+            "node1": 16168824,
+            "node2": 16168933,
+            "type": 128,
+            "w": 35,
+            "wnormed": 0.119,
+            "rank": 5
+        },
+        "423953558": {
+            "node1": 16168824,
+            "node2": 16168934,
+            "type": 128,
+            "w": 35,
+            "wnormed": 0.119,
+            "rank": 5
+        },
+        "619260793": {
+            "node1": 16168824,
+            "node2": 71499,
+            "type": 0,
+            "w": 34,
+            "wnormed": 0.557,
+            "rank": 9
+        },
+        "423963934": {
+            "node1": 16168824,
+            "node2": 14940408,
+            "type": 5,
+            "w": 34,
+            "wnormed": 0.567,
+            "rank": 2
+        },
+        "423964020": {
+            "node1": 16168824,
+            "node2": 267642,
+            "type": 6,
+            "w": 34,
+            "wnormed": 0.4,
+            "rank": 4
+        },
+        "423953488": {
+            "node1": 16168824,
+            "node2": 191669,
+            "type": 36,
+            "w": 34,
+            "wnormed": 0.327,
+            "rank": 3
+        },
+        "579120591": {
+            "node1": 16168824,
+            "node2": 194062,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "579120847": {
+            "node1": 16168824,
+            "node2": 194166,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "579120848": {
+            "node1": 16168824,
+            "node2": 194168,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "579121234": {
+            "node1": 16168824,
+            "node2": 194294,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "605787255": {
+            "node1": 16168824,
+            "node2": 168216,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "605787274": {
+            "node1": 16168824,
+            "node2": 162007,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "605787275": {
+            "node1": 16168824,
+            "node2": 102661,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "605787285": {
+            "node1": 16168824,
+            "node2": 25635,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "605787298": {
+            "node1": 16168824,
+            "node2": 168290,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "619260778": {
+            "node1": 16168824,
+            "node2": 77762,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "619260787": {
+            "node1": 16168824,
+            "node2": 168301,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "619260812": {
+            "node1": 16168824,
+            "node2": 191550,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "619260813": {
+            "node1": 16168824,
+            "node2": 214689,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "619260814": {
+            "node1": 16168824,
+            "node2": 219445,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "619260821": {
+            "node1": 16168824,
+            "node2": 220850,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "619260822": {
+            "node1": 16168824,
+            "node2": 220859,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "619260823": {
+            "node1": 16168824,
+            "node2": 151745,
+            "type": 0,
+            "w": 32,
+            "wnormed": 0.525,
+            "rank": 10
+        },
+        "423964019": {
+            "node1": 16168824,
+            "node2": 14049831,
+            "type": 6,
+            "w": 32,
+            "wnormed": 0.376,
+            "rank": 5
+        },
+        "479708893": {
+            "node1": 16168824,
+            "node2": 1655534,
+            "type": 6,
+            "w": 32,
+            "wnormed": 0.376,
+            "rank": 5
+        },
+        "604998115": {
+            "node1": 16168824,
+            "node2": 12791689,
+            "type": 9,
+            "w": 32,
+            "wnormed": 0.34,
+            "rank": 3
+        },
+        "561227245": {
+            "node1": 16168824,
+            "node2": 56105,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "561227246": {
+            "node1": 16168824,
+            "node2": 133921,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120581": {
+            "node1": 16168824,
+            "node2": 193958,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120582": {
+            "node1": 16168824,
+            "node2": 193966,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120583": {
+            "node1": 16168824,
+            "node2": 193988,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120584": {
+            "node1": 16168824,
+            "node2": 114818,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120585": {
+            "node1": 16168824,
+            "node2": 194002,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120586": {
+            "node1": 16168824,
+            "node2": 194032,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120587": {
+            "node1": 16168824,
+            "node2": 194053,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120588": {
+            "node1": 16168824,
+            "node2": 194057,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120589": {
+            "node1": 16168824,
+            "node2": 194059,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120590": {
+            "node1": 16168824,
+            "node2": 194060,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120592": {
+            "node1": 16168824,
+            "node2": 194063,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120593": {
+            "node1": 16168824,
+            "node2": 194073,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120601": {
+            "node1": 16168824,
+            "node2": 194078,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120620": {
+            "node1": 16168824,
+            "node2": 95857,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120625": {
+            "node1": 16168824,
+            "node2": 194090,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120626": {
+            "node1": 16168824,
+            "node2": 194100,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120631": {
+            "node1": 16168824,
+            "node2": 194101,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120639": {
+            "node1": 16168824,
+            "node2": 194111,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120718": {
+            "node1": 16168824,
+            "node2": 194114,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120777": {
+            "node1": 16168824,
+            "node2": 194124,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120791": {
+            "node1": 16168824,
+            "node2": 194127,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120845": {
+            "node1": 16168824,
+            "node2": 194134,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120846": {
+            "node1": 16168824,
+            "node2": 194145,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120849": {
+            "node1": 16168824,
+            "node2": 168074,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120859": {
+            "node1": 16168824,
+            "node2": 194209,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579120938": {
+            "node1": 16168824,
+            "node2": 194217,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121012": {
+            "node1": 16168824,
+            "node2": 194228,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121054": {
+            "node1": 16168824,
+            "node2": 194237,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121068": {
+            "node1": 16168824,
+            "node2": 194241,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121074": {
+            "node1": 16168824,
+            "node2": 194251,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121075": {
+            "node1": 16168824,
+            "node2": 34775,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121076": {
+            "node1": 16168824,
+            "node2": 194264,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121077": {
+            "node1": 16168824,
+            "node2": 194266,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121085": {
+            "node1": 16168824,
+            "node2": 194272,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121104": {
+            "node1": 16168824,
+            "node2": 194279,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121174": {
+            "node1": 16168824,
+            "node2": 194281,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121224": {
+            "node1": 16168824,
+            "node2": 194282,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121225": {
+            "node1": 16168824,
+            "node2": 194287,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121226": {
+            "node1": 16168824,
+            "node2": 194290,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121240": {
+            "node1": 16168824,
+            "node2": 194297,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121246": {
+            "node1": 16168824,
+            "node2": 194312,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121252": {
+            "node1": 16168824,
+            "node2": 194324,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121263": {
+            "node1": 16168824,
+            "node2": 194330,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121291": {
+            "node1": 16168824,
+            "node2": 194334,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "579121307": {
+            "node1": 16168824,
+            "node2": 194339,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787253": {
+            "node1": 16168824,
+            "node2": 151558,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787254": {
+            "node1": 16168824,
+            "node2": 15295,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787256": {
+            "node1": 16168824,
+            "node2": 168215,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787257": {
+            "node1": 16168824,
+            "node2": 72813,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787258": {
+            "node1": 16168824,
+            "node2": 45320,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787259": {
+            "node1": 16168824,
+            "node2": 168227,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787260": {
+            "node1": 16168824,
+            "node2": 20337,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787261": {
+            "node1": 16168824,
+            "node2": 168248,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787262": {
+            "node1": 16168824,
+            "node2": 76637,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787263": {
+            "node1": 16168824,
+            "node2": 86069,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787264": {
+            "node1": 16168824,
+            "node2": 168269,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787265": {
+            "node1": 16168824,
+            "node2": 64017,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787266": {
+            "node1": 16168824,
+            "node2": 134455,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787267": {
+            "node1": 16168824,
+            "node2": 11408,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787268": {
+            "node1": 16168824,
+            "node2": 33665,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787269": {
+            "node1": 16168824,
+            "node2": 40428,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787270": {
+            "node1": 16168824,
+            "node2": 81372,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787271": {
+            "node1": 16168824,
+            "node2": 57212,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787272": {
+            "node1": 16168824,
+            "node2": 168205,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787273": {
+            "node1": 16168824,
+            "node2": 52943,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787276": {
+            "node1": 16168824,
+            "node2": 168229,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787277": {
+            "node1": 16168824,
+            "node2": 32529,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787279": {
+            "node1": 16168824,
+            "node2": 128845,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787280": {
+            "node1": 16168824,
+            "node2": 81105,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787281": {
+            "node1": 16168824,
+            "node2": 168241,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787282": {
+            "node1": 16168824,
+            "node2": 168245,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787283": {
+            "node1": 16168824,
+            "node2": 5762,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787284": {
+            "node1": 16168824,
+            "node2": 180264,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787286": {
+            "node1": 16168824,
+            "node2": 68038,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787287": {
+            "node1": 16168824,
+            "node2": 79727,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787288": {
+            "node1": 16168824,
+            "node2": 51393,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787289": {
+            "node1": 16168824,
+            "node2": 168277,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787290": {
+            "node1": 16168824,
+            "node2": 32193,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787291": {
+            "node1": 16168824,
+            "node2": 70204,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787292": {
+            "node1": 16168824,
+            "node2": 127523,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787293": {
+            "node1": 16168824,
+            "node2": 106765,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787294": {
+            "node1": 16168824,
+            "node2": 168284,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787295": {
+            "node1": 16168824,
+            "node2": 60851,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787296": {
+            "node1": 16168824,
+            "node2": 168288,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787297": {
+            "node1": 16168824,
+            "node2": 168289,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787299": {
+            "node1": 16168824,
+            "node2": 49652,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787300": {
+            "node1": 16168824,
+            "node2": 122941,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787301": {
+            "node1": 16168824,
+            "node2": 168303,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "605787302": {
+            "node1": 16168824,
+            "node2": 168316,
+            "type": 0,
+            "w": 31,
+            "wnormed": 0.508,
+            "rank": 11
+        },
+        "423964023": {
+            "node1": 16168824,
+            "node2": 325728,
+            "type": 6,
+            "w": 31,
+            "wnormed": 0.365,
+            "rank": 6
+        },
+        "423953550": {
+            "node1": 16168824,
+            "node2": 16168932,
+            "type": 128,
+            "w": 31,
+            "wnormed": 0.106,
+            "rank": 6
+        },
+        "423953492": {
+            "node1": 16168824,
+            "node2": 117095,
+            "type": 3,
+            "w": 30,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423963935": {
+            "node1": 16168824,
+            "node2": 14049844,
+            "type": 6,
+            "w": 30,
+            "wnormed": 0.353,
+            "rank": 7
+        },
+        "423953489": {
+            "node1": 16168824,
+            "node2": 259820,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "423953491": {
+            "node1": 16168824,
+            "node2": 2442,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "423953495": {
+            "node1": 16168824,
+            "node2": 43601,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "423953501": {
+            "node1": 16168824,
+            "node2": 251694,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "423953502": {
+            "node1": 16168824,
+            "node2": 124600,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "423953505": {
+            "node1": 16168824,
+            "node2": 43253,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "423953509": {
+            "node1": 16168824,
+            "node2": 47918,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "423953526": {
+            "node1": 16168824,
+            "node2": 130164,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "423953542": {
+            "node1": 16168824,
+            "node2": 33882,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "519105284": {
+            "node1": 16168824,
+            "node2": 15441861,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "591691234": {
+            "node1": 16168824,
+            "node2": 137288,
+            "type": 24,
+            "w": 30,
+            "wnormed": 0.833,
+            "rank": 2
+        },
+        "423945724": {
+            "node1": 16168824,
+            "node2": 146885,
+            "type": 4,
+            "w": 29,
+            "wnormed": 0.674,
+            "rank": 4
+        },
+        "479150485": {
+            "node1": 16168824,
+            "node2": 11008328,
+            "type": 9,
+            "w": 29,
+            "wnormed": 0.309,
+            "rank": 4
+        },
+        "603503873": {
+            "node1": 16168824,
+            "node2": 14917526,
+            "type": 9,
+            "w": 29,
+            "wnormed": 0.309,
+            "rank": 4
+        },
+        "636156037": {
+            "node1": 16168824,
+            "node2": 364788,
+            "type": 10,
+            "w": 29,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "636172560": {
+            "node1": 16168824,
+            "node2": 218905,
+            "type": 10,
+            "w": 29,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "593124773": {
+            "node1": 16168824,
+            "node2": 16168824,
+            "type": 19,
+            "w": 29,
+            "wnormed": null,
+            "rank": null
+        },
+        "423964018": {
+            "node1": 16168824,
+            "node2": 2461482,
+            "type": 6,
+            "w": 28,
+            "wnormed": 0.329,
+            "rank": 8
+        },
+        "453513066": {
+            "node1": 16168824,
+            "node2": 6800353,
+            "type": 9,
+            "w": 28,
+            "wnormed": 0.298,
+            "rank": 5
+        },
+        "515972257": {
+            "node1": 16168824,
+            "node2": 3575927,
+            "type": 18,
+            "w": 27,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "424963162": {
+            "node1": 16168824,
+            "node2": 247057,
+            "type": 0,
+            "w": 26,
+            "wnormed": 0.426,
+            "rank": 12
+        },
+        "423953493": {
+            "node1": 16168824,
+            "node2": 143669,
+            "type": 3,
+            "w": 26,
+            "wnormed": 0.867,
+            "rank": 2
+        },
+        "423953480": {
+            "node1": 16168824,
+            "node2": 17559,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953481": {
+            "node1": 16168824,
+            "node2": 330964,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953482": {
+            "node1": 16168824,
+            "node2": 233133,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953494": {
+            "node1": 16168824,
+            "node2": 325741,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953496": {
+            "node1": 16168824,
+            "node2": 325738,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953504": {
+            "node1": 16168824,
+            "node2": 55823,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953510": {
+            "node1": 16168824,
+            "node2": 260820,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953512": {
+            "node1": 16168824,
+            "node2": 54794,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953514": {
+            "node1": 16168824,
+            "node2": 265277,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953515": {
+            "node1": 16168824,
+            "node2": 264881,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953517": {
+            "node1": 16168824,
+            "node2": 101689,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953518": {
+            "node1": 16168824,
+            "node2": 329657,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953519": {
+            "node1": 16168824,
+            "node2": 265220,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953520": {
+            "node1": 16168824,
+            "node2": 65081,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953523": {
+            "node1": 16168824,
+            "node2": 71624,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953528": {
+            "node1": 16168824,
+            "node2": 225847,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953531": {
+            "node1": 16168824,
+            "node2": 237445,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953533": {
+            "node1": 16168824,
+            "node2": 436570,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953535": {
+            "node1": 16168824,
+            "node2": 317929,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953537": {
+            "node1": 16168824,
+            "node2": 248081,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953538": {
+            "node1": 16168824,
+            "node2": 325736,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953541": {
+            "node1": 16168824,
+            "node2": 115304,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423964022": {
+            "node1": 16168824,
+            "node2": 264908,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "424909746": {
+            "node1": 16168824,
+            "node2": 264880,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "424914465": {
+            "node1": 16168824,
+            "node2": 316850,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "424914529": {
+            "node1": 16168824,
+            "node2": 325731,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "424918753": {
+            "node1": 16168824,
+            "node2": 234036,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "479749293": {
+            "node1": 16168824,
+            "node2": 391009,
+            "type": 6,
+            "w": 26,
+            "wnormed": 0.306,
+            "rank": 9
+        },
+        "423953483": {
+            "node1": 16168824,
+            "node2": 74846,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953485": {
+            "node1": 16168824,
+            "node2": 225934,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953490": {
+            "node1": 16168824,
+            "node2": 390927,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953498": {
+            "node1": 16168824,
+            "node2": 219363,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953499": {
+            "node1": 16168824,
+            "node2": 126285,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953500": {
+            "node1": 16168824,
+            "node2": 103311,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953503": {
+            "node1": 16168824,
+            "node2": 144846,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953506": {
+            "node1": 16168824,
+            "node2": 126388,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953507": {
+            "node1": 16168824,
+            "node2": 16747,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953508": {
+            "node1": 16168824,
+            "node2": 139779,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953511": {
+            "node1": 16168824,
+            "node2": 116980,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953513": {
+            "node1": 16168824,
+            "node2": 141814,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953521": {
+            "node1": 16168824,
+            "node2": 83944,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953522": {
+            "node1": 16168824,
+            "node2": 240720,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953525": {
+            "node1": 16168824,
+            "node2": 77008,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953529": {
+            "node1": 16168824,
+            "node2": 241352,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953530": {
+            "node1": 16168824,
+            "node2": 109785,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953532": {
+            "node1": 16168824,
+            "node2": 47319,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953534": {
+            "node1": 16168824,
+            "node2": 213644,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953536": {
+            "node1": 16168824,
+            "node2": 114327,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953539": {
+            "node1": 16168824,
+            "node2": 108463,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953540": {
+            "node1": 16168824,
+            "node2": 77424,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953543": {
+            "node1": 16168824,
+            "node2": 96211,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "424916443": {
+            "node1": 16168824,
+            "node2": 57875,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "424917513": {
+            "node1": 16168824,
+            "node2": 326146,
+            "type": 9,
+            "w": 26,
+            "wnormed": 0.277,
+            "rank": 6
+        },
+        "423953484": {
+            "node1": 16168824,
+            "node2": 120157,
+            "type": 10,
+            "w": 26,
+            "wnormed": 0.897,
+            "rank": 2
+        },
+        "423953527": {
+            "node1": 16168824,
+            "node2": 36886,
+            "type": 10,
+            "w": 26,
+            "wnormed": 0.897,
+            "rank": 2
+        },
+        "423953497": {
+            "node1": 16168824,
+            "node2": 1384,
+            "type": 17,
+            "w": 26,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423953516": {
+            "node1": 16168824,
+            "node2": 99220,
+            "type": 17,
+            "w": 26,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "423953524": {
+            "node1": 16168824,
+            "node2": 122864,
+            "type": 17,
+            "w": 26,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "425278175": {
+            "node1": 16168824,
+            "node2": 330215,
+            "type": 17,
+            "w": 26,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "502985832": {
+            "node1": 16168824,
+            "node2": 317329,
+            "type": 36,
+            "w": 26,
+            "wnormed": 0.25,
+            "rank": 4
+        },
+        "635390585": {
+            "node1": 16168824,
+            "node2": 15088586,
+            "type": 9,
+            "w": 25,
+            "wnormed": 0.266,
+            "rank": 7
+        },
+        "709635178": {
+            "node1": 16168824,
+            "node2": 6935846,
+            "type": 9,
+            "w": 25,
+            "wnormed": 0.266,
+            "rank": 7
+        },
+        "709789481": {
+            "node1": 16168824,
+            "node2": 15297314,
+            "type": 9,
+            "w": 25,
+            "wnormed": 0.266,
+            "rank": 7
+        },
+        "423953566": {
+            "node1": 16168824,
+            "node2": 16168936,
+            "type": 128,
+            "w": 23,
+            "wnormed": 0.078,
+            "rank": 7
+        },
+        "489091488": {
+            "node1": 16168824,
+            "node2": 25700992,
+            "type": 128,
+            "w": 15,
+            "wnormed": 0.051,
+            "rank": 8
+        },
+        "632249795": {
+            "node1": 16168824,
+            "node2": 143669,
+            "type": 0,
+            "w": 6,
+            "wnormed": 0.098,
+            "rank": 13
+        },
+        "429262586": {
+            "node1": 16168824,
+            "node2": 14940408,
+            "type": 0,
+            "w": 5,
+            "wnormed": 0.082,
+            "rank": 14
+        },
+        "423945645": {
+            "node1": 16168824,
+            "node2": 16168825,
+            "type": 128,
+            "w": 5,
+            "wnormed": 0.017,
+            "rank": 9
+        },
+        "423953570": {
+            "node1": 16168824,
+            "node2": 16168937,
+            "type": 128,
+            "w": 5,
+            "wnormed": 0.017,
+            "rank": 9
+        },
+        "423953621": {
+            "node1": 16168824,
+            "node2": 16168943,
+            "type": 128,
+            "w": 5,
+            "wnormed": 0.017,
+            "rank": 9
+        },
+        "423953625": {
+            "node1": 16168824,
+            "node2": 16168944,
+            "type": 128,
+            "w": 5,
+            "wnormed": 0.017,
+            "rank": 9
+        },
+        "423953630": {
+            "node1": 16168824,
+            "node2": 16168945,
+            "type": 128,
+            "w": 5,
+            "wnormed": 0.017,
+            "rank": 9
+        },
+        "423953634": {
+            "node1": 16168824,
+            "node2": 16168946,
+            "type": 128,
+            "w": 5,
+            "wnormed": 0.017,
+            "rank": 9
+        },
+        "561525131": {
+            "node1": 16168824,
+            "node2": 180530800,
+            "type": 140,
+            "w": 5,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "627112697": {
+            "node1": 16168824,
+            "node2": 238341217,
+            "type": 140,
+            "w": 4,
+            "wnormed": 0.8,
+            "rank": 2
+        },
+        "634003738": {
+            "node1": 16168824,
+            "node2": 241190717,
+            "type": 140,
+            "w": 4,
+            "wnormed": 0.8,
+            "rank": 2
+        },
+        "427906521": {
+            "node1": 16168824,
+            "node2": 264880,
+            "type": 0,
+            "w": 3,
+            "wnormed": 0.049,
+            "rank": 15
+        },
+        "427912098": {
+            "node1": 16168824,
+            "node2": 142602,
+            "type": 0,
+            "w": 3,
+            "wnormed": 0.049,
+            "rank": 15
+        },
+        "423953613": {
+            "node1": 16168824,
+            "node2": 16168941,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953617": {
+            "node1": 16168824,
+            "node2": 16168942,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953640": {
+            "node1": 16168824,
+            "node2": 16168947,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953644": {
+            "node1": 16168824,
+            "node2": 16168948,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953648": {
+            "node1": 16168824,
+            "node2": 16168949,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953656": {
+            "node1": 16168824,
+            "node2": 16168951,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953660": {
+            "node1": 16168824,
+            "node2": 16168952,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953664": {
+            "node1": 16168824,
+            "node2": 16168953,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953668": {
+            "node1": 16168824,
+            "node2": 16168954,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953672": {
+            "node1": 16168824,
+            "node2": 16168955,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "423953732": {
+            "node1": 16168824,
+            "node2": 16168968,
+            "type": 128,
+            "w": 3,
+            "wnormed": 0.01,
+            "rank": 10
+        },
+        "675666589": {
+            "node1": 16168824,
+            "node2": 274384499,
+            "type": 140,
+            "w": 3,
+            "wnormed": 0.6,
+            "rank": 3
+        },
+        "427903504": {
+            "node1": 16168824,
+            "node2": 234036,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427904516": {
+            "node1": 16168824,
+            "node2": 325731,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427904599": {
+            "node1": 16168824,
+            "node2": 316850,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912094": {
+            "node1": 16168824,
+            "node2": 325728,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912096": {
+            "node1": 16168824,
+            "node2": 264908,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912100": {
+            "node1": 16168824,
+            "node2": 267642,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912106": {
+            "node1": 16168824,
+            "node2": 14049840,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912111": {
+            "node1": 16168824,
+            "node2": 317929,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912113": {
+            "node1": 16168824,
+            "node2": 248081,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912115": {
+            "node1": 16168824,
+            "node2": 325736,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912117": {
+            "node1": 16168824,
+            "node2": 115304,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912120": {
+            "node1": 16168824,
+            "node2": 330964,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912122": {
+            "node1": 16168824,
+            "node2": 233133,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912124": {
+            "node1": 16168824,
+            "node2": 325741,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912126": {
+            "node1": 16168824,
+            "node2": 325738,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912128": {
+            "node1": 16168824,
+            "node2": 55823,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912131": {
+            "node1": 16168824,
+            "node2": 54794,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912133": {
+            "node1": 16168824,
+            "node2": 265277,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912135": {
+            "node1": 16168824,
+            "node2": 264881,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912138": {
+            "node1": 16168824,
+            "node2": 329657,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "427912140": {
+            "node1": 16168824,
+            "node2": 265220,
+            "type": 0,
+            "w": 2,
+            "wnormed": 0.033,
+            "rank": 16
+        },
+        "697294435": {
+            "node1": 16168824,
+            "node2": 94230902,
+            "type": 9,
+            "w": 2,
+            "wnormed": 0.021,
+            "rank": 8
+        },
+        "557081131": {
+            "node1": 16168824,
+            "node2": 171115637,
+            "type": 140,
+            "w": 2,
+            "wnormed": 0.4,
+            "rank": 4
+        },
+        "559116198": {
+            "node1": 16168824,
+            "node2": 175782460,
+            "type": 140,
+            "w": 2,
+            "wnormed": 0.4,
+            "rank": 4
+        },
+        "618099124": {
+            "node1": 16168824,
+            "node2": 231677537,
+            "type": 140,
+            "w": 2,
+            "wnormed": 0.4,
+            "rank": 4
+        },
+        "427912102": {
+            "node1": 16168824,
+            "node2": 14049831,
+            "type": 0,
+            "w": 1,
+            "wnormed": 0.016,
+            "rank": 17
+        },
+        "427912104": {
+            "node1": 16168824,
+            "node2": 2461482,
+            "type": 0,
+            "w": 1,
+            "wnormed": 0.016,
+            "rank": 17
+        },
+        "427912108": {
+            "node1": 16168824,
+            "node2": 14049844,
+            "type": 0,
+            "w": 1,
+            "wnormed": 0.016,
+            "rank": 17
+        },
+        "423945815": {
+            "node1": 16168824,
+            "node2": 241794,
+            "type": 36,
+            "w": 1,
+            "wnormed": 0.01,
+            "rank": 5
+        },
+        "423953676": {
+            "node1": 16168824,
+            "node2": 16168956,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953681": {
+            "node1": 16168824,
+            "node2": 16168957,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953685": {
+            "node1": 16168824,
+            "node2": 16168958,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953689": {
+            "node1": 16168824,
+            "node2": 16168959,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953694": {
+            "node1": 16168824,
+            "node2": 16168960,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953698": {
+            "node1": 16168824,
+            "node2": 16168961,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953702": {
+            "node1": 16168824,
+            "node2": 16168962,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953706": {
+            "node1": 16168824,
+            "node2": 16168963,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953710": {
+            "node1": 16168824,
+            "node2": 16168964,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953715": {
+            "node1": 16168824,
+            "node2": 16168965,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953723": {
+            "node1": 16168824,
+            "node2": 16168966,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953727": {
+            "node1": 16168824,
+            "node2": 16168967,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953737": {
+            "node1": 16168824,
+            "node2": 16168969,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953743": {
+            "node1": 16168824,
+            "node2": 16168970,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953747": {
+            "node1": 16168824,
+            "node2": 16168971,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953753": {
+            "node1": 16168824,
+            "node2": 16168972,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953757": {
+            "node1": 16168824,
+            "node2": 16168973,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953761": {
+            "node1": 16168824,
+            "node2": 16168974,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953766": {
+            "node1": 16168824,
+            "node2": 16168975,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953770": {
+            "node1": 16168824,
+            "node2": 16168976,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953775": {
+            "node1": 16168824,
+            "node2": 16168977,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953780": {
+            "node1": 16168824,
+            "node2": 16168978,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953788": {
+            "node1": 16168824,
+            "node2": 16168979,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953792": {
+            "node1": 16168824,
+            "node2": 16168980,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953798": {
+            "node1": 16168824,
+            "node2": 16168981,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953803": {
+            "node1": 16168824,
+            "node2": 16168982,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953813": {
+            "node1": 16168824,
+            "node2": 16168984,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953817": {
+            "node1": 16168824,
+            "node2": 16168985,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953821": {
+            "node1": 16168824,
+            "node2": 16168986,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953825": {
+            "node1": 16168824,
+            "node2": 16168987,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953829": {
+            "node1": 16168824,
+            "node2": 16168988,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953834": {
+            "node1": 16168824,
+            "node2": 16168989,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953839": {
+            "node1": 16168824,
+            "node2": 16168990,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953844": {
+            "node1": 16168824,
+            "node2": 16168991,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953848": {
+            "node1": 16168824,
+            "node2": 16168992,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "423953853": {
+            "node1": 16168824,
+            "node2": 16168993,
+            "type": 128,
+            "w": 1,
+            "wnormed": 0.003,
+            "rank": 11
+        },
+        "558800220": {
+            "node1": 16168824,
+            "node2": 175403938,
+            "type": 140,
+            "w": 1,
+            "wnormed": 0.2,
+            "rank": 5
+        },
+        "561022572": {
+            "node1": 16168824,
+            "node2": 179446191,
+            "type": 140,
+            "w": 1,
+            "wnormed": 0.2,
+            "rank": 5
+        },
+        "636216360": {
+            "node1": 16168824,
+            "node2": 243330431,
+            "type": 140,
+            "w": 1,
+            "wnormed": 0.2,
+            "rank": 5
+        },
+        "478849293": {
+            "node1": 16168824,
+            "node2": 152125,
+            "type": 3,
+            "w": -31,
+            "wnormed": -1.033,
+            "rank": 3
+        },
+        "543177805": {
+            "node1": 4455,
+            "node2": 16168824,
+            "type": 6,
+            "w": 980,
+            "wnormed": null,
+            "rank": null
+        },
+        "543155329": {
+            "node1": 150,
+            "node2": 16168824,
+            "type": 6,
+            "w": 696,
+            "wnormed": null,
+            "rank": null
+        },
+        "568380546": {
+            "node1": 68467,
+            "node2": 16168824,
+            "type": 6,
+            "w": 411,
+            "wnormed": null,
+            "rank": null
+        },
+        "547155063": {
+            "node1": 7710037,
+            "node2": 16168824,
+            "type": 6,
+            "w": 247,
+            "wnormed": null,
+            "rank": null
+        },
+        "578521791": {
+            "node1": 91794,
+            "node2": 16168824,
+            "type": 6,
+            "w": 238,
+            "wnormed": null,
+            "rank": null
+        },
+        "569255749": {
+            "node1": 74203,
+            "node2": 16168824,
+            "type": 6,
+            "w": 233,
+            "wnormed": null,
+            "rank": null
+        },
+        "542159408": {
+            "node1": 891239,
+            "node2": 16168824,
+            "type": 6,
+            "w": 231,
+            "wnormed": null,
+            "rank": null
+        },
+        "569310352": {
+            "node1": 171005,
+            "node2": 16168824,
+            "type": 6,
+            "w": 210,
+            "wnormed": null,
+            "rank": null
+        },
+        "568407318": {
+            "node1": 223691,
+            "node2": 16168824,
+            "type": 6,
+            "w": 194,
+            "wnormed": null,
+            "rank": null
+        },
+        "618097606": {
+            "node1": 146323,
+            "node2": 16168824,
+            "type": 6,
+            "w": 189,
+            "wnormed": null,
+            "rank": null
+        },
+        "569277440": {
+            "node1": 157284,
+            "node2": 16168824,
+            "type": 6,
+            "w": 188,
+            "wnormed": null,
+            "rank": null
+        },
+        "569058619": {
+            "node1": 94031,
+            "node2": 16168824,
+            "type": 6,
+            "w": 178,
+            "wnormed": null,
+            "rank": null
+        },
+        "559114081": {
+            "node1": 118406,
+            "node2": 16168824,
+            "type": 6,
+            "w": 177,
+            "wnormed": null,
+            "rank": null
+        },
+        "561013819": {
+            "node1": 91274,
+            "node2": 16168824,
+            "type": 6,
+            "w": 173,
+            "wnormed": null,
+            "rank": null
+        },
+        "569277391": {
+            "node1": 135190,
+            "node2": 16168824,
+            "type": 6,
+            "w": 164,
+            "wnormed": null,
+            "rank": null
+        },
+        "561523933": {
+            "node1": 91927181,
+            "node2": 16168824,
+            "type": 6,
+            "w": 152,
+            "wnormed": null,
+            "rank": null
+        },
+        "478969156": {
+            "node1": 11008328,
+            "node2": 16168824,
+            "type": 10,
+            "w": 145,
+            "wnormed": null,
+            "rank": null
+        },
+        "568720659": {
+            "node1": 114950,
+            "node2": 16168824,
+            "type": 6,
+            "w": 143,
+            "wnormed": null,
+            "rank": null
+        },
+        "568364657": {
+            "node1": 23358,
+            "node2": 16168824,
+            "type": 6,
+            "w": 142,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253056": {
+            "node1": 114327,
+            "node2": 16168824,
+            "type": 10,
+            "w": 142,
+            "wnormed": null,
+            "rank": null
+        },
+        "611133601": {
+            "node1": 166705737,
+            "node2": 16168824,
+            "type": 6,
+            "w": 136,
+            "wnormed": null,
+            "rank": null
+        },
+        "582729003": {
+            "node1": 66013,
+            "node2": 16168824,
+            "type": 6,
+            "w": 132,
+            "wnormed": null,
+            "rank": null
+        },
+        "569058480": {
+            "node1": 170979,
+            "node2": 16168824,
+            "type": 6,
+            "w": 130,
+            "wnormed": null,
+            "rank": null
+        },
+        "436206827": {
+            "node1": 14918011,
+            "node2": 16168824,
+            "type": 10,
+            "w": 130,
+            "wnormed": null,
+            "rank": null
+        },
+        "441908520": {
+            "node1": 14917526,
+            "node2": 16168824,
+            "type": 10,
+            "w": 130,
+            "wnormed": null,
+            "rank": null
+        },
+        "582531484": {
+            "node1": 213451,
+            "node2": 16168824,
+            "type": 6,
+            "w": 119,
+            "wnormed": null,
+            "rank": null
+        },
+        "436104126": {
+            "node1": 6800353,
+            "node2": 16168824,
+            "type": 10,
+            "w": 110,
+            "wnormed": null,
+            "rank": null
+        },
+        "570892248": {
+            "node1": 6935846,
+            "node2": 16168824,
+            "type": 10,
+            "w": 110,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253065": {
+            "node1": 103311,
+            "node2": 16168824,
+            "type": 10,
+            "w": 107,
+            "wnormed": null,
+            "rank": null
+        },
+        "568365572": {
+            "node1": 3298588,
+            "node2": 16168824,
+            "type": 6,
+            "w": 103,
+            "wnormed": null,
+            "rank": null
+        },
+        "587010081": {
+            "node1": 129133527,
+            "node2": 16168824,
+            "type": 6,
+            "w": 98,
+            "wnormed": null,
+            "rank": null
+        },
+        "585328279": {
+            "node1": 138897746,
+            "node2": 16168824,
+            "type": 6,
+            "w": 96,
+            "wnormed": null,
+            "rank": null
+        },
+        "616650575": {
+            "node1": 166711752,
+            "node2": 16168824,
+            "type": 6,
+            "w": 96,
+            "wnormed": null,
+            "rank": null
+        },
+        "639102989": {
+            "node1": 132024113,
+            "node2": 16168824,
+            "type": 6,
+            "w": 95,
+            "wnormed": null,
+            "rank": null
+        },
+        "524010548": {
+            "node1": 94230902,
+            "node2": 16168824,
+            "type": 10,
+            "w": 95,
+            "wnormed": null,
+            "rank": null
+        },
+        "638742979": {
+            "node1": 224366320,
+            "node2": 16168824,
+            "type": 6,
+            "w": 92,
+            "wnormed": null,
+            "rank": null
+        },
+        "423945642": {
+            "node1": 398564,
+            "node2": 16168824,
+            "type": 10,
+            "w": 90,
+            "wnormed": null,
+            "rank": null
+        },
+        "542088904": {
+            "node1": 874234,
+            "node2": 16168824,
+            "type": 6,
+            "w": 88,
+            "wnormed": null,
+            "rank": null
+        },
+        "570617824": {
+            "node1": 113414161,
+            "node2": 16168824,
+            "type": 6,
+            "w": 85,
+            "wnormed": null,
+            "rank": null
+        },
+        "602480336": {
+            "node1": 209346970,
+            "node2": 16168824,
+            "type": 6,
+            "w": 85,
+            "wnormed": null,
+            "rank": null
+        },
+        "547213880": {
+            "node1": 1885710,
+            "node2": 16168824,
+            "type": 6,
+            "w": 84,
+            "wnormed": null,
+            "rank": null
+        },
+        "557081089": {
+            "node1": 80123049,
+            "node2": 16168824,
+            "type": 6,
+            "w": 83,
+            "wnormed": null,
+            "rank": null
+        },
+        "558800011": {
+            "node1": 1263925,
+            "node2": 16168824,
+            "type": 6,
+            "w": 83,
+            "wnormed": null,
+            "rank": null
+        },
+        "576643204": {
+            "node1": 110309,
+            "node2": 16168824,
+            "type": 6,
+            "w": 83,
+            "wnormed": null,
+            "rank": null
+        },
+        "636168769": {
+            "node1": 2950097,
+            "node2": 16168824,
+            "type": 6,
+            "w": 81,
+            "wnormed": null,
+            "rank": null
+        },
+        "634003725": {
+            "node1": 15438,
+            "node2": 16168824,
+            "type": 6,
+            "w": 80,
+            "wnormed": null,
+            "rank": null
+        },
+        "635439322": {
+            "node1": 217726294,
+            "node2": 16168824,
+            "type": 6,
+            "w": 80,
+            "wnormed": null,
+            "rank": null
+        },
+        "547212982": {
+            "node1": 939846,
+            "node2": 16168824,
+            "type": 6,
+            "w": 79,
+            "wnormed": null,
+            "rank": null
+        },
+        "599737014": {
+            "node1": 129133526,
+            "node2": 16168824,
+            "type": 6,
+            "w": 79,
+            "wnormed": null,
+            "rank": null
+        },
+        "542419484": {
+            "node1": 60355271,
+            "node2": 16168824,
+            "type": 6,
+            "w": 73,
+            "wnormed": null,
+            "rank": null
+        },
+        "596681543": {
+            "node1": 173720565,
+            "node2": 16168824,
+            "type": 6,
+            "w": 73,
+            "wnormed": null,
+            "rank": null
+        },
+        "638762444": {
+            "node1": 224366316,
+            "node2": 16168824,
+            "type": 6,
+            "w": 71,
+            "wnormed": null,
+            "rank": null
+        },
+        "632895897": {
+            "node1": 217517922,
+            "node2": 16168824,
+            "type": 6,
+            "w": 70,
+            "wnormed": null,
+            "rank": null
+        },
+        "633175716": {
+            "node1": 217726354,
+            "node2": 16168824,
+            "type": 6,
+            "w": 70,
+            "wnormed": null,
+            "rank": null
+        },
+        "486857873": {
+            "node1": 114327,
+            "node2": 16168824,
+            "type": 0,
+            "w": 69,
+            "wnormed": null,
+            "rank": null
+        },
+        "569156289": {
+            "node1": 12077981,
+            "node2": 16168824,
+            "type": 6,
+            "w": 69,
+            "wnormed": null,
+            "rank": null
+        },
+        "586724641": {
+            "node1": 113414164,
+            "node2": 16168824,
+            "type": 6,
+            "w": 69,
+            "wnormed": null,
+            "rank": null
+        },
+        "542159539": {
+            "node1": 897999,
+            "node2": 16168824,
+            "type": 6,
+            "w": 67,
+            "wnormed": null,
+            "rank": null
+        },
+        "541882165": {
+            "node1": 9949503,
+            "node2": 16168824,
+            "type": 6,
+            "w": 66,
+            "wnormed": null,
+            "rank": null
+        },
+        "485632114": {
+            "node1": 11008328,
+            "node2": 16168824,
+            "type": 0,
+            "w": 65,
+            "wnormed": null,
+            "rank": null
+        },
+        "523944473": {
+            "node1": 94230902,
+            "node2": 16168824,
+            "type": 0,
+            "w": 65,
+            "wnormed": null,
+            "rank": null
+        },
+        "598942232": {
+            "node1": 138897328,
+            "node2": 16168824,
+            "type": 6,
+            "w": 65,
+            "wnormed": null,
+            "rank": null
+        },
+        "608867060": {
+            "node1": 138897173,
+            "node2": 16168824,
+            "type": 6,
+            "w": 65,
+            "wnormed": null,
+            "rank": null
+        },
+        "614155757": {
+            "node1": 129134141,
+            "node2": 16168824,
+            "type": 6,
+            "w": 65,
+            "wnormed": null,
+            "rank": null
+        },
+        "542159338": {
+            "node1": 889986,
+            "node2": 16168824,
+            "type": 6,
+            "w": 63,
+            "wnormed": null,
+            "rank": null
+        },
+        "542159478": {
+            "node1": 893004,
+            "node2": 16168824,
+            "type": 6,
+            "w": 63,
+            "wnormed": null,
+            "rank": null
+        },
+        "568906478": {
+            "node1": 134052,
+            "node2": 16168824,
+            "type": 6,
+            "w": 63,
+            "wnormed": null,
+            "rank": null
+        },
+        "614147581": {
+            "node1": 138898032,
+            "node2": 16168824,
+            "type": 6,
+            "w": 63,
+            "wnormed": null,
+            "rank": null
+        },
+        "615198246": {
+            "node1": 138897466,
+            "node2": 16168824,
+            "type": 6,
+            "w": 62,
+            "wnormed": null,
+            "rank": null
+        },
+        "423945639": {
+            "node1": 101018,
+            "node2": 16168824,
+            "type": 5,
+            "w": 61,
+            "wnormed": null,
+            "rank": null
+        },
+        "610081512": {
+            "node1": 173720850,
+            "node2": 16168824,
+            "type": 6,
+            "w": 61,
+            "wnormed": null,
+            "rank": null
+        },
+        "615002201": {
+            "node1": 138897381,
+            "node2": 16168824,
+            "type": 6,
+            "w": 61,
+            "wnormed": null,
+            "rank": null
+        },
+        "633465706": {
+            "node1": 138897602,
+            "node2": 16168824,
+            "type": 6,
+            "w": 61,
+            "wnormed": null,
+            "rank": null
+        },
+        "602992096": {
+            "node1": 191864685,
+            "node2": 16168824,
+            "type": 6,
+            "w": 60,
+            "wnormed": null,
+            "rank": null
+        },
+        "640968159": {
+            "node1": 246847338,
+            "node2": 16168824,
+            "type": 6,
+            "w": 60,
+            "wnormed": null,
+            "rank": null
+        },
+        "642489588": {
+            "node1": 224366314,
+            "node2": 16168824,
+            "type": 6,
+            "w": 60,
+            "wnormed": null,
+            "rank": null
+        },
+        "547211789": {
+            "node1": 1623822,
+            "node2": 16168824,
+            "type": 6,
+            "w": 59,
+            "wnormed": null,
+            "rank": null
+        },
+        "611171209": {
+            "node1": 173720711,
+            "node2": 16168824,
+            "type": 6,
+            "w": 59,
+            "wnormed": null,
+            "rank": null
+        },
+        "614164915": {
+            "node1": 184260400,
+            "node2": 16168824,
+            "type": 6,
+            "w": 59,
+            "wnormed": null,
+            "rank": null
+        },
+        "589781005": {
+            "node1": 173785353,
+            "node2": 16168824,
+            "type": 6,
+            "w": 58,
+            "wnormed": null,
+            "rank": null
+        },
+        "605267301": {
+            "node1": 173720710,
+            "node2": 16168824,
+            "type": 6,
+            "w": 58,
+            "wnormed": null,
+            "rank": null
+        },
+        "642189535": {
+            "node1": 173720851,
+            "node2": 16168824,
+            "type": 6,
+            "w": 58,
+            "wnormed": null,
+            "rank": null
+        },
+        "423945731": {
+            "node1": 398564,
+            "node2": 16168824,
+            "type": 11,
+            "w": 58,
+            "wnormed": null,
+            "rank": null
+        },
+        "589776407": {
+            "node1": 173720417,
+            "node2": 16168824,
+            "type": 6,
+            "w": 57,
+            "wnormed": null,
+            "rank": null
+        },
+        "608866603": {
+            "node1": 138896947,
+            "node2": 16168824,
+            "type": 6,
+            "w": 57,
+            "wnormed": null,
+            "rank": null
+        },
+        "614221657": {
+            "node1": 204827754,
+            "node2": 16168824,
+            "type": 6,
+            "w": 56,
+            "wnormed": null,
+            "rank": null
+        },
+        "642462474": {
+            "node1": 217726366,
+            "node2": 16168824,
+            "type": 6,
+            "w": 56,
+            "wnormed": null,
+            "rank": null
+        },
+        "523761597": {
+            "node1": 14917526,
+            "node2": 16168824,
+            "type": 0,
+            "w": 55,
+            "wnormed": null,
+            "rank": null
+        },
+        "568467074": {
+            "node1": 12791689,
+            "node2": 16168824,
+            "type": 0,
+            "w": 55,
+            "wnormed": null,
+            "rank": null
+        },
+        "542827895": {
+            "node1": 61739769,
+            "node2": 16168824,
+            "type": 6,
+            "w": 55,
+            "wnormed": null,
+            "rank": null
+        },
+        "581191162": {
+            "node1": 138896944,
+            "node2": 16168824,
+            "type": 6,
+            "w": 55,
+            "wnormed": null,
+            "rank": null
+        },
+        "568485701": {
+            "node1": 12791689,
+            "node2": 16168824,
+            "type": 10,
+            "w": 55,
+            "wnormed": null,
+            "rank": null
+        },
+        "423945729": {
+            "node1": 86640,
+            "node2": 16168824,
+            "type": 11,
+            "w": 55,
+            "wnormed": null,
+            "rank": null
+        },
+        "622828033": {
+            "node1": 191864688,
+            "node2": 16168824,
+            "type": 6,
+            "w": 54,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253068": {
+            "node1": 16747,
+            "node2": 16168824,
+            "type": 10,
+            "w": 54,
+            "wnormed": null,
+            "rank": null
+        },
+        "603025529": {
+            "node1": 184260399,
+            "node2": 16168824,
+            "type": 6,
+            "w": 53,
+            "wnormed": null,
+            "rank": null
+        },
+        "605430400": {
+            "node1": 138897747,
+            "node2": 16168824,
+            "type": 6,
+            "w": 53,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253069": {
+            "node1": 139779,
+            "node2": 16168824,
+            "type": 10,
+            "w": 53,
+            "wnormed": null,
+            "rank": null
+        },
+        "542171868": {
+            "node1": 91837937,
+            "node2": 16168824,
+            "type": 6,
+            "w": 52,
+            "wnormed": null,
+            "rank": null
+        },
+        "602170677": {
+            "node1": 173785350,
+            "node2": 16168824,
+            "type": 6,
+            "w": 52,
+            "wnormed": null,
+            "rank": null
+        },
+        "642448124": {
+            "node1": 217517920,
+            "node2": 16168824,
+            "type": 6,
+            "w": 52,
+            "wnormed": null,
+            "rank": null
+        },
+        "566368308": {
+            "node1": 16747,
+            "node2": 16168824,
+            "type": 0,
+            "w": 51,
+            "wnormed": null,
+            "rank": null
+        },
+        "523746343": {
+            "node1": 14918011,
+            "node2": 16168824,
+            "type": 0,
+            "w": 50,
+            "wnormed": null,
+            "rank": null
+        },
+        "570868775": {
+            "node1": 6935846,
+            "node2": 16168824,
+            "type": 0,
+            "w": 50,
+            "wnormed": null,
+            "rank": null
+        },
+        "429262587": {
+            "node1": 14940408,
+            "node2": 16168824,
+            "type": 5,
+            "w": 49,
+            "wnormed": null,
+            "rank": null
+        },
+        "542448513": {
+            "node1": 48762505,
+            "node2": 16168824,
+            "type": 6,
+            "w": 49,
+            "wnormed": null,
+            "rank": null
+        },
+        "644178757": {
+            "node1": 191864689,
+            "node2": 16168824,
+            "type": 6,
+            "w": 49,
+            "wnormed": null,
+            "rank": null
+        },
+        "607215409": {
+            "node1": 173785346,
+            "node2": 16168824,
+            "type": 6,
+            "w": 47,
+            "wnormed": null,
+            "rank": null
+        },
+        "614103731": {
+            "node1": 173785349,
+            "node2": 16168824,
+            "type": 6,
+            "w": 46,
+            "wnormed": null,
+            "rank": null
+        },
+        "729296843": {
+            "node1": 173720418,
+            "node2": 16168824,
+            "type": 6,
+            "w": 41,
+            "wnormed": null,
+            "rank": null
+        },
+        "576510392": {
+            "node1": 15297314,
+            "node2": 16168824,
+            "type": 0,
+            "w": 40,
+            "wnormed": null,
+            "rank": null
+        },
+        "609440637": {
+            "node1": 191864690,
+            "node2": 16168824,
+            "type": 6,
+            "w": 40,
+            "wnormed": null,
+            "rank": null
+        },
+        "576529961": {
+            "node1": 15297314,
+            "node2": 16168824,
+            "type": 10,
+            "w": 40,
+            "wnormed": null,
+            "rank": null
+        },
+        "471907745": {
+            "node1": 33882,
+            "node2": 16168824,
+            "type": 13,
+            "w": 40,
+            "wnormed": null,
+            "rank": null
+        },
+        "515206938": {
+            "node1": 99220,
+            "node2": 16168824,
+            "type": 23,
+            "w": 40,
+            "wnormed": null,
+            "rank": null
+        },
+        "510258822": {
+            "node1": 15441861,
+            "node2": 16168824,
+            "type": 13,
+            "w": 37,
+            "wnormed": null,
+            "rank": null
+        },
+        "423945638": {
+            "node1": 64513,
+            "node2": 16168824,
+            "type": 13,
+            "w": 35,
+            "wnormed": null,
+            "rank": null
+        },
+        "602027056": {
+            "node1": 144770,
+            "node2": 16168824,
+            "type": 6,
+            "w": 34,
+            "wnormed": null,
+            "rank": null
+        },
+        "609440768": {
+            "node1": 173785348,
+            "node2": 16168824,
+            "type": 6,
+            "w": 34,
+            "wnormed": null,
+            "rank": null
+        },
+        "602022407": {
+            "node1": 122821,
+            "node2": 16168824,
+            "type": 6,
+            "w": 32,
+            "wnormed": null,
+            "rank": null
+        },
+        "600077276": {
+            "node1": 117095,
+            "node2": 16168824,
+            "type": 27,
+            "w": 31,
+            "wnormed": null,
+            "rank": null
+        },
+        "541870832": {
+            "node1": 390851,
+            "node2": 16168824,
+            "type": 6,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "444487529": {
+            "node1": 15088586,
+            "node2": 16168824,
+            "type": 10,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "471907746": {
+            "node1": 130164,
+            "node2": 16168824,
+            "type": 13,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "471907747": {
+            "node1": 43253,
+            "node2": 16168824,
+            "type": 13,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "471907748": {
+            "node1": 47918,
+            "node2": 16168824,
+            "type": 13,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "471907749": {
+            "node1": 251694,
+            "node2": 16168824,
+            "type": 13,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "471907750": {
+            "node1": 124600,
+            "node2": 16168824,
+            "type": 13,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "471907751": {
+            "node1": 259820,
+            "node2": 16168824,
+            "type": 13,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "471907752": {
+            "node1": 2442,
+            "node2": 16168824,
+            "type": 13,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "471907753": {
+            "node1": 43601,
+            "node2": 16168824,
+            "type": 13,
+            "w": 30,
+            "wnormed": null,
+            "rank": null
+        },
+        "634860954": {
+            "node1": 206308296,
+            "node2": 16168824,
+            "type": 6,
+            "w": 29,
+            "wnormed": null,
+            "rank": null
+        },
+        "634863228": {
+            "node1": 191864686,
+            "node2": 16168824,
+            "type": 6,
+            "w": 29,
+            "wnormed": null,
+            "rank": null
+        },
+        "510672185": {
+            "node1": 6800353,
+            "node2": 16168824,
+            "type": 0,
+            "w": 28,
+            "wnormed": null,
+            "rank": null
+        },
+        "510659980": {
+            "node1": 103311,
+            "node2": 16168824,
+            "type": 0,
+            "w": 27,
+            "wnormed": null,
+            "rank": null
+        },
+        "515206937": {
+            "node1": 1384,
+            "node2": 16168824,
+            "type": 23,
+            "w": 27,
+            "wnormed": null,
+            "rank": null
+        },
+        "591795173": {
+            "node1": 137288,
+            "node2": 16168824,
+            "type": 13,
+            "w": 26,
+            "wnormed": null,
+            "rank": null
+        },
+        "515206939": {
+            "node1": 122864,
+            "node2": 16168824,
+            "type": 23,
+            "w": 26,
+            "wnormed": null,
+            "rank": null
+        },
+        "600077277": {
+            "node1": 143669,
+            "node2": 16168824,
+            "type": 27,
+            "w": 26,
+            "wnormed": null,
+            "rank": null
+        },
+        "496770506": {
+            "node1": 139779,
+            "node2": 16168824,
+            "type": 0,
+            "w": 25,
+            "wnormed": null,
+            "rank": null
+        },
+        "644300306": {
+            "node1": 175939814,
+            "node2": 16168824,
+            "type": 6,
+            "w": 25,
+            "wnormed": null,
+            "rank": null
+        },
+        "425245126": {
+            "node1": 57875,
+            "node2": 16168824,
+            "type": 10,
+            "w": 24,
+            "wnormed": null,
+            "rank": null
+        },
+        "602053183": {
+            "node1": 59638,
+            "node2": 16168824,
+            "type": 6,
+            "w": 22,
+            "wnormed": null,
+            "rank": null
+        },
+        "616160825": {
+            "node1": 173785347,
+            "node2": 16168824,
+            "type": 6,
+            "w": 21,
+            "wnormed": null,
+            "rank": null
+        },
+        "525144771": {
+            "node1": 95914940,
+            "node2": 16168824,
+            "type": 0,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "571267363": {
+            "node1": 265874,
+            "node2": 16168824,
+            "type": 5,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "616160641": {
+            "node1": 191864687,
+            "node2": 16168824,
+            "type": 6,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "525175950": {
+            "node1": 95914940,
+            "node2": 16168824,
+            "type": 10,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "534403302": {
+            "node1": 101438254,
+            "node2": 16168824,
+            "type": 10,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "576025193": {
+            "node1": 15324670,
+            "node2": 16168824,
+            "type": 10,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "576080477": {
+            "node1": 15047668,
+            "node2": 16168824,
+            "type": 10,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "576108141": {
+            "node1": 15324668,
+            "node2": 16168824,
+            "type": 10,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "577260559": {
+            "node1": 15047667,
+            "node2": 16168824,
+            "type": 10,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "577288156": {
+            "node1": 9940395,
+            "node2": 16168824,
+            "type": 10,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "577714685": {
+            "node1": 15054680,
+            "node2": 16168824,
+            "type": 13,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "616404784": {
+            "node1": 10314012,
+            "node2": 16168824,
+            "type": 23,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "618201714": {
+            "node1": 6947917,
+            "node2": 16168824,
+            "type": 27,
+            "w": 20,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253071": {
+            "node1": 141814,
+            "node2": 16168824,
+            "type": 10,
+            "w": 18,
+            "wnormed": null,
+            "rank": null
+        },
+        "569643058": {
+            "node1": 152471,
+            "node2": 16168824,
+            "type": 6,
+            "w": 15,
+            "wnormed": null,
+            "rank": null
+        },
+        "569643097": {
+            "node1": 222550,
+            "node2": 16168824,
+            "type": 6,
+            "w": 15,
+            "wnormed": null,
+            "rank": null
+        },
+        "570755248": {
+            "node1": 150903,
+            "node2": 16168824,
+            "type": 6,
+            "w": 15,
+            "wnormed": null,
+            "rank": null
+        },
+        "573253926": {
+            "node1": 14942852,
+            "node2": 16168824,
+            "type": 6,
+            "w": 15,
+            "wnormed": null,
+            "rank": null
+        },
+        "573254028": {
+            "node1": 14942850,
+            "node2": 16168824,
+            "type": 6,
+            "w": 15,
+            "wnormed": null,
+            "rank": null
+        },
+        "602104685": {
+            "node1": 22262,
+            "node2": 16168824,
+            "type": 6,
+            "w": 15,
+            "wnormed": null,
+            "rank": null
+        },
+        "568612351": {
+            "node1": 1854036,
+            "node2": 16168824,
+            "type": 10,
+            "w": 15,
+            "wnormed": null,
+            "rank": null
+        },
+        "576052824": {
+            "node1": 15324669,
+            "node2": 16168824,
+            "type": 10,
+            "w": 15,
+            "wnormed": null,
+            "rank": null
+        },
+        "662983736": {
+            "node1": 152125,
+            "node2": 16168824,
+            "type": 27,
+            "w": 15,
+            "wnormed": null,
+            "rank": null
+        },
+        "425245071": {
+            "node1": 326146,
+            "node2": 16168824,
+            "type": 10,
+            "w": 14,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253055": {
+            "node1": 213644,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253057": {
+            "node1": 108463,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253058": {
+            "node1": 77424,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253059": {
+            "node1": 96211,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253060": {
+            "node1": 74846,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253061": {
+            "node1": 225934,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253062": {
+            "node1": 390927,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253063": {
+            "node1": 219363,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253064": {
+            "node1": 126285,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253066": {
+            "node1": 144846,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253067": {
+            "node1": 126388,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253070": {
+            "node1": 116980,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253072": {
+            "node1": 83944,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253073": {
+            "node1": 240720,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253074": {
+            "node1": 77008,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253075": {
+            "node1": 241352,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253076": {
+            "node1": 109785,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "425253077": {
+            "node1": 47319,
+            "node2": 16168824,
+            "type": 10,
+            "w": 13,
+            "wnormed": null,
+            "rank": null
+        },
+        "633873916": {
+            "node1": 15088586,
+            "node2": 16168824,
+            "type": 0,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "696406709": {
+            "node1": 92504308,
+            "node2": 16168824,
+            "type": 0,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "701195201": {
+            "node1": 98250167,
+            "node2": 16168824,
+            "type": 0,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "623882473": {
+            "node1": 105051,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "658313962": {
+            "node1": 15104434,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "658314156": {
+            "node1": 32376738,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "658314335": {
+            "node1": 15104433,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "663069916": {
+            "node1": 222283,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "695027618": {
+            "node1": 15504022,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "695101874": {
+            "node1": 15450407,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "695102500": {
+            "node1": 15138964,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "695955364": {
+            "node1": 14958875,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "696178742": {
+            "node1": 46190832,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "711560184": {
+            "node1": 15667949,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "715203377": {
+            "node1": 19701423,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "719966994": {
+            "node1": 121223586,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "721631032": {
+            "node1": 178328174,
+            "node2": 16168824,
+            "type": 6,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "473459584": {
+            "node1": 74558,
+            "node2": 16168824,
+            "type": 10,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "638124242": {
+            "node1": 14920526,
+            "node2": 16168824,
+            "type": 10,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "641789484": {
+            "node1": 674295,
+            "node2": 16168824,
+            "type": 10,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "653530618": {
+            "node1": 15047666,
+            "node2": 16168824,
+            "type": 10,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "696430828": {
+            "node1": 92504308,
+            "node2": 16168824,
+            "type": 10,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "701209885": {
+            "node1": 98250167,
+            "node2": 16168824,
+            "type": 10,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "665468879": {
+            "node1": 63026,
+            "node2": 16168824,
+            "type": 27,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "715034137": {
+            "node1": 146111,
+            "node2": 16168824,
+            "type": 27,
+            "w": 10,
+            "wnormed": null,
+            "rank": null
+        },
+        "606387861": {
+            "node1": 173785353,
+            "node2": 16168824,
+            "type": 0,
+            "w": 8,
+            "wnormed": null,
+            "rank": null
+        },
+        "614470925": {
+            "node1": 138898032,
+            "node2": 16168824,
+            "type": 0,
+            "w": 7,
+            "wnormed": null,
+            "rank": null
+        },
+        "614684881": {
+            "node1": 166705737,
+            "node2": 16168824,
+            "type": 0,
+            "w": 7,
+            "wnormed": null,
+            "rank": null
+        },
+        "606231324": {
+            "node1": 173785350,
+            "node2": 16168824,
+            "type": 0,
+            "w": 6,
+            "wnormed": null,
+            "rank": null
+        },
+        "614755820": {
+            "node1": 191864685,
+            "node2": 16168824,
+            "type": 0,
+            "w": 6,
+            "wnormed": null,
+            "rank": null
+        },
+        "429262596": {
+            "node1": 101018,
+            "node2": 16168824,
+            "type": 0,
+            "w": 5,
+            "wnormed": null,
+            "rank": null
+        },
+        "628352784": {
+            "node1": 16878039,
+            "node2": 16168824,
+            "type": 0,
+            "w": 5,
+            "wnormed": null,
+            "rank": null
+        },
+        "715357463": {
+            "node1": 6563930,
+            "node2": 16168824,
+            "type": 0,
+            "w": 5,
+            "wnormed": null,
+            "rank": null
+        },
+        "713280964": {
+            "node1": 6988,
+            "node2": 16168824,
+            "type": 6,
+            "w": 5,
+            "wnormed": null,
+            "rank": null
+        },
+        "726104259": {
+            "node1": 14136082,
+            "node2": 16168824,
+            "type": 6,
+            "w": 5,
+            "wnormed": null,
+            "rank": null
+        },
+        "628391888": {
+            "node1": 16878039,
+            "node2": 16168824,
+            "type": 10,
+            "w": 5,
+            "wnormed": null,
+            "rank": null
+        },
+        "715160865": {
+            "node1": 16090441,
+            "node2": 16168824,
+            "type": 10,
+            "w": 5,
+            "wnormed": null,
+            "rank": null
+        },
+        "715361620": {
+            "node1": 6563930,
+            "node2": 16168824,
+            "type": 10,
+            "w": 5,
+            "wnormed": null,
+            "rank": null
+        },
+        "695726327": {
+            "node1": 15050638,
+            "node2": 16168824,
+            "type": 27,
+            "w": 5,
+            "wnormed": null,
+            "rank": null
+        },
+        "614502212": {
+            "node1": 138897746,
+            "node2": 16168824,
+            "type": 0,
+            "w": 3,
+            "wnormed": null,
+            "rank": null
+        },
+        "425250569": {
+            "node1": 398564,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614449097": {
+            "node1": 138897173,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614458948": {
+            "node1": 204827754,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614467100": {
+            "node1": 138896944,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614469623": {
+            "node1": 184260400,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614470257": {
+            "node1": 129134141,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614471461": {
+            "node1": 173720417,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614474310": {
+            "node1": 173785349,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614682349": {
+            "node1": 113414161,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614718534": {
+            "node1": 173720711,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "614754652": {
+            "node1": 173720850,
+            "node2": 16168824,
+            "type": 0,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "425250550": {
+            "node1": 120157,
+            "node2": 16168824,
+            "type": 9,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "425250551": {
+            "node1": 36886,
+            "node2": 16168824,
+            "type": 9,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "514104939": {
+            "node1": 330215,
+            "node2": 16168824,
+            "type": 23,
+            "w": 2,
+            "wnormed": null,
+            "rank": null
+        },
+        "606023025": {
+            "node1": 138897747,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "606091946": {
+            "node1": 184260399,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "606094304": {
+            "node1": 173720710,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "606239464": {
+            "node1": 209346970,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "614896750": {
+            "node1": 138896947,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "616553961": {
+            "node1": 138897328,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "616564662": {
+            "node1": 138897466,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "616579592": {
+            "node1": 138897381,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "631628185": {
+            "node1": 191864690,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "631628297": {
+            "node1": 173785348,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "634642933": {
+            "node1": 138897602,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "634655690": {
+            "node1": 217517922,
+            "node2": 16168824,
+            "type": 0,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "636302224": {
+            "node1": 218905,
+            "node2": 16168824,
+            "type": 9,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "636353989": {
+            "node1": 364788,
+            "node2": 16168824,
+            "type": 9,
+            "w": 1,
+            "wnormed": null,
+            "rank": null
+        },
+        "584933702": {
+            "node1": 96919,
+            "node2": 16168824,
+            "type": 5,
+            "w": -5,
+            "wnormed": null,
+            "rank": null
+        },
+        "541994140": {
+            "node1": 10363495,
+            "node2": 16168824,
+            "type": 6,
+            "w": -60,
+            "wnormed": null,
+            "rank": null
+        }
+    }
+}

@@ -1,42 +1,10 @@
-import json
-import os
-from data_collector.dataProcessing import *
 from reasoner import *
-
-###################################################
-#    Chargement des données et dl si nécessaire   #
-###################################################
-
-def load_data(data : str):
-    splited_data = data.split(">")
-    clean_data = splited_data[0]
-    processData(clean_data)
-    # Charger les données JSON depuis un fichier ou une variable
-    with open("data/"+clean_data+".json", "r", encoding="utf-8") as file:
-        dataJSON = json.load(file)
-    return dataJSON
-
-###################################################
-#   Traitement du tuple JSON en langage naturel   #
-###################################################
-
-def JSON_to_nat(jsonFile : list, jsonLine : list):
-    data_dict = json.loads(jsonFile)
-    nodes = data_dict["noeud"]
-    type_relations = data_dict["type_relation"]
-
-    type, eid1, eid2 = jsonLine["type"], jsonLine["node1"], jsonLine["node2"]
-    word1 = next((node for node in nodes if node["eid"] == eid1), None)
-    word2 = next((node for node in nodes if node["eid"] == eid2), None)
-    relation = next((type_relation for type_relation in type_relations if type_relation["rtid"] == type), None)
-
-    return word1["name"], relation["trname"], word2["name"]
-
+from utils import *
 
 #############
 # INDUCTION #
 #############
-def interrogation_induction(data_1_, data_2_, relation, dataJSON1, dataJSON2):
+def induction(data_1_, data_2_, relation, dataJSON1, dataJSON2):
     """
     cette fonction permet de trouver une relation inductive pour justifier une propriété
     @param data_1 : str : nom de la première donnée
@@ -72,11 +40,9 @@ def interrogation_induction(data_1_, data_2_, relation, dataJSON1, dataJSON2):
     
     data_1 = int(data_1)
     data_2 = int(data_2)
-    print(data_2)
 
     # num relation entrer
     relation_type_id_base = next((cle for cle, valeur in types_relations_2.items() if valeur["trname"] == relation), None)
-    print(relation_type_id_base)
     
     # type relation r_syn
     relation_type_id = next((rtid for rtid, relation in types_relations_1.items() if relation["trname"] == "r_syn"), None)
@@ -87,8 +53,7 @@ def interrogation_induction(data_1_, data_2_, relation, dataJSON1, dataJSON2):
     list_relations_match = [cle for cle, valeur in relations_1.items() if valeur["node1"] == data_1 and valeur["type"] == int(relation_type_id)]
 
     # trie les relations en fonction du rang (si le rang est disponible)
-    list_relations_match.sort(key=lambda x: relations_1[x].get('rank', float('inf')) if relations_1[x].get('rank') is not None else float('inf'))
-    #print("list relation match first mot and r_sin : ",list_relations_match)
+    list_relations_match.sort(key=lambda x: relations_1[x].get('rank', float('inf')) if relations_1[x].get('rank') is not None else 11.0)
 
     for relation_key in list_relations_match:
         # si il y a plus de 10 element dans la liste on arrete
@@ -99,36 +64,66 @@ def interrogation_induction(data_1_, data_2_, relation, dataJSON1, dataJSON2):
 
         for cle, valeur in relations_2.items():
             if valeur["node1"] == relation_1_ok["node2"]  and valeur["type"] == int(relation_type_id_base) and valeur["node2"] == data_2:
-                list_valide.append((relation_1_ok, valeur))
+                list_valide.append(
+                   {
+                        "rank_relation": (valeur["rank"] or 11.0), 
+                        "weight_relation": valeur["w"], 
+                        "rank_element_1": (relation_1_ok["rank"] or 11.0), 
+                        "weight_element_1": relation_1_ok["w"],
+                        "rank_element_2": None, 
+                        "weight_element_2": None, 
+                        "element1": str(node_id_to_name(relation_1_ok["node2"], dataJSON1)), 
+                        "element2": None
+                    }
+                )
+
+    
+    
+             
 
     return list_valide
+
+
+
+
+
+
+
+
     
-
-if __name__ == "__main__":
-    data1 = input("data 1 : ")
-    data2 = input("data 2 : ")
-    relation = input("relation : ")
-    dataJSON1 = None
-    dataJSON2 = None
-    try:
-        dataJSON1 = load_data(data1)
-        dataJSON2 = load_data(data2)
-    except AttributeError as ae :
-        print("Saisi incorrect")
-
-    #pbdonc je charge le fichier moi meme
+def get_clean_induction_results(data1, data2, relation, dataJSON1, dataJSON2): 
+  inductions = induction(data1, data2, relation, dataJSON1, dataJSON2)
     
-    # Charger les données JSON depuis le fichier
-    """path_1 = "C:\\Users\\Home\\Documents\\GitHub\\ChatBot-LangageNaturel\\data\\" + str(data1) + ".json"
-    with open(path_1, "r", encoding="utf-8") as file:
-        dataJSON1 = json.load(file)
-    # Charger les données JSON depuis le fichier
-    path_2 = "C:\\Users\\Home\\Documents\\GitHub\\ChatBot-LangageNaturel\\data\\" + str(data2) + ".json"
-    with open(path_2, "r", encoding="utf-8") as file:
-        dataJSON2 = json.load(file)"""
+  resultat_global = 0
+  for ind in inductions:
+      resultat_global += ind["weight_relation"]
 
+      #On booste les relations négatives pour ne pas les rater
+      if(ind["weight_relation"] < 0.0):
+        resultat_global += 5.0 * ind["weight_relation"]
         
-    validite1 = interrogation_induction(data1, data2, relation, dataJSON1, dataJSON2)
-    for i in validite1:
-        print(i)
-    
+      generique_rank = float(ind["rank_element_1"])
+      generique_weight = float(ind["weight_element_1"])
+      relation_rank = float(ind["rank_relation"])
+      relation_weight = float(ind["weight_relation"])
+      
+      coef_modif = 4.0
+      confiance = coef_modif *((generique_weight + relation_weight) / (generique_rank + relation_rank))
+      ind["confiance"] = (abs(confiance))
+
+  to_remove = []
+  for ind1 in inductions:
+    for ind2 in inductions:
+      if(ind1 != ind2):
+        if(ind1["element1"]==ind2["element1"]):
+          if(ind1["confiance"]>ind2["confiance"]):
+            to_remove.append(ind2)
+          else:
+            to_remove.append(ind1)
+
+  for elem in to_remove:
+    if elem in inductions:
+      inductions.remove(elem)
+
+  inductions = sorted(inductions, key=lambda x: x["confiance"], reverse=True)
+  return inductions[:10], resultat_global
