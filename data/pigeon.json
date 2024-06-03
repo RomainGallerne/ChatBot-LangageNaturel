@@ -46,17 +46,17 @@
         "222644": {
             "name": "gris>40056",
             "w": "70",
-            "formated name": "'gris>couleur'"
+            "formated name": "gris>couleur"
         },
         "215024": {
             "name": "pigeon>140176",
             "w": "128",
-            "formated name": "'pigeon>oiseau'"
+            "formated name": "pigeon>oiseau"
         },
         "220337": {
             "name": "oiseau>17559",
             "w": "894",
-            "formated name": "'oiseau>animal'"
+            "formated name": "oiseau>animal"
         },
         "222842": {
             "name": "columbidé",
@@ -126,12 +126,12 @@
         "396247": {
             "name": "individu>24956",
             "w": "164",
-            "formated name": "'individu>être humain'"
+            "formated name": "individu>être humain"
         },
         "221983": {
             "name": "homme>24956",
             "w": "292",
-            "formated name": "'homme>être humain'"
+            "formated name": "homme>être humain"
         },
         "33840": {
             "name": "primate",
@@ -156,7 +156,7 @@
         "261738": {
             "name": "viande>20965",
             "w": "470",
-            "formated name": "'viande>nourriture'"
+            "formated name": "viande>nourriture"
         },
         "247552": {
             "name": "animal social",
@@ -181,12 +181,12 @@
         "225916": {
             "name": "personne>24956",
             "w": "780",
-            "formated name": "'personne>être humain'"
+            "formated name": "personne>être humain"
         },
         "244620": {
             "name": "être humain>189875",
             "w": "170",
-            "formated name": "'être humain>personne humaine'"
+            "formated name": "être humain>personne humaine"
         },
         "68439": {
             "name": "individu",
@@ -216,7 +216,7 @@
         "260830": {
             "name": "primate>117095",
             "w": "28",
-            "formated name": "'primate>zoologie'"
+            "formated name": "primate>zoologie"
         },
         "1027579": {
             "name": "euarchontoglire",
@@ -351,7 +351,7 @@
         "396042": {
             "name": "tétrapode>86640",
             "w": "50",
-            "formated name": "'tétrapode>vertébré'"
+            "formated name": "tétrapode>vertébré"
         },
         "265175": {
             "name": "ostéichtyen",
@@ -461,12 +461,12 @@
         "330964": {
             "name": "cordé>117095",
             "w": "36",
-            "formated name": "'cordé>zoologie'"
+            "formated name": "cordé>zoologie"
         },
         "233133": {
             "name": "animal>117095",
             "w": "914",
-            "formated name": "'animal>zoologie'"
+            "formated name": "animal>zoologie"
         },
         "325741": {
             "name": "choanobionte",
@@ -534,12 +534,12 @@
             "formated name": null
         },
         "194245": {
-            "name": "pigeon dElphinstone",
+            "name": "pigeon d'Elphinstone",
             "w": "50",
             "formated name": null
         },
         "194246": {
-            "name": "pigeon dEversmann",
+            "name": "pigeon d'Eversmann",
             "w": "50",
             "formated name": null
         },
@@ -674,7 +674,7 @@
             "formated name": null
         },
         "210227": {
-            "name": "animal délevage",
+            "name": "animal d'élevage",
             "w": "58",
             "formated name": null
         },
@@ -726,12 +726,12 @@
         "225847": {
             "name": "organisme>71624",
             "w": "104",
-            "formated name": "'organisme>être vivant'"
+            "formated name": "organisme>être vivant"
         },
         "237445": {
             "name": "être>68439",
             "w": "36",
-            "formated name": "'être>individu'"
+            "formated name": "être>individu"
         },
         "58768": {
             "name": "organisme",
@@ -746,7 +746,7 @@
         "157007": {
             "name": "être>146885",
             "w": "50",
-            "formated name": "'être>Nom:Mas+SG'"
+            "formated name": "être>Nom:Mas+SG"
         },
         "14049831": {
             "name": "organisme vivant pluricellulaire hétérotrophe",
@@ -756,7 +756,7 @@
         "325657": {
             "name": "animal>117095>325656",
             "w": "58",
-            "formated name": "'animal>zoologie>être animé non humain'"
+            "formated name": "animal>zoologie>être animé non humain"
         },
         "222884": {
             "name": "pigeon soyeux",
@@ -954,7 +954,7 @@
             "formated name": null
         },
         "370441": {
-            "name": "pigeon dagrément",
+            "name": "pigeon d'agrément",
             "w": "50",
             "formated name": null
         },
@@ -1066,7 +1066,7 @@
         "213857": {
             "name": "voler>167847",
             "w": "288",
-            "formated name": "'voler>déplacement aérien'"
+            "formated name": "voler>déplacement aérien"
         },
         "73827": {
             "name": "voler",
@@ -1091,7 +1091,7 @@
         "14380872": {
             "name": "::>31:112137>29:126612",
             "w": "0",
-            "formated name": "'se poser [endroit] lampadaire'"
+            "formated name": "se poser [endroit] lampadaire"
         },
         "37229": {
             "name": "se trouver",
@@ -1101,7 +1101,7 @@
         "14465543": {
             "name": "::>31:131717>29:37229",
             "w": "0",
-            "formated name": "'se trouver [endroit] centre-ville'"
+            "formated name": "se trouver [endroit] centre-ville"
         },
         "53223": {
             "name": "lâcher",
@@ -1111,17 +1111,17 @@
         "14573351": {
             "name": "::>14:37571>29:53223",
             "w": "0",
-            "formated name": "'lâcher [objet] fiente'"
+            "formated name": "lâcher [objet] fiente"
         },
         "16595341": {
             "name": "::>31:83401>29:10246",
             "w": "0",
-            "formated name": "'fienter [endroit] passant'"
+            "formated name": "fienter [endroit] passant"
         },
         "16605894": {
             "name": "::>31:218806>29:213857",
             "w": "0",
-            "formated name": "'voler>déplacement aérien [endroit] ciel>atmosphère'"
+            "formated name": "voler>déplacement aérien [endroit] ciel>atmosphère"
         },
         "16605918": {
             "name": "se faire voler",
@@ -1136,17 +1136,17 @@
         "166705735": {
             "name": "::>31:5334532>29:19005717",
             "w": "0",
-            "formated name": "'fianter [endroit] passant>piéton'"
+            "formated name": "fianter [endroit] passant>piéton"
         },
         "166706227": {
             "name": "::>31:34604>29:19005717",
             "w": "0",
-            "formated name": "'fianter [endroit] piéton'"
+            "formated name": "fianter [endroit] piéton"
         },
         "166708523": {
             "name": "::>31:34604>29:10246",
             "w": "0",
-            "formated name": "'fienter [endroit] piéton'"
+            "formated name": "fienter [endroit] piéton"
         },
         "56255": {
             "name": "berner",
@@ -1156,97 +1156,97 @@
         "282243518": {
             "name": "::>14:74657>29:56255",
             "w": "0",
-            "formated name": "'berner [objet] pigeon'"
+            "formated name": "berner [objet] pigeon"
         },
         "14380874": {
             "name": "::>66:74657>24:14380872",
             "w": "0",
-            "formated name": "'pigeon [peut] se poser [endroit] lampadaire'"
+            "formated name": "pigeon [peut] se poser [endroit] lampadaire"
         },
         "14380871": {
             "name": "::>66:74657>24:126612",
             "w": "0",
-            "formated name": "'pigeon [peut] se poser'"
+            "formated name": "pigeon [peut] se poser"
         },
         "14465545": {
             "name": "::>66:74657>24:14465543",
             "w": "0",
-            "formated name": "'pigeon [peut] se trouver [endroit] centre-ville'"
+            "formated name": "pigeon [peut] se trouver [endroit] centre-ville"
         },
         "14465542": {
             "name": "::>66:74657>24:37229",
             "w": "0",
-            "formated name": "'pigeon [peut] se trouver'"
+            "formated name": "pigeon [peut] se trouver"
         },
         "14573353": {
             "name": "::>66:74657>24:14573351",
             "w": "0",
-            "formated name": "'pigeon [peut] lâcher [objet] fiente'"
+            "formated name": "pigeon [peut] lâcher [objet] fiente"
         },
         "14573350": {
             "name": "::>66:74657>24:53223",
             "w": "0",
-            "formated name": "'pigeon [peut] lâcher'"
+            "formated name": "pigeon [peut] lâcher"
         },
         "16168821": {
             "name": "::>66:74657>24:73827",
             "w": "0",
-            "formated name": "'pigeon [peut] voler'"
+            "formated name": "pigeon [peut] voler"
         },
         "16595343": {
             "name": "::>66:74657>24:16595341",
             "w": "0",
-            "formated name": "'pigeon [peut] fienter [endroit] passant'"
+            "formated name": "pigeon [peut] fienter [endroit] passant"
         },
         "16595340": {
             "name": "::>66:74657>24:10246",
             "w": "0",
-            "formated name": "'pigeon [peut] fienter'"
+            "formated name": "pigeon [peut] fienter"
         },
         "16605914": {
             "name": "::>66:74657>24:16605894",
             "w": "0",
-            "formated name": "'pigeon [peut] voler>déplacement aérien [endroit] ciel>atmosphère'"
+            "formated name": "pigeon [peut] voler>déplacement aérien [endroit] ciel>atmosphère"
         },
         "16605913": {
             "name": "::>66:74657>24:213857",
             "w": "0",
-            "formated name": "'pigeon [peut] voler>déplacement aérien'"
+            "formated name": "pigeon [peut] voler>déplacement aérien"
         },
         "16605946": {
             "name": "::>66:74657>24:16605918",
             "w": "0",
-            "formated name": "'pigeon [peut] se faire voler'"
+            "formated name": "pigeon [peut] se faire voler"
         },
         "18241237": {
             "name": "::>66:74657>24:122409",
             "w": "0",
-            "formated name": "'pigeon [peut] roucouler'"
+            "formated name": "pigeon [peut] roucouler"
         },
         "166705875": {
             "name": "::>66:74657>24:166705735",
             "w": "0",
-            "formated name": "'pigeon [peut] fianter [endroit] passant>piéton'"
+            "formated name": "pigeon [peut] fianter [endroit] passant>piéton"
         },
         "166705874": {
             "name": "::>66:74657>24:19005717",
             "w": "0",
-            "formated name": "'pigeon [peut] fianter'"
+            "formated name": "pigeon [peut] fianter"
         },
         "191864978": {
             "name": "::>66:74657>24:166706227",
             "w": "0",
-            "formated name": "'pigeon [peut] fianter [endroit] piéton'"
+            "formated name": "pigeon [peut] fianter [endroit] piéton"
         },
         "191864977": {
             "name": "::>66:74657>24:166708523",
             "w": "0",
-            "formated name": "'pigeon [peut] fienter [endroit] piéton'"
+            "formated name": "pigeon [peut] fienter [endroit] piéton"
         },
         "282243519": {
             "name": "::>66:74657>26:56255",
             "w": "0",
-            "formated name": "'pigeon [se faire] berner'"
+            "formated name": "pigeon [se faire] berner"
         },
         "9056": {
             "name": "victime",
@@ -1276,12 +1276,12 @@
         "230938": {
             "name": "place>157825",
             "w": "56",
-            "formated name": "'place>place publique'"
+            "formated name": "place>place publique"
         },
         "215023": {
             "name": "pigeon>83368",
             "w": "64",
-            "formated name": "'pigeon>naïf'"
+            "formated name": "pigeon>naïf"
         },
         "1198596": {
             "name": ":r11120854",
@@ -1386,7 +1386,7 @@
         "215896": {
             "name": "aile>117095>140176",
             "w": "102",
-            "formated name": "'aile>zoologie>oiseau'"
+            "formated name": "aile>zoologie>oiseau"
         },
         "1198590": {
             "name": ":r11255518",
@@ -1396,7 +1396,7 @@
         "234036": {
             "name": "être vivant>123933",
             "w": "278",
-            "formated name": "'être vivant>entité'"
+            "formated name": "être vivant>entité"
         },
         "172394": {
             "name": "bolos",
@@ -1616,7 +1616,7 @@
         "250346": {
             "name": "roucouler>74657",
             "w": "92",
-            "formated name": "'roucouler>pigeon'"
+            "formated name": "roucouler>pigeon"
         },
         "394859": {
             "name": "pigeon cravaté",
@@ -1816,7 +1816,7 @@
         "233008": {
             "name": "bec>140176",
             "w": "54",
-            "formated name": "'bec>oiseau'"
+            "formated name": "bec>oiseau"
         },
         "1824139": {
             "name": "thorax de pigeon",
@@ -1836,7 +1836,7 @@
         "215018": {
             "name": "poire>83368",
             "w": "50",
-            "formated name": "'poire>naïf'"
+            "formated name": "poire>naïf"
         },
         "394860": {
             "name": "pigeon de colombier",
@@ -1866,7 +1866,7 @@
         "218648": {
             "name": "arbre>136507",
             "w": "426",
-            "formated name": "'arbre>végétal'"
+            "formated name": "arbre>végétal"
         },
         "5955": {
             "name": "parc",
@@ -1911,7 +1911,7 @@
         "228075": {
             "name": "bague>36482",
             "w": "50",
-            "formated name": "'bague>ornithologie'"
+            "formated name": "bague>ornithologie"
         },
         "38788": {
             "name": "espèce",
@@ -1979,14 +1979,14 @@
             "formated name": null
         },
         "15215928": {
-            "name": "pigeon dargile",
+            "name": "pigeon d'argile",
             "w": "0",
             "formated name": null
         },
         "12983932": {
             "name": "cible>109420",
             "w": "4",
-            "formated name": "'cible>tir'"
+            "formated name": "cible>tir"
         },
         "40080": {
             "name": "tocard",
@@ -2036,7 +2036,7 @@
         "215727": {
             "name": "vol>53541",
             "w": "60",
-            "formated name": "'vol>groupe'"
+            "formated name": "vol>groupe"
         },
         "1198628": {
             "name": ":r1890402",
@@ -2076,12 +2076,12 @@
         "1395235": {
             "name": "être>171870",
             "w": "0",
-            "formated name": "'être>Nom:'"
+            "formated name": "être>Nom:"
         },
         "392739": {
             "name": "substance>29208",
             "w": "68",
-            "formated name": "'substance>matière'"
+            "formated name": "substance>matière"
         },
         "2457946": {
             "name": "pigeon de beauté allemand",
@@ -2096,7 +2096,7 @@
         "245478": {
             "name": "biset>74657",
             "w": "52",
-            "formated name": "'biset>pigeon'"
+            "formated name": "biset>pigeon"
         },
         "140429": {
             "name": "chasse",
@@ -2111,7 +2111,7 @@
         "214603": {
             "name": "queue>214624>140176",
             "w": "52",
-            "formated name": "'queue>queue d'animal>oiseau'"
+            "formated name": "queue>queue d'animal>oiseau"
         },
         "15413799": {
             "name": "en:in the town centre",
@@ -2131,7 +2131,7 @@
         "252259": {
             "name": "se faire baiser>164508",
             "w": "2",
-            "formated name": "'se faire baiser>se faire avoir'"
+            "formated name": "se faire baiser>se faire avoir"
         },
         "183734002": {
             "name": ":r577378575",
@@ -2151,7 +2151,7 @@
         "213545": {
             "name": "plume>140176",
             "w": "112",
-            "formated name": "'plume>oiseau'"
+            "formated name": "plume>oiseau"
         },
         "74846": {
             "name": "corps",
@@ -2216,12 +2216,12 @@
         "225706": {
             "name": "oiseau>68439",
             "w": "50",
-            "formated name": "'oiseau>individu'"
+            "formated name": "oiseau>individu"
         },
         "1636805": {
             "name": "oeil>44335",
             "w": "52",
-            "formated name": "'oeil>organe'"
+            "formated name": "oeil>organe"
         },
         "15088586": {
             "name": "en:systema nervosum",
@@ -2229,7 +2229,7 @@
             "formated name": null
         },
         "139709": {
-            "name": "senvoler",
+            "name": "s'envoler",
             "w": "188",
             "formated name": null
         },
@@ -2291,7 +2291,7 @@
         "229805": {
             "name": "colombe>140176",
             "w": "40",
-            "formated name": "'colombe>oiseau'"
+            "formated name": "colombe>oiseau"
         },
         "86306": {
             "name": "prendre",
@@ -2301,7 +2301,7 @@
         "267289": {
             "name": "Woodstock>140176",
             "w": "50",
-            "formated name": "'Woodstock>oiseau'"
+            "formated name": "Woodstock>oiseau"
         },
         "14950399": {
             "name": "en:naïve",
@@ -2324,7 +2324,7 @@
             "formated name": null
         },
         "6451679": {
-            "name": "intoxication par pigeon dargile",
+            "name": "intoxication par pigeon d'argile",
             "w": "0",
             "formated name": null
         },
@@ -2386,7 +2386,7 @@
         "214842": {
             "name": "dinde>70493",
             "w": "124",
-            "formated name": "'dinde>volaille'"
+            "formated name": "dinde>volaille"
         },
         "7769": {
             "name": "canard",
@@ -2404,7 +2404,7 @@
             "formated name": null
         },
         "12080639": {
-            "name": "pigeon dutilité mulhousien",
+            "name": "pigeon d'utilité mulhousien",
             "w": "0",
             "formated name": null
         },
@@ -2544,7 +2544,7 @@
             "formated name": null
         },
         "136761229": {
-            "name": "bassin deau",
+            "name": "bassin d'eau",
             "w": "0",
             "formated name": null
         },
@@ -2566,7 +2566,7 @@
         "260032": {
             "name": "cuire>16033",
             "w": "172",
-            "formated name": "'cuire>cuisine'"
+            "formated name": "cuire>cuisine"
         },
         "37298": {
             "name": "amour",
@@ -2621,12 +2621,12 @@
         "321601": {
             "name": "lampiste>109771",
             "w": "50",
-            "formated name": "'lampiste>responsable'"
+            "formated name": "lampiste>responsable"
         },
         "270454": {
             "name": "tourterelle>140176",
             "w": "58",
-            "formated name": "'tourterelle>oiseau'"
+            "formated name": "tourterelle>oiseau"
         },
         "78647": {
             "name": "sotte",
@@ -2641,12 +2641,12 @@
         "658961": {
             "name": "sotte>171870",
             "w": "0",
-            "formated name": "'sotte>Nom:'"
+            "formated name": "sotte>Nom:"
         },
         "591749": {
             "name": "colombin>171870",
             "w": "0",
-            "formated name": "'colombin>Nom:'"
+            "formated name": "colombin>Nom:"
         },
         "95825": {
             "name": "victuaille",
@@ -2661,7 +2661,7 @@
         "218940": {
             "name": "poisson>17559",
             "w": "646",
-            "formated name": "'poisson>animal'"
+            "formated name": "poisson>animal"
         },
         "77008": {
             "name": "yeux",
@@ -2786,7 +2786,7 @@
         "260608": {
             "name": "naïf>110231",
             "w": "80",
-            "formated name": "'naïf>crédule'"
+            "formated name": "naïf>crédule"
         },
         "120910": {
             "name": "colombophilie",
@@ -2811,7 +2811,7 @@
         "325194": {
             "name": "extinction>120760",
             "w": "56",
-            "formated name": "'extinction>disparition'"
+            "formated name": "extinction>disparition"
         },
         "273420": {
             "name": "aves",
@@ -2831,7 +2831,7 @@
         "1573170": {
             "name": "niais>171870",
             "w": "0",
-            "formated name": "'niais>Nom:'"
+            "formated name": "niais>Nom:"
         },
         "15443395": {
             "name": "en:halfwit",
@@ -2841,12 +2841,12 @@
         "225934": {
             "name": "oeil>330323",
             "w": "266",
-            "formated name": "'oeil>organe de la vue'"
+            "formated name": "oeil>organe de la vue"
         },
         "216283": {
             "name": "dent>45311",
             "w": "344",
-            "formated name": "'dent>dentaire'"
+            "formated name": "dent>dentaire"
         },
         "187622": {
             "name": "patte antérieure",
@@ -2856,7 +2856,7 @@
         "215758": {
             "name": "gueule>215755",
             "w": "14",
-            "formated name": "'gueule>bouche animale'"
+            "formated name": "gueule>bouche animale"
         },
         "39031": {
             "name": "cerveau",
@@ -2906,12 +2906,12 @@
         "224422": {
             "name": "manger>113902>119570",
             "w": "212",
-            "formated name": "'manger>alimentation>absorber'"
+            "formated name": "manger>alimentation>absorber"
         },
         "227756": {
             "name": "plumer>62726",
             "w": "2",
-            "formated name": "'plumer>plume'"
+            "formated name": "plumer>plume"
         },
         "59691": {
             "name": "pigeonne",
@@ -2941,7 +2941,7 @@
         "2667260": {
             "name": "plumage>140176",
             "w": "2",
-            "formated name": "'plumage>oiseau'"
+            "formated name": "plumage>oiseau"
         },
         "280489": {
             "name": "columbidae",
@@ -2956,7 +2956,7 @@
         "3292062": {
             "name": "personne>3291232",
             "w": "6",
-            "formated name": "'personne>être pensant'"
+            "formated name": "personne>être pensant"
         },
         "139431": {
             "name": "Être",
@@ -2976,7 +2976,7 @@
         "1792553": {
             "name": "composé>46728",
             "w": "8",
-            "formated name": "'composé>chimie'"
+            "formated name": "composé>chimie"
         },
         "81934": {
             "name": "main",
@@ -2996,7 +2996,7 @@
         "390927": {
             "name": "tête>112609",
             "w": "72",
-            "formated name": "'tête>anatomie'"
+            "formated name": "tête>anatomie"
         },
         "86657": {
             "name": "lolos",
@@ -3006,7 +3006,7 @@
         "11008328": {
             "name": "ADN>30051",
             "w": "22",
-            "formated name": "'ADN>code génétique'"
+            "formated name": "ADN>code génétique"
         },
         "32735": {
             "name": "poumons",
@@ -3016,12 +3016,12 @@
         "10850586": {
             "name": "corps>112609>49293",
             "w": "38",
-            "formated name": "'corps>anatomie>humain'"
+            "formated name": "corps>anatomie>humain"
         },
         "242310": {
             "name": "croc>60902",
             "w": "14",
-            "formated name": "'croc>dent'"
+            "formated name": "croc>dent"
         },
         "2498780": {
             "name": "pied-de-pigeon",
@@ -3056,12 +3056,12 @@
         "221412": {
             "name": "branche>52255",
             "w": "26",
-            "formated name": "'branche>arbre'"
+            "formated name": "branche>arbre"
         },
         "256780": {
             "name": "toit>51196",
             "w": "34",
-            "formated name": "'toit>toiture'"
+            "formated name": "toit>toiture"
         },
         "106987": {
             "name": "réverbère",
@@ -3076,7 +3076,7 @@
         "156966": {
             "name": "ferme>146889",
             "w": "50",
-            "formated name": "'ferme>Adv:'"
+            "formated name": "ferme>Adv:"
         },
         "330215": {
             "name": "bilatéralement symétrique",
@@ -3096,12 +3096,12 @@
         "213856": {
             "name": "voler>58321",
             "w": "188",
-            "formated name": "'voler>malhonnêteté'"
+            "formated name": "voler>malhonnêteté"
         },
         "2343906": {
             "name": "picorer>46057",
             "w": "4",
-            "formated name": "'picorer>oiseaux'"
+            "formated name": "picorer>oiseaux"
         },
         "124550": {
             "name": "tirer",
@@ -3116,7 +3116,7 @@
         "241775": {
             "name": "attraper>847",
             "w": "46",
-            "formated name": "'attraper>capturer'"
+            "formated name": "attraper>capturer"
         },
         "142249": {
             "name": "bague",
@@ -3151,12 +3151,12 @@
         "593629": {
             "name": "tourterelle>171870",
             "w": "0",
-            "formated name": "'tourterelle>Nom:'"
+            "formated name": "tourterelle>Nom:"
         },
         "1482393": {
             "name": "sot>171870",
             "w": "0",
-            "formated name": "'sot>Nom:'"
+            "formated name": "sot>Nom:"
         },
         "109420": {
             "name": "tir",
@@ -3186,7 +3186,7 @@
         "215906": {
             "name": "chasse>103453",
             "w": "72",
-            "formated name": "'chasse>cynégétique'"
+            "formated name": "chasse>cynégétique"
         },
         "55432": {
             "name": "pas de tir",
@@ -3221,7 +3221,7 @@
         "600108": {
             "name": "naïf>171870",
             "w": "0",
-            "formated name": "'naïf>Nom:'"
+            "formated name": "naïf>Nom:"
         },
         "15351229": {
             "name": "en:fooled",
@@ -3241,7 +3241,7 @@
         "684685": {
             "name": "frais>171870",
             "w": "0",
-            "formated name": "'frais>Nom:'"
+            "formated name": "frais>Nom:"
         },
         "316850": {
             "name": "entité physique",
@@ -3276,17 +3276,17 @@
         "213644": {
             "name": "os>116980",
             "w": "434",
-            "formated name": "'os>squelette'"
+            "formated name": "os>squelette"
         },
         "221034": {
             "name": "bras>112609",
             "w": "224",
-            "formated name": "'bras>anatomie'"
+            "formated name": "bras>anatomie"
         },
         "213977": {
             "name": "bassin>112609",
             "w": "26",
-            "formated name": "'bassin>anatomie'"
+            "formated name": "bassin>anatomie"
         },
         "398564": {
             "name": "mâchoires",
@@ -3369,7 +3369,7 @@
             "formated name": null
         },
         "136761228": {
-            "name": "toit dimmeuble",
+            "name": "toit d'immeuble",
             "w": "0",
             "formated name": null
         },
@@ -3421,7 +3421,7 @@
         "251694": {
             "name": "mourir>126720",
             "w": "284",
-            "formated name": "'mourir>cesser de vivre'"
+            "formated name": "mourir>cesser de vivre"
         },
         "43253": {
             "name": "dormir",
@@ -3431,7 +3431,7 @@
         "259820": {
             "name": "vivre>160251",
             "w": "98",
-            "formated name": "'vivre>être en vie'"
+            "formated name": "vivre>être en vie"
         },
         "47918": {
             "name": "boire",
@@ -3446,7 +3446,7 @@
         "225253": {
             "name": "marcher>8180",
             "w": "50",
-            "formated name": "'marcher>croire'"
+            "formated name": "marcher>croire"
         },
         "33882": {
             "name": "se nourrir",
@@ -3466,7 +3466,7 @@
         "225252": {
             "name": "marcher>59303",
             "w": "204",
-            "formated name": "'marcher>se déplacer'"
+            "formated name": "marcher>se déplacer"
         },
         "87091": {
             "name": "nidifier",
@@ -3506,7 +3506,7 @@
         "233198": {
             "name": "boire>86872",
             "w": "122",
-            "formated name": "'boire>se désaltérer'"
+            "formated name": "boire>se désaltérer"
         },
         "101610": {
             "name": "atterrir",
@@ -3541,17 +3541,17 @@
         "239520": {
             "name": "pondre>117095",
             "w": "30",
-            "formated name": "'pondre>zoologie'"
+            "formated name": "pondre>zoologie"
         },
         "239317": {
             "name": "se faire enculer>115432",
             "w": "24",
-            "formated name": "'se faire enculer>duperie'"
+            "formated name": "se faire enculer>duperie"
         },
         "6681658": {
             "name": "manger>113902",
             "w": "190",
-            "formated name": "'manger>alimentation'"
+            "formated name": "manger>alimentation"
         },
         "105814": {
             "name": "regarder",
@@ -3561,17 +3561,17 @@
         "14380870": {
             "name": "::>13:74657>29:126612",
             "w": "0",
-            "formated name": "'se poser [sujet] pigeon'"
+            "formated name": "se poser [sujet] pigeon"
         },
         "14465541": {
             "name": "::>13:74657>29:37229",
             "w": "0",
-            "formated name": "'se trouver [sujet] pigeon'"
+            "formated name": "se trouver [sujet] pigeon"
         },
         "14573349": {
             "name": "::>13:74657>29:53223",
             "w": "0",
-            "formated name": "'lâcher [sujet] pigeon'"
+            "formated name": "lâcher [sujet] pigeon"
         },
         "15323342": {
             "name": "en:get suckered",
@@ -3666,10 +3666,10 @@
         "16168820": {
             "name": "::>13:74657>29:73827",
             "w": "0",
-            "formated name": "'voler [sujet] pigeon'"
+            "formated name": "voler [sujet] pigeon"
         },
         "186631": {
-            "name": "ny voir que du feu",
+            "name": "n'y voir que du feu",
             "w": "50",
             "formated name": null
         },
@@ -3691,27 +3691,27 @@
         "14374498": {
             "name": "se poser>34642",
             "w": "0",
-            "formated name": "'se poser>se placer'"
+            "formated name": "se poser>se placer"
         },
         "14374500": {
             "name": "se poser>34642>3224813",
             "w": "0",
-            "formated name": "'se poser>se placer>animal volant'"
+            "formated name": "se poser>se placer>animal volant"
         },
         "16595339": {
             "name": "::>13:74657>29:10246",
             "w": "0",
-            "formated name": "'fienter [sujet] pigeon'"
+            "formated name": "fienter [sujet] pigeon"
         },
         "16605912": {
             "name": "::>13:74657>29:213857",
             "w": "0",
-            "formated name": "'voler>déplacement aérien [sujet] pigeon'"
+            "formated name": "voler>déplacement aérien [sujet] pigeon"
         },
         "16322123": {
             "name": "::>31:77306>29:73827",
             "w": "0",
-            "formated name": "'voler [endroit] ciel'"
+            "formated name": "voler [endroit] ciel"
         },
         "15314438": {
             "name": "en:be taken to the cleaners",
@@ -3734,7 +3734,7 @@
             "formated name": null
         },
         "186630": {
-            "name": "ny voir que du bleu",
+            "name": "n'y voir que du bleu",
             "w": "50",
             "formated name": null
         },
@@ -3776,7 +3776,7 @@
         "16605947": {
             "name": "::>13:74657>29:16605918",
             "w": "0",
-            "formated name": "'se faire voler [sujet] pigeon'"
+            "formated name": "se faire voler [sujet] pigeon"
         },
         "15282441": {
             "name": "en:get nabbed",
@@ -3791,7 +3791,7 @@
         "18241236": {
             "name": "::>13:74657>29:122409",
             "w": "0",
-            "formated name": "'roucouler [sujet] pigeon'"
+            "formated name": "roucouler [sujet] pigeon"
         },
         "15290285": {
             "name": "en:fall into a trap",
@@ -3821,7 +3821,7 @@
         "166705873": {
             "name": "::>13:74657>29:19005717",
             "w": "0",
-            "formated name": "'fianter [sujet] pigeon'"
+            "formated name": "fianter [sujet] pigeon"
         },
         "27691891": {
             "name": "en:be taken in",
@@ -3844,14 +3844,14 @@
             "formated name": null
         },
         "137288": {
-            "name": "salimenter",
+            "name": "s'alimenter",
             "w": "170",
             "formated name": null
         },
         "19005720": {
             "name": "::>31:83401>29:19005717",
             "w": "0",
-            "formated name": "'fianter [endroit] passant'"
+            "formated name": "fianter [endroit] passant"
         },
         "56921": {
             "name": "exploiter",
@@ -3861,7 +3861,7 @@
         "328089": {
             "name": "::>16:77424>29:102042",
             "w": "50",
-            "formated name": "'viser [avec] oeil'"
+            "formated name": "viser [avec] oeil"
         },
         "121724": {
             "name": "niquer",
@@ -3871,7 +3871,7 @@
         "224570": {
             "name": "::>16:77424>29:102042>14",
             "w": "50",
-            "formated name": "'Que pourrait-on viser avec un oeil ?'"
+            "formated name": "Que pourrait-on viser avec un oeil ?"
         },
         "65893": {
             "name": "truander",
@@ -3886,37 +3886,37 @@
         "327287": {
             "name": "::>13:88767>29:98337",
             "w": "50",
-            "formated name": "'plumer [sujet] fermier'"
+            "formated name": "plumer [sujet] fermier"
         },
         "328304": {
             "name": "::>13:137506>29:98337",
             "w": "50",
-            "formated name": "'plumer [sujet] quelqu'un'"
+            "formated name": "plumer [sujet] quelqu'un"
         },
         "327315": {
             "name": "::>13:102641>29:98337",
             "w": "50",
-            "formated name": "'plumer [sujet] voleur'"
+            "formated name": "plumer [sujet] voleur"
         },
         "327623": {
             "name": "::>13:122455>29:98337",
             "w": "50",
-            "formated name": "'plumer [sujet] escroc'"
+            "formated name": "plumer [sujet] escroc"
         },
         "327492": {
             "name": "::>13:116477>29:98337",
             "w": "50",
-            "formated name": "'plumer [sujet] personne'"
+            "formated name": "plumer [sujet] personne"
         },
         "327313": {
             "name": "::>13:61490>29:98337",
             "w": "50",
-            "formated name": "'plumer [sujet] femme'"
+            "formated name": "plumer [sujet] femme"
         },
         "239898": {
             "name": "enculer>6474",
             "w": "54",
-            "formated name": "'enculer>duper'"
+            "formated name": "enculer>duper"
         },
         "73183": {
             "name": "dindonner",
@@ -3936,7 +3936,7 @@
         "164229": {
             "name": "::>13:88767>29:98337>14",
             "w": "50",
-            "formated name": "'Qu'est-ce qu'un fermier pourrait plumer ?'"
+            "formated name": "Qu'est-ce qu'un fermier pourrait plumer ?"
         },
         "26735": {
             "name": "farcir",
@@ -3946,27 +3946,27 @@
         "163736": {
             "name": "::>13:137506>29:98337>14",
             "w": "50",
-            "formated name": "'Qu'est-ce que quelqu'un pourrait plumer ?'"
+            "formated name": "Qu'est-ce que quelqu'un pourrait plumer ?"
         },
         "162445": {
             "name": "::>13:102641>29:98337>14",
             "w": "50",
-            "formated name": "'Qu'est-ce qu'un voleur pourrait plumer ?'"
+            "formated name": "Qu'est-ce qu'un voleur pourrait plumer ?"
         },
         "159963": {
             "name": "::>13:122455>29:98337>14",
             "w": "50",
-            "formated name": "'Qu'est-ce qu'une escroc pourrait plumer ?'"
+            "formated name": "Qu'est-ce qu'une escroc pourrait plumer ?"
         },
         "159187": {
             "name": "::>13:116477>29:98337>14",
             "w": "50",
-            "formated name": "'Qu'est-ce qu'une personne pourrait plumer ?'"
+            "formated name": "Qu'est-ce qu'une personne pourrait plumer ?"
         },
         "158388": {
             "name": "::>13:61490>29:98337>14",
             "w": "50",
-            "formated name": "'Qu'est-ce qu'une femme pourrait plumer ?'"
+            "formated name": "Qu'est-ce qu'une femme pourrait plumer ?"
         },
         "847": {
             "name": "capturer",
@@ -3981,12 +3981,12 @@
         "227757": {
             "name": "plumer>117101",
             "w": "56",
-            "formated name": "'plumer>dépouiller'"
+            "formated name": "plumer>dépouiller"
         },
         "230989": {
             "name": "rouler>6474",
             "w": "22",
-            "formated name": "'rouler>duper'"
+            "formated name": "rouler>duper"
         },
         "231": {
             "name": "rouler",
@@ -3996,7 +3996,7 @@
         "609594": {
             "name": "rouler>146882",
             "w": "0",
-            "formated name": "'rouler>Ver:Inf'"
+            "formated name": "rouler>Ver:Inf"
         },
         "115369": {
             "name": "arnaquer",
@@ -4016,7 +4016,7 @@
         "228624": {
             "name": "cuisiner>156701",
             "w": "294",
-            "formated name": "'cuisiner>faire la cuisine'"
+            "formated name": "cuisiner>faire la cuisine"
         },
         "97571": {
             "name": "consommer",
@@ -4026,7 +4026,7 @@
         "590087": {
             "name": "farcir>146882",
             "w": "0",
-            "formated name": "'farcir>Ver:Inf'"
+            "formated name": "farcir>Ver:Inf"
         },
         "44059": {
             "name": "argile",
@@ -4051,12 +4051,12 @@
         "213940": {
             "name": "rat>71115",
             "w": "172",
-            "formated name": "'rat>rongeur'"
+            "formated name": "rat>rongeur"
         },
         "589414": {
             "name": "dupe>171870",
             "w": "0",
-            "formated name": "'dupe>Nom:'"
+            "formated name": "dupe>Nom:"
         },
         "3182860": {
             "name": "Pigeon biset",
@@ -4066,7 +4066,7 @@
         "453095": {
             "name": "naïve>171870",
             "w": "50",
-            "formated name": "'naïve>Nom:'"
+            "formated name": "naïve>Nom:"
         },
         "14922377": {
             "name": "en:had",
@@ -4081,7 +4081,7 @@
         "582288": {
             "name": "impertinent>171870",
             "w": "0",
-            "formated name": "'impertinent>Nom:'"
+            "formated name": "impertinent>Nom:"
         },
         "136559": {
             "name": "produit alimentaire",
@@ -4216,7 +4216,7 @@
         "237771": {
             "name": "sauvage>129068",
             "w": "22",
-            "formated name": "'sauvage>indompté'"
+            "formated name": "sauvage>indompté"
         },
         "10369": {
             "name": "albinos",
@@ -4296,7 +4296,7 @@
         "237765": {
             "name": "patte>141795",
             "w": "58",
-            "formated name": "'patte>membre'"
+            "formated name": "patte>membre"
         },
         "8990": {
             "name": "patte",
@@ -4316,7 +4316,7 @@
         "233138": {
             "name": "tête>390963",
             "w": "82",
-            "formated name": "'tête>extrémité supérieure du corps'"
+            "formated name": "tête>extrémité supérieure du corps"
         },
         "116980": {
             "name": "squelette",
@@ -4421,12 +4421,12 @@
         "218806": {
             "name": "ciel>212",
             "w": "10",
-            "formated name": "'ciel>atmosphère'"
+            "formated name": "ciel>atmosphère"
         },
         "218746": {
             "name": "boucherie>140100",
             "w": "192",
-            "formated name": "'boucherie>viande'"
+            "formated name": "boucherie>viande"
         },
         "15071496": {
             "name": "en:city centre",
@@ -4556,7 +4556,7 @@
         "221181": {
             "name": "matière>11358",
             "w": "118",
-            "formated name": "'matière>substance'"
+            "formated name": "matière>substance"
         },
         "217105": {
             "name": "substance chimique",
@@ -4586,7 +4586,7 @@
         "241352": {
             "name": "ventre>112609",
             "w": "144",
-            "formated name": "'ventre>anatomie'"
+            "formated name": "ventre>anatomie"
         },
         "152844": {
             "name": "sang chaud",
@@ -4606,7 +4606,7 @@
         "240590": {
             "name": "arête>68467",
             "w": "18",
-            "formated name": "'arête>poisson'"
+            "formated name": "arête>poisson"
         },
         "15396164": {
             "name": "en:shells",
@@ -4671,7 +4671,7 @@
         "214224": {
             "name": "bâtiment>55137",
             "w": "134",
-            "formated name": "'bâtiment>construction'"
+            "formated name": "bâtiment>construction"
         },
         "15413804": {
             "name": "en:right in the town center",
@@ -4741,12 +4741,12 @@
         "1956769": {
             "name": "ramier>13035",
             "w": "8",
-            "formated name": "'ramier>paresseux'"
+            "formated name": "ramier>paresseux"
         },
         "1956770": {
             "name": "ramier>330074",
             "w": "0",
-            "formated name": "'ramier>espace naturel'"
+            "formated name": "ramier>espace naturel"
         },
         "153845": {
             "name": "Minéralogie",
@@ -4801,20 +4801,20 @@
         "3245297": {
             "name": "pigeon>118439",
             "w": "2",
-            "formated name": "'pigeon>ball-trap'"
+            "formated name": "pigeon>ball-trap"
         },
         "2348209": {
             "name": "poire>146881",
             "w": "0",
-            "formated name": "'poire>Nom:Fem+SG'"
+            "formated name": "poire>Nom:Fem+SG"
         },
         "578627": {
             "name": "ramier>171870",
             "w": "0",
-            "formated name": "'ramier>Nom:'"
+            "formated name": "ramier>Nom:"
         },
         "144317": {
-            "name": "simple desprit",
+            "name": "simple d'esprit",
             "w": "76",
             "formated name": null
         },
@@ -4856,17 +4856,17 @@
         "219363": {
             "name": "corps>112609",
             "w": "216",
-            "formated name": "'corps>anatomie'"
+            "formated name": "corps>anatomie"
         },
         "240720": {
             "name": "squelette>112609",
             "w": "156",
-            "formated name": "'squelette>anatomie'"
+            "formated name": "squelette>anatomie"
         },
         "221019": {
             "name": "bouche>112609",
             "w": "236",
-            "formated name": "'bouche>anatomie'"
+            "formated name": "bouche>anatomie"
         },
         "50869": {
             "name": "seins",
@@ -4891,7 +4891,7 @@
         "228289": {
             "name": "sexe>218086",
             "w": "334",
-            "formated name": "'sexe>organe sexuel'"
+            "formated name": "sexe>organe sexuel"
         },
         "126388": {
             "name": "articulation",
@@ -4911,7 +4911,7 @@
         "213792": {
             "name": "coeur>213791",
             "w": "216",
-            "formated name": "'coeur>organe musculaire'"
+            "formated name": "coeur>organe musculaire"
         },
         "12791689": {
             "name": "acide désoxyribo-nucléique",
@@ -4979,7 +4979,7 @@
             "formated name": null
         },
         "14159502": {
-            "name": "tir au pigeon dargile",
+            "name": "tir au pigeon d'argile",
             "w": "2",
             "formated name": null
         },
@@ -5116,7 +5116,7 @@
         "599490": {
             "name": "domestique>171869",
             "w": "0",
-            "formated name": "'domestique>Adj:'"
+            "formated name": "domestique>Adj:"
         },
         "51283": {
             "name": "volé",
@@ -5206,17 +5206,17 @@
         "282243517": {
             "name": "::>66:144327>24:56255",
             "w": "0",
-            "formated name": "'arnaqueur [peut] berner'"
+            "formated name": "arnaqueur [peut] berner"
         },
         "282243524": {
             "name": "::>66:144327>24:282243518",
             "w": "0",
-            "formated name": "'arnaqueur [peut] berner [objet] pigeon'"
+            "formated name": "arnaqueur [peut] berner [objet] pigeon"
         },
         "246153024": {
             "name": "être humain>74860",
             "w": "50",
-            "formated name": "'être humain>homme'"
+            "formated name": "être humain>homme"
         },
         "7053316": {
             "name": "en:metazoa",
@@ -5231,7 +5231,7 @@
         "226083": {
             "name": "humain>46707",
             "w": "104",
-            "formated name": "'humain>espèce humaine'"
+            "formated name": "humain>espèce humaine"
         },
         "6935846": {
             "name": "en:dna",
@@ -5356,7 +5356,7 @@
         "282243516": {
             "name": "::>13:144327>29:56255",
             "w": "0",
-            "formated name": "'berner [sujet] arnaqueur'"
+            "formated name": "berner [sujet] arnaqueur"
         },
         "15207490": {
             "name": "en:fearing",
@@ -5386,7 +5386,7 @@
         "218238": {
             "name": "poule>140176",
             "w": "186",
-            "formated name": "'poule>oiseau'"
+            "formated name": "poule>oiseau"
         },
         "166035208": {
             "name": ":r10115512",
@@ -5396,12 +5396,12 @@
         "245479": {
             "name": "biset>140902",
             "w": "50",
-            "formated name": "'biset>étoffe'"
+            "formated name": "biset>étoffe"
         },
         "245480": {
             "name": "biset>28663",
             "w": "50",
-            "formated name": "'biset>minéralogie'"
+            "formated name": "biset>minéralogie"
         },
         "132995": {
             "name": "immeuble",
@@ -5426,7 +5426,7 @@
         "260606": {
             "name": "naïf>20579",
             "w": "50",
-            "formated name": "'naïf>naturel'"
+            "formated name": "naïf>naturel"
         },
         "14918011": {
             "name": "en:DNA",
@@ -5436,12 +5436,12 @@
         "237782": {
             "name": "domestique>88269",
             "w": "70",
-            "formated name": "'domestique>apprivoisé'"
+            "formated name": "domestique>apprivoisé"
         },
         "260609": {
             "name": "naïf>86095",
             "w": "56",
-            "formated name": "'naïf>candide'"
+            "formated name": "naïf>candide"
         },
         "94608": {
             "name": "pigeons",
@@ -5491,7 +5491,7 @@
         "3343185": {
             "name": "aile>117095",
             "w": "42",
-            "formated name": "'aile>zoologie'"
+            "formated name": "aile>zoologie"
         },
         "150": {
             "name": "chat",
@@ -5506,7 +5506,7 @@
         "1745426": {
             "name": "dragon>74657",
             "w": "0",
-            "formated name": "'dragon>pigeon'"
+            "formated name": "dragon>pigeon"
         },
         "123408": {
             "name": "vol",
@@ -5561,7 +5561,7 @@
         "315808": {
             "name": "Hercule>50100",
             "w": "4",
-            "formated name": "'Hercule>Pif le chien'"
+            "formated name": "Hercule>Pif le chien"
         },
         "212186": {
             "name": "Kaa",
@@ -5581,12 +5581,12 @@
         "598623": {
             "name": "bouffon>171869",
             "w": "0",
-            "formated name": "'bouffon>Adj:'"
+            "formated name": "bouffon>Adj:"
         },
         "593630": {
             "name": "tourterelle>171869",
             "w": "0",
-            "formated name": "'tourterelle>Adj:'"
+            "formated name": "tourterelle>Adj:"
         },
         "36327": {
             "name": "plat",
@@ -5601,7 +5601,7 @@
         "220013": {
             "name": "femme>4333487",
             "w": "932",
-            "formated name": "'femme>être humain de sexe féminin'"
+            "formated name": "femme>être humain de sexe féminin"
         },
         "6288393": {
             "name": "organe génital féminin",
@@ -5616,7 +5616,7 @@
         "218905": {
             "name": "faune>71539",
             "w": "28",
-            "formated name": "'faune>animaux'"
+            "formated name": "faune>animaux"
         },
         "161981": {
             "name": "balloter",
@@ -5671,27 +5671,27 @@
         "215016": {
             "name": "poire>66643",
             "w": "12",
-            "formated name": "'poire>liqueur'"
+            "formated name": "poire>liqueur"
         },
         "215017": {
             "name": "poire>145953",
             "w": "6",
-            "formated name": "'poire>visage'"
+            "formated name": "poire>visage"
         },
         "215020": {
             "name": "poire>215019",
             "w": "50",
-            "formated name": "'poire>ballon en caoutchouc'"
+            "formated name": "poire>ballon en caoutchouc"
         },
         "215022": {
             "name": "poire>215021",
             "w": "60",
-            "formated name": "'poire>objet en forme de poire'"
+            "formated name": "poire>objet en forme de poire"
         },
         "215015": {
             "name": "poire>87286",
             "w": "142",
-            "formated name": "'poire>fruit'"
+            "formated name": "poire>fruit"
         },
         "10314012": {
             "name": "en:heterotroph",
@@ -5726,7 +5726,7 @@
         "3182298": {
             "name": "texan>91217",
             "w": "0",
-            "formated name": "'texan>Texas'"
+            "formated name": "texan>Texas"
         },
         "114615": {
             "name": "dindon de la farce",
@@ -5796,32 +5796,32 @@
         "229806": {
             "name": "colombe>5205",
             "w": "52",
-            "formated name": "'colombe>paix'"
+            "formated name": "colombe>paix"
         },
         "240637": {
             "name": "colombe>115700",
             "w": "50",
-            "formated name": "'colombe>poutre'"
+            "formated name": "colombe>poutre"
         },
         "3579716": {
             "name": "carneau>143712",
             "w": "0",
-            "formated name": "'carneau>marine'"
+            "formated name": "carneau>marine"
         },
         "3579717": {
             "name": "carneau>116053",
             "w": "0",
-            "formated name": "'carneau>conduit'"
+            "formated name": "carneau>conduit"
         },
         "3579719": {
             "name": "carneau>122355",
             "w": "0",
-            "formated name": "'carneau>tranchée'"
+            "formated name": "carneau>tranchée"
         },
         "439857": {
             "name": "biset>171870",
             "w": "50",
-            "formated name": "'biset>Nom:'"
+            "formated name": "biset>Nom:"
         },
         "189981": {
             "name": "ingrédient de cuisine",
@@ -6251,7 +6251,7 @@
         "237444": {
             "name": "être>94160",
             "w": "64",
-            "formated name": "'être>existence'"
+            "formated name": "être>existence"
         },
         "15452086": {
             "name": "en:to be dazzled",
@@ -6386,17 +6386,17 @@
         "3161641": {
             "name": "tumbler>144497",
             "w": "0",
-            "formated name": "'tumbler>verre'"
+            "formated name": "tumbler>verre"
         },
         "3161653": {
             "name": "tumbler>4455",
             "w": "0",
-            "formated name": "'tumbler>chien'"
+            "formated name": "tumbler>chien"
         },
         "1956768": {
             "name": "ramier>74657",
             "w": "6",
-            "formated name": "'ramier>pigeon'"
+            "formated name": "ramier>pigeon"
         },
         "14330": {
             "name": "satisfaction",
@@ -6406,42 +6406,42 @@
         "250347": {
             "name": "roucouler>126850",
             "w": "50",
-            "formated name": "'roucouler>flirter'"
+            "formated name": "roucouler>flirter"
         },
         "250348": {
             "name": "roucouler>58135",
             "w": "54",
-            "formated name": "'roucouler>chanter'"
+            "formated name": "roucouler>chanter"
         },
         "270543": {
             "name": "frisé>75446",
             "w": "50",
-            "formated name": "'frisé>bouclé'"
+            "formated name": "frisé>bouclé"
         },
         "270545": {
             "name": "frisé>105503",
             "w": "50",
-            "formated name": "'frisé>allemand'"
+            "formated name": "frisé>allemand"
         },
         "270544": {
             "name": "frisé>10766",
             "w": "50",
-            "formated name": "'frisé>friser'"
+            "formated name": "frisé>friser"
         },
         "1969859": {
             "name": "florentin>25966",
             "w": "0",
-            "formated name": "'florentin>pâtisserie'"
+            "formated name": "florentin>pâtisserie"
         },
         "1969860": {
             "name": "florentin>80603",
             "w": "0",
-            "formated name": "'florentin>machiavélique'"
+            "formated name": "florentin>machiavélique"
         },
         "1969861": {
             "name": "florentin>139603",
             "w": "4",
-            "formated name": "'florentin>Florence'"
+            "formated name": "florentin>Florence"
         },
         "2393387": {
             "name": "cravaté français",
@@ -6541,77 +6541,77 @@
         "1745425": {
             "name": "dragon>143712",
             "w": "0",
-            "formated name": "'dragon>marine'"
+            "formated name": "dragon>marine"
         },
         "2911489": {
             "name": "dragon>104993",
             "w": "0",
-            "formated name": "'dragon>informatique'"
+            "formated name": "dragon>informatique"
         },
         "2911529": {
             "name": "dragon>28627",
             "w": "0",
-            "formated name": "'dragon>ophtalmologie'"
+            "formated name": "dragon>ophtalmologie"
         },
         "233912": {
             "name": "dragon>219058",
             "w": "50",
-            "formated name": "'dragon>signe astrologique'"
+            "formated name": "dragon>signe astrologique"
         },
         "233913": {
             "name": "dragon>88744",
             "w": "50",
-            "formated name": "'dragon>mégère'"
+            "formated name": "dragon>mégère"
         },
         "1745427": {
             "name": "dragon>99719",
             "w": "0",
-            "formated name": "'dragon>reptile'"
+            "formated name": "dragon>reptile"
         },
         "2911488": {
             "name": "dragon>218087",
             "w": "0",
-            "formated name": "'dragon>enfant turbulent'"
+            "formated name": "dragon>enfant turbulent"
         },
         "233911": {
             "name": "dragon>102633",
             "w": "50",
-            "formated name": "'dragon>soldat'"
+            "formated name": "dragon>soldat"
         },
         "233910": {
             "name": "dragon>215202",
             "w": "34",
-            "formated name": "'dragon>animal fantastique'"
+            "formated name": "dragon>animal fantastique"
         },
         "270455": {
             "name": "tourterelle>50889",
             "w": "50",
-            "formated name": "'tourterelle>gris'"
+            "formated name": "tourterelle>gris"
         },
         "3682528": {
             "name": "boulant>92878",
             "w": "0",
-            "formated name": "'boulant>géologie'"
+            "formated name": "boulant>géologie"
         },
         "3316377": {
             "name": "colombin>34994",
             "w": "0",
-            "formated name": "'colombin>poterie'"
+            "formated name": "colombin>poterie"
         },
         "3316380": {
             "name": "colombin>2009",
             "w": "0",
-            "formated name": "'colombin>Colombe'"
+            "formated name": "colombin>Colombe"
         },
         "3316378": {
             "name": "colombin>40056",
             "w": "0",
-            "formated name": "'colombin>couleur'"
+            "formated name": "colombin>couleur"
         },
         "3316376": {
             "name": "colombin>39690",
             "w": "18",
-            "formated name": "'colombin>étron'"
+            "formated name": "colombin>étron"
         },
         "185022571": {
             "name": ":r579926029",
@@ -6646,17 +6646,17 @@
         "332116": {
             "name": "tourte>98265",
             "w": "50",
-            "formated name": "'tourte>balourd'"
+            "formated name": "tourte>balourd"
         },
         "332117": {
             "name": "tourte>111235",
             "w": "50",
-            "formated name": "'tourte>métallurgie'"
+            "formated name": "tourte>métallurgie"
         },
         "326354": {
             "name": "tourte>177321",
             "w": "66",
-            "formated name": "'tourte>préparation culinaire'"
+            "formated name": "tourte>préparation culinaire"
         },
         "1854036": {
             "name": "vertebra",
@@ -6716,37 +6716,37 @@
         "330963": {
             "name": "cordé>3674",
             "w": "50",
-            "formated name": "'cordé>botanique'"
+            "formated name": "cordé>botanique"
         },
         "237441": {
             "name": "être>85728",
             "w": "16",
-            "formated name": "'être>exister'"
+            "formated name": "être>exister"
         },
         "237443": {
             "name": "être>37229",
             "w": "70",
-            "formated name": "'être>se trouver'"
+            "formated name": "être>se trouver"
         },
         "2674388": {
             "name": "voyageur>143529",
             "w": "48",
-            "formated name": "'voyageur>voyage'"
+            "formated name": "voyageur>voyage"
         },
         "220188": {
             "name": "capucin>111410",
             "w": "52",
-            "formated name": "'capucin>religieux'"
+            "formated name": "capucin>religieux"
         },
         "220189": {
             "name": "capucin>73893",
             "w": "50",
-            "formated name": "'capucin>singe'"
+            "formated name": "capucin>singe"
         },
         "220190": {
             "name": "capucin>29899",
             "w": "50",
-            "formated name": "'capucin>lièvre'"
+            "formated name": "capucin>lièvre"
         },
         "405965": {
             "name": "hair",
@@ -6761,12 +6761,12 @@
         "600043": {
             "name": "gris>171869",
             "w": "0",
-            "formated name": "'gris>Adj:'"
+            "formated name": "gris>Adj:"
         },
         "674336": {
             "name": "sauvage>171869",
             "w": "0",
-            "formated name": "'sauvage>Adj:'"
+            "formated name": "sauvage>Adj:"
         },
         "15314437": {
             "name": "en:get bamboozled",
@@ -6781,7 +6781,7 @@
         "225848": {
             "name": "organisme>118203",
             "w": "52",
-            "formated name": "'organisme>corps humain'"
+            "formated name": "organisme>corps humain"
         },
         "6797262": {
             "name": "en:vertebral column",
@@ -6866,12 +6866,12 @@
         "2945380": {
             "name": "poire>103890",
             "w": "0",
-            "formated name": "'poire>contrepoids'"
+            "formated name": "poire>contrepoids"
         },
         "318667": {
             "name": "poire>153902",
             "w": "54",
-            "formated name": "'poire>viande de boeuf'"
+            "formated name": "poire>viande de boeuf"
         },
         "122455": {
             "name": "escroc",
@@ -6931,37 +6931,37 @@
         "225846": {
             "name": "organisme>332175",
             "w": "54",
-            "formated name": "'organisme>ensemble des organes'"
+            "formated name": "organisme>ensemble des organes"
         },
         "225849": {
             "name": "organisme>86627",
             "w": "52",
-            "formated name": "'organisme>organisation'"
+            "formated name": "organisme>organisation"
         },
         "396249": {
             "name": "individu>64226",
             "w": "54",
-            "formated name": "'individu>administration'"
+            "formated name": "individu>administration"
         },
         "3178150": {
             "name": "plume>123034",
             "w": "0",
-            "formated name": "'plume>fellation'"
+            "formated name": "plume>fellation"
         },
         "246521": {
             "name": "plume>71578",
             "w": "58",
-            "formated name": "'plume>lit'"
+            "formated name": "plume>lit"
         },
         "213546": {
             "name": "plume>54234",
             "w": "54",
-            "formated name": "'plume>écriture'"
+            "formated name": "plume>écriture"
         },
         "213550": {
             "name": "plume>48961",
             "w": "56",
-            "formated name": "'plume>parure'"
+            "formated name": "plume>parure"
         },
         "6798394": {
             "name": "en:neck",
@@ -7581,52 +7581,52 @@
         "220338": {
             "name": "oiseau>114092",
             "w": "50",
-            "formated name": "'oiseau>auge'"
+            "formated name": "oiseau>auge"
         },
         "234035": {
             "name": "être vivant>2442",
             "w": "4",
-            "formated name": "'être vivant>vivre'"
+            "formated name": "être vivant>vivre"
         },
         "3170279": {
             "name": "individu>25345",
             "w": "8",
-            "formated name": "'individu>quidam'"
+            "formated name": "individu>quidam"
         },
         "396248": {
             "name": "individu>69012",
             "w": "50",
-            "formated name": "'individu>statistique'"
+            "formated name": "individu>statistique"
         },
         "396250": {
             "name": "individu>35143",
             "w": "56",
-            "formated name": "'individu>biologie'"
+            "formated name": "individu>biologie"
         },
         "237442": {
             "name": "être>136317",
             "w": "2",
-            "formated name": "'être>appartenir'"
+            "formated name": "être>appartenir"
         },
         "14226873": {
             "name": "dragon>16644",
             "w": "0",
-            "formated name": "'dragon>astronomie'"
+            "formated name": "dragon>astronomie"
         },
         "14226872": {
             "name": "dragon>77950",
             "w": "0",
-            "formated name": "'dragon>alchimie'"
+            "formated name": "dragon>alchimie"
         },
         "14226875": {
             "name": "dragon>4552",
             "w": "0",
-            "formated name": "'dragon>inquiétude'"
+            "formated name": "dragon>inquiétude"
         },
         "584787": {
             "name": "parler>171870",
             "w": "0",
-            "formated name": "'parler>Nom:'"
+            "formated name": "parler>Nom:"
         },
         "23917": {
             "name": "aquatique",
@@ -7676,7 +7676,7 @@
         "157284": {
             "name": "lieu>68467",
             "w": "58",
-            "formated name": "'lieu>poisson'"
+            "formated name": "lieu>poisson"
         },
         "89628": {
             "name": "récipient",
@@ -7711,7 +7711,7 @@
         "14287029": {
             "name": "cuit>2946892",
             "w": "0",
-            "formated name": "'cuit>Ver:Conjug'"
+            "formated name": "cuit>Ver:Conjug"
         },
         "154845": {
             "name": "sang froid",
@@ -7776,7 +7776,7 @@
         "2674389": {
             "name": "voyageur>74657",
             "w": "0",
-            "formated name": "'voyageur>pigeon'"
+            "formated name": "voyageur>pigeon"
         },
         "5872854": {
             "name": "Pigeon colombin",
@@ -7784,7 +7784,7 @@
             "formated name": null
         },
         "3249960": {
-            "name": "Pigeon dEversmann",
+            "name": "Pigeon d'Eversmann",
             "w": "0",
             "formated name": null
         },
@@ -7799,7 +7799,7 @@
             "formated name": null
         },
         "5873440": {
-            "name": "Pigeon dElphinstone",
+            "name": "Pigeon d'Elphinstone",
             "w": "0",
             "formated name": null
         },
@@ -7971,7 +7971,7 @@
         "231736": {
             "name": "gobe-mouche>140176",
             "w": "50",
-            "formated name": "'gobe-mouche>oiseau'"
+            "formated name": "gobe-mouche>oiseau"
         },
         "192608": {
             "name": "colombine longup",
@@ -8006,7 +8006,7 @@
         "223822": {
             "name": "butor>98860",
             "w": "58",
-            "formated name": "'butor>héron'"
+            "formated name": "butor>héron"
         },
         "116695": {
             "name": "imbécile",
@@ -8036,7 +8036,7 @@
         "3182299": {
             "name": "texan>74657",
             "w": "0",
-            "formated name": "'texan>pigeon'"
+            "formated name": "texan>pigeon"
         },
         "14084062": {
             "name": "Pigeon trocaz",
@@ -8079,7 +8079,7 @@
             "formated name": null
         },
         "14668711": {
-            "name": "tir aux pigeons dargile",
+            "name": "tir aux pigeons d'argile",
             "w": "4",
             "formated name": null
         },
@@ -8206,7 +8206,7 @@
         "14270756": {
             "name": "damascène>74657",
             "w": "0",
-            "formated name": "'damascène>pigeon'"
+            "formated name": "damascène>pigeon"
         },
         "192490": {
             "name": "chardonneret des Antilles",
@@ -8259,7 +8259,7 @@
             "formated name": null
         },
         "8750133": {
-            "name": "croire nimporte quoi",
+            "name": "croire n'importe quoi",
             "w": "0",
             "formated name": null
         },
@@ -8274,7 +8274,7 @@
             "formated name": null
         },
         "16163784": {
-            "name": "pintade à lorange et au miel",
+            "name": "pintade à l'orange et au miel",
             "w": "0",
             "formated name": null
         },
@@ -8294,7 +8294,7 @@
             "formated name": null
         },
         "16163773": {
-            "name": "pintade farcie à la mousse de foie doie",
+            "name": "pintade farcie à la mousse de foie d'oie",
             "w": "0",
             "formated name": null
         },
@@ -8469,7 +8469,7 @@
             "formated name": null
         },
         "16165991": {
-            "name": "cailles à lananas",
+            "name": "cailles à l'ananas",
             "w": "0",
             "formated name": null
         },
@@ -8481,7 +8481,7 @@
         "3161654": {
             "name": "tumbler>74657",
             "w": "0",
-            "formated name": "'tumbler>pigeon'"
+            "formated name": "tumbler>pigeon"
         },
         "2405473": {
             "name": "pigéon",
@@ -8516,7 +8516,7 @@
         "595133": {
             "name": "prétentieux>171869",
             "w": "0",
-            "formated name": "'prétentieux>Adj:'"
+            "formated name": "prétentieux>Adj:"
         },
         "92766": {
             "name": "damascène",
@@ -8526,7 +8526,7 @@
         "578628": {
             "name": "ramier>171869",
             "w": "0",
-            "formated name": "'ramier>Adj:'"
+            "formated name": "ramier>Adj:"
         },
         "2497377": {
             "name": "huppé picard",
@@ -8551,12 +8551,12 @@
         "2601316": {
             "name": "frisé>74657",
             "w": "0",
-            "formated name": "'frisé>pigeon'"
+            "formated name": "frisé>pigeon"
         },
         "13817571": {
             "name": "roubaisien>146885",
             "w": "0",
-            "formated name": "'roubaisien>Nom:Mas+SG'"
+            "formated name": "roubaisien>Nom:Mas+SG"
         },
         "107228495": {
             "name": "Test de Turing",
@@ -8581,7 +8581,7 @@
         "600109": {
             "name": "naïf>171869",
             "w": "0",
-            "formated name": "'naïf>Adj:'"
+            "formated name": "naïf>Adj:"
         },
         "15215926": {
             "name": "en:sphere pigeon",
@@ -8636,7 +8636,7 @@
         "16322124": {
             "name": "::>66:77306>30:73827",
             "w": "0",
-            "formated name": "'ciel [lieu pour] voler'"
+            "formated name": "ciel [lieu pour] voler"
         },
         "158780": {
             "name": "avoir des ailes",
@@ -8651,7 +8651,7 @@
         "326355": {
             "name": "tourte>140176",
             "w": "50",
-            "formated name": "'tourte>oiseau'"
+            "formated name": "tourte>oiseau"
         },
         "2483074": {
             "name": "colombidée",
@@ -8666,7 +8666,7 @@
         "14380873": {
             "name": "::>66:112137>30:126612",
             "w": "0",
-            "formated name": "'lampadaire [lieu pour] se poser'"
+            "formated name": "lampadaire [lieu pour] se poser"
         },
         "15098378": {
             "name": "en:skeet shooting",
@@ -8676,12 +8676,12 @@
         "582289": {
             "name": "impertinent>171869",
             "w": "0",
-            "formated name": "'impertinent>Adj:'"
+            "formated name": "impertinent>Adj:"
         },
         "13817572": {
             "name": "roubaisien>171869",
             "w": "0",
-            "formated name": "'roubaisien>Adj:'"
+            "formated name": "roubaisien>Adj:"
         },
         "2472541": {
             "name": "ringslager",
@@ -8696,7 +8696,7 @@
         "2840375": {
             "name": "roubaisien>74657",
             "w": "0",
-            "formated name": "'roubaisien>pigeon'"
+            "formated name": "roubaisien>pigeon"
         },
         "1655832": {
             "name": "rameron",
@@ -8721,7 +8721,7 @@
         "3579718": {
             "name": "carneau>74657",
             "w": "0",
-            "formated name": "'carneau>pigeon'"
+            "formated name": "carneau>pigeon"
         },
         "6905796": {
             "name": "en:clay",
@@ -8751,12 +8751,12 @@
         "14465544": {
             "name": "::>66:131717>30:37229",
             "w": "0",
-            "formated name": "'centre-ville [lieu pour] se trouver'"
+            "formated name": "centre-ville [lieu pour] se trouver"
         },
         "14573352": {
             "name": "::>66:37571>26:53223",
             "w": "0",
-            "formated name": "'fiente [se faire] lâcher'"
+            "formated name": "fiente [se faire] lâcher"
         },
         "130059": {
             "name": "couillon",
@@ -8771,22 +8771,22 @@
         "11249867": {
             "name": "bouclier>117095",
             "w": "2",
-            "formated name": "'bouclier>zoologie'"
+            "formated name": "bouclier>zoologie"
         },
         "16235874": {
             "name": "satin>74657",
             "w": "0",
-            "formated name": "'satin>pigeon'"
+            "formated name": "satin>pigeon"
         },
         "16605895": {
             "name": "::>66:218806>30:213857",
             "w": "0",
-            "formated name": "'ciel>atmosphère [lieu pour] voler>déplacement aérien'"
+            "formated name": "ciel>atmosphère [lieu pour] voler>déplacement aérien"
         },
         "157011": {
             "name": "être vivant>146882",
             "w": "50",
-            "formated name": "'être vivant>Ver:Inf'"
+            "formated name": "être vivant>Ver:Inf"
         },
         "14928124": {
             "name": "en:mug",
@@ -8796,12 +8796,12 @@
         "156500714": {
             "name": "Carneau>74657",
             "w": "0",
-            "formated name": "'Carneau>pigeon'"
+            "formated name": "Carneau>pigeon"
         },
         "1765068": {
             "name": "balourd>36536",
             "w": "6",
-            "formated name": "'balourd>maladresse'"
+            "formated name": "balourd>maladresse"
         },
         "206206": {
             "name": "prendre son envol",
@@ -8811,7 +8811,7 @@
         "581997": {
             "name": "cruchon>171869",
             "w": "0",
-            "formated name": "'cruchon>Adj:'"
+            "formated name": "cruchon>Adj:"
         },
         "66338": {
             "name": "acheteur",
@@ -8841,7 +8841,7 @@
         "220191": {
             "name": "capucin>74657",
             "w": "50",
-            "formated name": "'capucin>pigeon'"
+            "formated name": "capucin>pigeon"
         },
         "154657": {
             "name": "vache à lait",
@@ -8851,7 +8851,7 @@
         "1969857": {
             "name": "florentin>117095",
             "w": "0",
-            "formated name": "'florentin>zoologie'"
+            "formated name": "florentin>zoologie"
         },
         "14959575": {
             "name": "en:coo",
@@ -8861,27 +8861,27 @@
         "215993": {
             "name": "mineur>127836",
             "w": "40",
-            "formated name": "'mineur>minerai'"
+            "formated name": "mineur>minerai"
         },
         "1931441": {
             "name": "étonné>171869",
             "w": "0",
-            "formated name": "'étonné>Adj:'"
+            "formated name": "étonné>Adj:"
         },
         "3316379": {
             "name": "colombin>74657",
             "w": "0",
-            "formated name": "'colombin>pigeon'"
+            "formated name": "colombin>pigeon"
         },
         "3682533": {
             "name": "boulant>74657",
             "w": "0",
-            "formated name": "'boulant>pigeon'"
+            "formated name": "boulant>pigeon"
         },
         "11249872": {
             "name": "bouclier>117095>74657",
             "w": "0",
-            "formated name": "'bouclier>zoologie>pigeon'"
+            "formated name": "bouclier>zoologie>pigeon"
         },
         "2487815": {
             "name": "hongrois géant",
@@ -8901,12 +8901,12 @@
         "19005721": {
             "name": "::>66:83401>30:19005717",
             "w": "0",
-            "formated name": "'passant [lieu pour] fianter'"
+            "formated name": "passant [lieu pour] fianter"
         },
         "452930": {
             "name": "miette>146889",
             "w": "50",
-            "formated name": "'miette>Adv:'"
+            "formated name": "miette>Adv:"
         },
         "156498094": {
             "name": "Carneau",
@@ -8916,17 +8916,17 @@
         "1371050": {
             "name": "texan>171869",
             "w": "0",
-            "formated name": "'texan>Adj:'"
+            "formated name": "texan>Adj:"
         },
         "16595342": {
             "name": "::>66:83401>30:10246",
             "w": "0",
-            "formated name": "'passant [lieu pour] fienter'"
+            "formated name": "passant [lieu pour] fienter"
         },
         "685493": {
             "name": "humain>171870",
             "w": "0",
-            "formated name": "'humain>Nom:'"
+            "formated name": "humain>Nom:"
         },
         "83750": {
             "name": "colombaire",
@@ -8956,7 +8956,7 @@
         "3671318": {
             "name": "gille>68439",
             "w": "0",
-            "formated name": "'gille>individu'"
+            "formated name": "gille>individu"
         },
         "193817": {
             "name": "méliphage cornu",
@@ -8986,7 +8986,7 @@
         "3303773": {
             "name": "carrier>74657",
             "w": "0",
-            "formated name": "'carrier>pigeon'"
+            "formated name": "carrier>pigeon"
         },
         "2482908": {
             "name": "cainiau",
@@ -8996,7 +8996,7 @@
         "166705736": {
             "name": "::>66:5334532>30:19005717",
             "w": "0",
-            "formated name": "'passant>piéton [lieu pour] fianter'"
+            "formated name": "passant>piéton [lieu pour] fianter"
         },
         "279224394": {
             "name": "pigeon barb",
@@ -9099,7 +9099,7 @@
             "formated name": null
         },
         "274165760": {
-            "name": "pigeon de lîle",
+            "name": "pigeon de l'île",
             "w": "0",
             "formated name": null
         },
@@ -9209,62 +9209,62 @@
             "formated name": null
         },
         "218314929": {
-            "name": "pigeon dart",
+            "name": "pigeon d'art",
             "w": "0",
             "formated name": null
         },
         "274160813": {
-            "name": "pigeon despèce rare",
+            "name": "pigeon d'espèce rare",
             "w": "0",
             "formated name": null
         },
         "274161110": {
-            "name": "pigeon dexposition",
+            "name": "pigeon d'exposition",
             "w": "0",
             "formated name": null
         },
         "14270762": {
-            "name": "pigeon dornement",
+            "name": "pigeon d'ornement",
             "w": "0",
             "formated name": null
         },
         "223469059": {
-            "name": "pigeon délevage",
+            "name": "pigeon d'élevage",
             "w": "0",
             "formated name": null
         },
         "274160916": {
-            "name": "pigeon dans larchitecture",
+            "name": "pigeon dans l'architecture",
             "w": "0",
             "formated name": null
         },
         "265775631": {
-            "name": "pigeon dans lart",
+            "name": "pigeon dans l'art",
             "w": "0",
             "formated name": null
         },
         "265775641": {
-            "name": "pigeon dans lhistoire",
+            "name": "pigeon dans l'histoire",
             "w": "0",
             "formated name": null
         },
         "274160903": {
-            "name": "pigeon dans lornithologie",
+            "name": "pigeon dans l'ornithologie",
             "w": "0",
             "formated name": null
         },
         "274160915": {
-            "name": "pigeon dans lurbanisme",
+            "name": "pigeon dans l'urbanisme",
             "w": "0",
             "formated name": null
         },
         "274160906": {
-            "name": "pigeon dans lécologie",
+            "name": "pigeon dans l'écologie",
             "w": "0",
             "formated name": null
         },
         "274160910": {
-            "name": "pigeon dans lélevage",
+            "name": "pigeon dans l'élevage",
             "w": "0",
             "formated name": null
         },
@@ -9629,7 +9629,7 @@
             "formated name": null
         },
         "274160705": {
-            "name": "pigeon de Saint-Georges-dOléron",
+            "name": "pigeon de Saint-Georges-d'Oléron",
             "w": "0",
             "formated name": null
         },
@@ -9774,7 +9774,7 @@
             "formated name": null
         },
         "274160736": {
-            "name": "pigeon de Saint-Ouen-lAumône",
+            "name": "pigeon de Saint-Ouen-l'Aumône",
             "w": "0",
             "formated name": null
         },
@@ -9884,7 +9884,7 @@
             "formated name": null
         },
         "274160746": {
-            "name": "pigeon de Sainte-Anne-dAuray",
+            "name": "pigeon de Sainte-Anne-d'Auray",
             "w": "0",
             "formated name": null
         },
@@ -9974,7 +9974,7 @@
             "formated name": null
         },
         "274160756": {
-            "name": "pigeon de Salles-dAude",
+            "name": "pigeon de Salles-d'Aude",
             "w": "0",
             "formated name": null
         },
@@ -10159,67 +10159,67 @@
             "formated name": null
         },
         "243361941": {
-            "name": "pigeon de lAfrique",
+            "name": "pigeon de l'Afrique",
             "w": "0",
             "formated name": null
         },
         "274160445": {
-            "name": "pigeon de lAlouette",
+            "name": "pigeon de l'Alouette",
             "w": "0",
             "formated name": null
         },
         "274160863": {
-            "name": "pigeon de lAlpe",
+            "name": "pigeon de l'Alpe",
             "w": "0",
             "formated name": null
         },
         "274160666": {
-            "name": "pigeon de lAlto Adige",
+            "name": "pigeon de l'Alto Adige",
             "w": "0",
             "formated name": null
         },
         "243361940": {
-            "name": "pigeon de lAsie",
+            "name": "pigeon de l'Asie",
             "w": "0",
             "formated name": null
         },
         "243361923": {
-            "name": "pigeon de lAtlas",
+            "name": "pigeon de l'Atlas",
             "w": "0",
             "formated name": null
         },
         "243361935": {
-            "name": "pigeon de lEgypte",
+            "name": "pigeon de l'Egypte",
             "w": "0",
             "formated name": null
         },
         "243361939": {
-            "name": "pigeon de lEurope",
+            "name": "pigeon de l'Europe",
             "w": "0",
             "formated name": null
         },
         "243361924": {
-            "name": "pigeon de lHimalaya",
+            "name": "pigeon de l'Himalaya",
             "w": "0",
             "formated name": null
         },
         "243361936": {
-            "name": "pigeon de lInde",
+            "name": "pigeon de l'Inde",
             "w": "0",
             "formated name": null
         },
         "243361942": {
-            "name": "pigeon de lOcéanie",
+            "name": "pigeon de l'Océanie",
             "w": "0",
             "formated name": null
         },
         "274160870": {
-            "name": "pigeon de lamour",
+            "name": "pigeon de l'amour",
             "w": "0",
             "formated name": null
         },
         "274160879": {
-            "name": "pigeon de lhonneur",
+            "name": "pigeon de l'honneur",
             "w": "0",
             "formated name": null
         },
@@ -11249,7 +11249,7 @@
             "formated name": null
         },
         "274160763": {
-            "name": "pigeon en danger dextinction",
+            "name": "pigeon en danger d'extinction",
             "w": "0",
             "formated name": null
         },
@@ -11919,7 +11919,7 @@
             "formated name": null
         },
         "274163626": {
-            "name": "pigeon à col dargent",
+            "name": "pigeon à col d'argent",
             "w": "0",
             "formated name": null
         },
@@ -12029,7 +12029,7 @@
             "formated name": null
         },
         "274160794": {
-            "name": "pigeon à loeil rouge",
+            "name": "pigeon à l'oeil rouge",
             "w": "0",
             "formated name": null
         },
@@ -13539,7 +13539,7 @@
             "formated name": null
         },
         "15384693": {
-            "name": "coeur dune ville",
+            "name": "coeur d'une ville",
             "w": "0",
             "formated name": null
         },
@@ -13626,7 +13626,7 @@
         "1474501": {
             "name": "balourd>171869",
             "w": "0",
-            "formated name": "'balourd>Adj:'"
+            "formated name": "balourd>Adj:"
         },
         "2467134": {
             "name": "boulant allemand primitif",
@@ -13691,7 +13691,7 @@
         "1232917": {
             "name": "merle>171869",
             "w": "0",
-            "formated name": "'merle>Adj:'"
+            "formated name": "merle>Adj:"
         },
         "98265": {
             "name": "balourd",
@@ -13706,7 +13706,7 @@
         "1391769": {
             "name": "pion>171870",
             "w": "0",
-            "formated name": "'pion>Nom:'"
+            "formated name": "pion>Nom:"
         },
         "60902": {
             "name": "dent",
@@ -13741,7 +13741,7 @@
         "245366": {
             "name": "petit>142267",
             "w": "112",
-            "formated name": "'petit>taille'"
+            "formated name": "petit>taille"
         },
         "16087911": {
             "name": "Centre-ville",
@@ -13924,7 +13924,7 @@
             "formated name": null
         },
         "15433836": {
-            "name": "en:Saint Marks Square",
+            "name": "en:Saint Mark's Square",
             "w": "0",
             "formated name": null
         },
@@ -14281,7 +14281,7 @@
         "674295": {
             "name": "peau>146881",
             "w": "0",
-            "formated name": "'peau>Nom:Fem+SG'"
+            "formated name": "peau>Nom:Fem+SG"
         },
         "92504308": {
             "name": "Acide désoxyribo-nucléique",
@@ -14319,12 +14319,12 @@
             "formated name": null
         },
         "14174509": {
-            "name": "lavoir dans le baba",
+            "name": "l'avoir dans le baba",
             "w": "0",
             "formated name": null
         },
         "15480566": {
-            "name": "sesbroufer",
+            "name": "s'esbroufer",
             "w": "0",
             "formated name": null
         },
@@ -14339,7 +14339,7 @@
             "formated name": null
         },
         "15749220": {
-            "name": "sen faire accroire",
+            "name": "s'en faire accroire",
             "w": "0",
             "formated name": null
         },
@@ -14394,7 +14394,7 @@
             "formated name": null
         },
         "34527661": {
-            "name": "être dans lincertitude",
+            "name": "être dans l'incertitude",
             "w": "0",
             "formated name": null
         },
@@ -14406,7 +14406,7 @@
         "672033": {
             "name": "large>146889",
             "w": "0",
-            "formated name": "'large>Adv:'"
+            "formated name": "large>Adv:"
         },
         "10762271": {
             "name": "Dupé",
@@ -14549,7 +14549,7 @@
             "formated name": null
         },
         "274353": {
-            "name": "lîle",
+            "name": "l'île",
             "w": "1978",
             "formated name": null
         },
@@ -14804,12 +14804,12 @@
             "formated name": null
         },
         "310160": {
-            "name": "dhirondelle",
+            "name": "d'hirondelle",
             "w": "50",
             "formated name": null
         },
         "216964": {
-            "name": "nid dhirondelle",
+            "name": "nid d'hirondelle",
             "w": "74",
             "formated name": null
         },
@@ -14914,7 +14914,7 @@
             "formated name": null
         },
         "275603": {
-            "name": "Coupe dEurope des nations",
+            "name": "Coupe d'Europe des nations",
             "w": "50",
             "formated name": null
         },
@@ -15234,7 +15234,7 @@
             "formated name": null
         },
         "10060288": {
-            "name": "Les As de larnaque",
+            "name": "Les As de l'arnaque",
             "w": "0",
             "formated name": null
         },
@@ -15334,7 +15334,7 @@
             "formated name": null
         },
         "12692956": {
-            "name": "liste de cris danimaux",
+            "name": "liste de cris d'animaux",
             "w": "0",
             "formated name": null
         },
@@ -15554,7 +15554,7 @@
             "formated name": null
         },
         "16593153": {
-            "name": "Société centrale daviculture de France",
+            "name": "Société centrale d'aviculture de France",
             "w": "0",
             "formated name": null
         },
@@ -15589,12 +15589,12 @@
             "formated name": null
         },
         "35380471": {
-            "name": "Les colombes dans lart chrétien",
+            "name": "Les colombes dans l'art chrétien",
             "w": "0",
             "formated name": null
         },
         "35380472": {
-            "name": "Les colombes dans lart islamique",
+            "name": "Les colombes dans l'art islamique",
             "w": "0",
             "formated name": null
         },
@@ -15709,7 +15709,7 @@
             "formated name": null
         },
         "9212242": {
-            "name": "Îles de lAttique",
+            "name": "Îles de l'Attique",
             "w": "0",
             "formated name": null
         },
@@ -15729,12 +15729,12 @@
             "formated name": null
         },
         "255458030": {
-            "name": "Le Ptit Renne au nez rouge",
+            "name": "Le P'tit Renne au nez rouge",
             "w": "0",
             "formated name": null
         },
         "255458031": {
-            "name": "Santas Little Helper",
+            "name": "Santa's Little Helper",
             "w": "0",
             "formated name": null
         },
@@ -15799,7 +15799,7 @@
             "formated name": null
         },
         "16878039": {
-            "name": "système national dinformation interrégimes de lassurance maladie (SNIIRAM)",
+            "name": "système national d'information interrégimes de l'assurance maladie (SNIIRAM)",
             "w": "0",
             "formated name": null
         },
@@ -15896,7 +15896,7 @@
         "104063650": {
             "name": "Columba>112576",
             "w": "0",
-            "formated name": "'Columba>genre'"
+            "formated name": "Columba>genre"
         },
         "265785412": {
             "name": "Torcaz",
@@ -15919,7 +15919,7 @@
             "formated name": null
         },
         "261814064": {
-            "name": "race doiseau",
+            "name": "race d'oiseau",
             "w": "0",
             "formated name": null
         },
@@ -15971,7 +15971,7 @@
         "96163113": {
             "name": "Columba>140176",
             "w": "0",
-            "formated name": "'Columba>oiseau'"
+            "formated name": "Columba>oiseau"
         },
         "274160421": {
             "name": "Columba livia domestica",
@@ -16214,7 +16214,7 @@
             "formated name": null
         },
         "139304": {
-            "name": "saccoupler",
+            "name": "s'accoupler",
             "w": "166",
             "formated name": null
         },
@@ -16266,7 +16266,7 @@
         "674335": {
             "name": "sauvage>171870",
             "w": "0",
-            "formated name": "'sauvage>Nom:'"
+            "formated name": "sauvage>Nom:"
         },
         "15418185": {
             "name": "en terre battue",
@@ -16276,7 +16276,7 @@
         "214878": {
             "name": "manchot>158180",
             "w": "22",
-            "formated name": "'manchot>oiseau de mer'"
+            "formated name": "manchot>oiseau de mer"
         },
         "101502": {
             "name": "tondre",
@@ -16286,12 +16286,12 @@
         "672031": {
             "name": "large>171870",
             "w": "0",
-            "formated name": "'large>Nom:'"
+            "formated name": "large>Nom:"
         },
         "215902": {
             "name": "aile>11353>56865",
             "w": "50",
-            "formated name": "'aile>formation>sport'"
+            "formated name": "aile>formation>sport"
         },
         "100779020": {
             "name": "Terre battue",

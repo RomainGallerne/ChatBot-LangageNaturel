@@ -13,7 +13,6 @@ def generate_json(data : str, json_text : str):
 
     # Trouve la balise <CODE> et extrait son contenu
     code_bal = soup.find('code')
-    #print(code_bal.text)
 
     #Trie des lignes et préparation du format JSON
     JSON_new = {}
@@ -27,21 +26,21 @@ def generate_json(data : str, json_text : str):
         attributes = line.split(';')
 
         if line.startswith('nt;'):
-            line_dict["ntname"] = str(attributes[2].replace("'", ""))
+            line_dict["ntname"] = str(attributes[2][1:-1])
             JSON_new["type_noeud"][attributes[1]] = line_dict
 
         if line.startswith('e;') and not(attributes[2].startswith("'_")):
-            line_dict["name"] = str(attributes[2].replace("'", ""))
+            line_dict["name"] = str(attributes[2][1:-1])
             line_dict["w"] = str(attributes[4])
             try:
-                line_dict["formated name"] = str(attributes[5])
+                line_dict["formated name"] = str(attributes[5])[1:-1]
             except IndexError as e:
                 line_dict["formated name"] = None
             JSON_new["noeud"][attributes[1]] = line_dict
 
         if line.startswith('rt;'):
-            line_dict["trname"] = str(attributes[2].replace("'", ""))
-            line_dict["trgpname"] = str(attributes[3].replace("'", ""))
+            line_dict["trname"] = str(attributes[2][1:-1])
+            line_dict["trgpname"] = str(attributes[3][1:-1])
             JSON_new["type_relation"][attributes[1]] = line_dict
 
         if line.startswith('r;'):
@@ -64,13 +63,17 @@ def generate_json(data : str, json_text : str):
             except IndexError as e:
                 line_dict["rank"] = None
             JSON_new["relation"][attributes[1]] = line_dict
-    
+            
+    if (JSON_new["type_noeud"] == {} and JSON_new["noeud"] == {} and JSON_new["type_relation"] == {} and JSON_new["relation"] == {}):
+        print("\nERREUR : Connexion vers la base de données de Jeux de Mot.\nNouvelle tentative...\n")
+        return processData(data)
+
     # Écrire le fichier JSON
     with open('data/'+clean_data+'.json', 'w', encoding='utf-8') as json_file:
         json.dump(JSON_new, json_file, ensure_ascii=False, indent=4)
 
 ###################################################
-#           Main test function                    #
+#           Traitement des données                #
 ###################################################
 
 def processData(data : str = ""):

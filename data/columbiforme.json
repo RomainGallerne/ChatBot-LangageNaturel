@@ -42,7 +42,7 @@
         "220337": {
             "name": "oiseau>17559",
             "w": "894",
-            "formated name": "'oiseau>animal'"
+            "formated name": "oiseau>animal"
         },
         "140176": {
             "name": "oiseau",
@@ -152,7 +152,7 @@
         "330964": {
             "name": "cordé>117095",
             "w": "36",
-            "formated name": "'cordé>zoologie'"
+            "formated name": "cordé>zoologie"
         },
         "1354161": {
             "name": ":r14402336",
@@ -212,7 +212,7 @@
         "396042": {
             "name": "tétrapode>86640",
             "w": "50",
-            "formated name": "'tétrapode>vertébré'"
+            "formated name": "tétrapode>vertébré"
         },
         "115304": {
             "name": "deutérostomien",
@@ -237,7 +237,7 @@
         "233133": {
             "name": "animal>117095",
             "w": "914",
-            "formated name": "'animal>zoologie'"
+            "formated name": "animal>zoologie"
         },
         "1354150": {
             "name": ":r14490930",
@@ -352,7 +352,7 @@
         "225847": {
             "name": "organisme>71624",
             "w": "104",
-            "formated name": "'organisme>être vivant'"
+            "formated name": "organisme>être vivant"
         },
         "44676658": {
             "name": ":r484235242",
@@ -402,12 +402,12 @@
         "215024": {
             "name": "pigeon>140176",
             "w": "128",
-            "formated name": "'pigeon>oiseau'"
+            "formated name": "pigeon>oiseau"
         },
         "234036": {
             "name": "être vivant>123933",
             "w": "278",
-            "formated name": "'être vivant>entité'"
+            "formated name": "être vivant>entité"
         },
         "436570": {
             "name": "entité biologique",
@@ -452,12 +452,12 @@
         "599192": {
             "name": "columbiforme>171869",
             "w": "0",
-            "formated name": "'columbiforme>Adj:'"
+            "formated name": "columbiforme>Adj:"
         },
         "599191": {
             "name": "columbiforme>171870",
             "w": "0",
-            "formated name": "'columbiforme>Nom:'"
+            "formated name": "columbiforme>Nom:"
         },
         "316850": {
             "name": "entité physique",
@@ -502,7 +502,7 @@
         "240720": {
             "name": "squelette>112609",
             "w": "156",
-            "formated name": "'squelette>anatomie'"
+            "formated name": "squelette>anatomie"
         },
         "92955": {
             "name": "plumes",
@@ -557,7 +557,7 @@
         "11008328": {
             "name": "ADN>30051",
             "w": "22",
-            "formated name": "'ADN>code génétique'"
+            "formated name": "ADN>code génétique"
         },
         "6947917": {
             "name": "en:vertebrata",
@@ -602,12 +602,12 @@
         "214603": {
             "name": "queue>214624>140176",
             "w": "52",
-            "formated name": "'queue>queue d'animal>oiseau'"
+            "formated name": "queue>queue d'animal>oiseau"
         },
         "237445": {
             "name": "être>68439",
             "w": "36",
-            "formated name": "'être>individu'"
+            "formated name": "être>individu"
         },
         "47319": {
             "name": "colonne vertébrale",
@@ -637,7 +637,7 @@
         "390927": {
             "name": "tête>112609",
             "w": "72",
-            "formated name": "'tête>anatomie'"
+            "formated name": "tête>anatomie"
         },
         "225565": {
             "name": "raphidé",
@@ -682,7 +682,7 @@
         "233138": {
             "name": "tête>390963",
             "w": "82",
-            "formated name": "'tête>extrémité supérieure du corps'"
+            "formated name": "tête>extrémité supérieure du corps"
         },
         "36886": {
             "name": "faune",
@@ -702,7 +702,7 @@
         "237765": {
             "name": "patte>141795",
             "w": "58",
-            "formated name": "'patte>membre'"
+            "formated name": "patte>membre"
         },
         "11405719": {
             "name": "heart",
@@ -747,12 +747,12 @@
         "213545": {
             "name": "plume>140176",
             "w": "112",
-            "formated name": "'plume>oiseau'"
+            "formated name": "plume>oiseau"
         },
         "233008": {
             "name": "bec>140176",
             "w": "54",
-            "formated name": "'bec>oiseau'"
+            "formated name": "bec>oiseau"
         },
         "15421433": {
             "name": "en:warm-blooded species",
@@ -792,7 +792,7 @@
         "214602": {
             "name": "queue>214624",
             "w": "80",
-            "formated name": "'queue>queue d'animal'"
+            "formated name": "queue>queue d'animal"
         },
         "1354137": {
             "name": ":r14403288",
@@ -802,17 +802,17 @@
         "224422": {
             "name": "manger>113902>119570",
             "w": "212",
-            "formated name": "'manger>alimentation>absorber'"
+            "formated name": "manger>alimentation>absorber"
         },
         "213792": {
             "name": "coeur>213791",
             "w": "216",
-            "formated name": "'coeur>organe musculaire'"
+            "formated name": "coeur>organe musculaire"
         },
         "241352": {
             "name": "ventre>112609",
             "w": "144",
-            "formated name": "'ventre>anatomie'"
+            "formated name": "ventre>anatomie"
         },
         "108463": {
             "name": "ventre",
@@ -825,7 +825,7 @@
             "formated name": null
         },
         "137288": {
-            "name": "salimenter",
+            "name": "s'alimenter",
             "w": "170",
             "formated name": null
         },
@@ -852,7 +852,7 @@
         "6681658": {
             "name": "manger>113902",
             "w": "190",
-            "formated name": "'manger>alimentation'"
+            "formated name": "manger>alimentation"
         },
         "33882": {
             "name": "se nourrir",
@@ -867,7 +867,7 @@
         "219363": {
             "name": "corps>112609",
             "w": "216",
-            "formated name": "'corps>anatomie'"
+            "formated name": "corps>anatomie"
         },
         "144846": {
             "name": "tête",
@@ -877,7 +877,7 @@
         "259820": {
             "name": "vivre>160251",
             "w": "98",
-            "formated name": "'vivre>être en vie'"
+            "formated name": "vivre>être en vie"
         },
         "43601": {
             "name": "se reproduire",
@@ -897,7 +897,7 @@
         "213857": {
             "name": "voler>167847",
             "w": "288",
-            "formated name": "'voler>déplacement aérien'"
+            "formated name": "voler>déplacement aérien"
         },
         "73827": {
             "name": "voler",
@@ -905,7 +905,7 @@
             "formated name": null
         },
         "139709": {
-            "name": "senvoler",
+            "name": "s'envoler",
             "w": "188",
             "formated name": null
         },
@@ -937,7 +937,7 @@
         "251694": {
             "name": "mourir>126720",
             "w": "284",
-            "formated name": "'mourir>cesser de vivre'"
+            "formated name": "mourir>cesser de vivre"
         },
         "130164": {
             "name": "manger",
@@ -952,7 +952,7 @@
         "218905": {
             "name": "faune>71539",
             "w": "28",
-            "formated name": "'faune>animaux'"
+            "formated name": "faune>animaux"
         },
         "364788": {
             "name": "monde animal",
@@ -967,7 +967,7 @@
         "1636805": {
             "name": "oeil>44335",
             "w": "52",
-            "formated name": "'oeil>organe'"
+            "formated name": "oeil>organe"
         },
         "1354162": {
             "name": ":r14402243",
@@ -1032,7 +1032,7 @@
         "218648": {
             "name": "arbre>136507",
             "w": "426",
-            "formated name": "'arbre>végétal'"
+            "formated name": "arbre>végétal"
         },
         "1384": {
             "name": "vivant",
@@ -1057,12 +1057,12 @@
         "215896": {
             "name": "aile>117095>140176",
             "w": "102",
-            "formated name": "'aile>zoologie>oiseau'"
+            "formated name": "aile>zoologie>oiseau"
         },
         "225934": {
             "name": "oeil>330323",
             "w": "268",
-            "formated name": "'oeil>organe de la vue'"
+            "formated name": "oeil>organe de la vue"
         },
         "77008": {
             "name": "yeux",
@@ -1102,7 +1102,7 @@
         "213644": {
             "name": "os>116980",
             "w": "434",
-            "formated name": "'os>squelette'"
+            "formated name": "os>squelette"
         },
         "77424": {
             "name": "oeil",
@@ -1447,12 +1447,12 @@
         "270454": {
             "name": "tourterelle>140176",
             "w": "58",
-            "formated name": "'tourterelle>oiseau'"
+            "formated name": "tourterelle>oiseau"
         },
         "270455": {
             "name": "tourterelle>50889",
             "w": "50",
-            "formated name": "'tourterelle>gris'"
+            "formated name": "tourterelle>gris"
         },
         "52255": {
             "name": "arbre",
@@ -1472,7 +1472,7 @@
         "222883": {
             "name": "aile>117095>71926",
             "w": "58",
-            "formated name": "'aile>zoologie>insecte'"
+            "formated name": "aile>zoologie>insecte"
         },
         "6797262": {
             "name": "en:vertebral column",
@@ -1487,12 +1487,12 @@
         "214601": {
             "name": "queue>214624>68467",
             "w": "18",
-            "formated name": "'queue>queue d'animal>poisson'"
+            "formated name": "queue>queue d'animal>poisson"
         },
         "5500930": {
             "name": "queue>214624>107165",
             "w": "8",
-            "formated name": "'queue>queue d'animal>animalcule'"
+            "formated name": "queue>queue d'animal>animalcule"
         },
         "391010": {
             "name": "coelomé",
@@ -1507,7 +1507,7 @@
         "330963": {
             "name": "cordé>3674",
             "w": "50",
-            "formated name": "'cordé>botanique'"
+            "formated name": "cordé>botanique"
         },
         "4627291": {
             "name": ":r14509814",
@@ -1522,12 +1522,12 @@
         "157007": {
             "name": "être>146885",
             "w": "50",
-            "formated name": "'être>Nom:Mas+SG'"
+            "formated name": "être>Nom:Mas+SG"
         },
         "3343185": {
             "name": "aile>117095",
             "w": "42",
-            "formated name": "'aile>zoologie'"
+            "formated name": "aile>zoologie"
         },
         "1650347": {
             "name": ":r14407593",
@@ -1552,22 +1552,22 @@
         "213550": {
             "name": "plume>48961",
             "w": "56",
-            "formated name": "'plume>parure'"
+            "formated name": "plume>parure"
         },
         "213546": {
             "name": "plume>54234",
             "w": "54",
-            "formated name": "'plume>écriture'"
+            "formated name": "plume>écriture"
         },
         "246521": {
             "name": "plume>71578",
             "w": "58",
-            "formated name": "'plume>lit'"
+            "formated name": "plume>lit"
         },
         "3178150": {
             "name": "plume>123034",
             "w": "0",
-            "formated name": "'plume>fellation'"
+            "formated name": "plume>fellation"
         },
         "216734393": {
             "name": ":r596110359",
@@ -1577,132 +1577,132 @@
         "11008330": {
             "name": "ADN>29592",
             "w": "0",
-            "formated name": "'ADN>film'"
+            "formated name": "ADN>film"
         },
         "11008339": {
             "name": "ADN>10576",
             "w": "0",
-            "formated name": "'ADN>politique'"
+            "formated name": "ADN>politique"
         },
         "11008334": {
             "name": "ADN>101711",
             "w": "0",
-            "formated name": "'ADN>bande dessinée'"
+            "formated name": "ADN>bande dessinée"
         },
         "11008332": {
             "name": "ADN>70527",
             "w": "0",
-            "formated name": "'ADN>musique'"
+            "formated name": "ADN>musique"
         },
         "11008331": {
             "name": "ADN>16644",
             "w": "0",
-            "formated name": "'ADN>astronomie'"
+            "formated name": "ADN>astronomie"
         },
         "11008333": {
             "name": "ADN>74432",
             "w": "0",
-            "formated name": "'ADN>pièce de théâtre'"
+            "formated name": "ADN>pièce de théâtre"
         },
         "240721": {
             "name": "squelette>139869",
             "w": "50",
-            "formated name": "'squelette>charpente'"
+            "formated name": "squelette>charpente"
         },
         "240724": {
             "name": "squelette>240723",
             "w": "56",
-            "formated name": "'squelette>personne maigre'"
+            "formated name": "squelette>personne maigre"
         },
         "265562": {
             "name": "squelette>66517",
             "w": "50",
-            "formated name": "'squelette>monstre'"
+            "formated name": "squelette>monstre"
         },
         "3171505": {
             "name": "squelette>23255",
             "w": "0",
-            "formated name": "'squelette>mathématiques'"
+            "formated name": "squelette>mathématiques"
         },
         "237766": {
             "name": "patte>24730",
             "w": "50",
-            "formated name": "'patte>dextérité'"
+            "formated name": "patte>dextérité"
         },
         "237768": {
             "name": "patte>146051",
             "w": "52",
-            "formated name": "'patte>ancre'"
+            "formated name": "patte>ancre"
         },
         "237767": {
             "name": "patte>96851",
             "w": "50",
-            "formated name": "'patte>pièce'"
+            "formated name": "patte>pièce"
         },
         "237769": {
             "name": "patte>65683",
             "w": "50",
-            "formated name": "'patte>favoris'"
+            "formated name": "patte>favoris"
         },
         "213793": {
             "name": "coeur>31970",
             "w": "14",
-            "formated name": "'coeur>centre'"
+            "formated name": "coeur>centre"
         },
         "213794": {
             "name": "coeur>37298",
             "w": "30",
-            "formated name": "'coeur>amour'"
+            "formated name": "coeur>amour"
         },
         "2707481": {
             "name": "coeur>142000",
             "w": "4",
-            "formated name": "'coeur>forme'"
+            "formated name": "coeur>forme"
         },
         "213790": {
             "name": "coeur>153664",
             "w": "6",
-            "formated name": "'coeur>jeu de carte'"
+            "formated name": "coeur>jeu de carte"
         },
         "1700075": {
             "name": "coeur>105800",
             "w": "0",
-            "formated name": "'coeur>abats'"
+            "formated name": "coeur>abats"
         },
         "2707366": {
             "name": "coeur>40113",
             "w": "0",
-            "formated name": "'coeur>microprocesseur'"
+            "formated name": "coeur>microprocesseur"
         },
         "213797": {
             "name": "coeur>71267",
             "w": "54",
-            "formated name": "'coeur>courage'"
+            "formated name": "coeur>courage"
         },
         "2707364": {
             "name": "coeur>101938",
             "w": "0",
-            "formated name": "'coeur>estomac'"
+            "formated name": "coeur>estomac"
         },
         "2707557": {
             "name": "coeur>29270",
             "w": "0",
-            "formated name": "'coeur>bigarreau'"
+            "formated name": "coeur>bigarreau"
         },
         "2707553": {
             "name": "coeur>105649",
             "w": "2",
-            "formated name": "'coeur>horlogerie'"
+            "formated name": "coeur>horlogerie"
         },
         "2707552": {
             "name": "coeur>1816",
             "w": "0",
-            "formated name": "'coeur>héraldique'"
+            "formated name": "coeur>héraldique"
         },
         "2707442": {
             "name": "coeur>25800",
             "w": "0",
-            "formated name": "'coeur>chemin de fer'"
+            "formated name": "coeur>chemin de fer"
         },
         "9621126": {
             "name": ":r216472174",
@@ -1797,7 +1797,7 @@
         "208744589": {
             "name": "::>66:593630>24:126612",
             "w": "0",
-            "formated name": "'tourterelle>Adj: [peut] se poser'"
+            "formated name": "tourterelle>Adj: [peut] se poser"
         },
         "114288": {
             "name": "palombe",
@@ -1822,7 +1822,7 @@
         "216487": {
             "name": "oreillette>112609",
             "w": "34",
-            "formated name": "'oreillette>anatomie'"
+            "formated name": "oreillette>anatomie"
         },
         "15287364": {
             "name": "en:metazoon",
@@ -1952,7 +1952,7 @@
         "674295": {
             "name": "peau>146881",
             "w": "0",
-            "formated name": "'peau>Nom:Fem+SG'"
+            "formated name": "peau>Nom:Fem+SG"
         },
         "6802231": {
             "name": "en:eye",
@@ -1977,7 +1977,7 @@
         "593630": {
             "name": "tourterelle>171869",
             "w": "0",
-            "formated name": "'tourterelle>Adj:'"
+            "formated name": "tourterelle>Adj:"
         },
         "7095246": {
             "name": "en:amniota",
@@ -1992,7 +1992,7 @@
         "1395235": {
             "name": "être>171870",
             "w": "0",
-            "formated name": "'être>Nom:'"
+            "formated name": "être>Nom:"
         },
         "14948057": {
             "name": "en:ogle",
@@ -2002,7 +2002,7 @@
         "157011": {
             "name": "être vivant>146882",
             "w": "50",
-            "formated name": "'être vivant>Ver:Inf'"
+            "formated name": "être vivant>Ver:Inf"
         },
         "16045002": {
             "name": "eukaryote",
@@ -2125,7 +2125,7 @@
             "formated name": null
         },
         "16878039": {
-            "name": "système national dinformation interrégimes de lassurance maladie (SNIIRAM)",
+            "name": "système national d'information interrégimes de l'assurance maladie (SNIIRAM)",
             "w": "0",
             "formated name": null
         },
@@ -2145,12 +2145,12 @@
             "formated name": null
         },
         "15566941": {
-            "name": "en:have ones eye on",
+            "name": "en:have one's eye on",
             "w": "0",
             "formated name": null
         },
         "15566942": {
-            "name": "en:have ones beady eye on",
+            "name": "en:have one's beady eye on",
             "w": "0",
             "formated name": null
         },
@@ -2160,12 +2160,12 @@
             "formated name": null
         },
         "15266507": {
-            "name": "en:to have ones eye on",
+            "name": "en:to have one's eye on",
             "w": "0",
             "formated name": null
         },
         "15266508": {
-            "name": "en:to have ones beady eye on",
+            "name": "en:to have one's beady eye on",
             "w": "0",
             "formated name": null
         }

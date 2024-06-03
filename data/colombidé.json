@@ -59,7 +59,7 @@
         "220337": {
             "name": "oiseau>17559",
             "w": "894",
-            "formated name": "'oiseau>animal'"
+            "formated name": "oiseau>animal"
         },
         "40733": {
             "name": "diapside",
@@ -129,7 +129,7 @@
         "330964": {
             "name": "cordé>117095",
             "w": "36",
-            "formated name": "'cordé>zoologie'"
+            "formated name": "cordé>zoologie"
         },
         "248081": {
             "name": "chordé",
@@ -169,7 +169,7 @@
         "233133": {
             "name": "animal>117095",
             "w": "914",
-            "formated name": "'animal>zoologie'"
+            "formated name": "animal>zoologie"
         },
         "325741": {
             "name": "choanobionte",
@@ -274,7 +274,7 @@
         "396042": {
             "name": "tétrapode>86640",
             "w": "50",
-            "formated name": "'tétrapode>vertébré'"
+            "formated name": "tétrapode>vertébré"
         },
         "391010": {
             "name": "coelomé",
@@ -299,7 +299,7 @@
         "237445": {
             "name": "être>68439",
             "w": "36",
-            "formated name": "'être>individu'"
+            "formated name": "être>individu"
         },
         "65081": {
             "name": "organisme vivant",
@@ -309,7 +309,7 @@
         "215024": {
             "name": "pigeon>140176",
             "w": "128",
-            "formated name": "'pigeon>oiseau'"
+            "formated name": "pigeon>oiseau"
         },
         "247057": {
             "name": "symétrie bilatérale",
@@ -339,7 +339,7 @@
         "213545": {
             "name": "plume>140176",
             "w": "112",
-            "formated name": "'plume>oiseau'"
+            "formated name": "plume>oiseau"
         },
         "105049351": {
             "name": ":r14700111",
@@ -359,7 +359,7 @@
         "225847": {
             "name": "organisme>71624",
             "w": "104",
-            "formated name": "'organisme>être vivant'"
+            "formated name": "organisme>être vivant"
         },
         "57221": {
             "name": "joie",
@@ -379,7 +379,7 @@
         "234036": {
             "name": "être vivant>123933",
             "w": "278",
-            "formated name": "'être vivant>entité'"
+            "formated name": "être vivant>entité"
         },
         "1793015": {
             "name": ":r15860447",
@@ -399,12 +399,12 @@
         "213857": {
             "name": "voler>167847",
             "w": "288",
-            "formated name": "'voler>déplacement aérien'"
+            "formated name": "voler>déplacement aérien"
         },
         "229805": {
             "name": "colombe>140176",
             "w": "40",
-            "formated name": "'colombe>oiseau'"
+            "formated name": "colombe>oiseau"
         },
         "190819243": {
             "name": ":r581564665",
@@ -449,12 +449,12 @@
         "214602": {
             "name": "queue>214624",
             "w": "80",
-            "formated name": "'queue>queue d'animal'"
+            "formated name": "queue>queue d'animal"
         },
         "3343185": {
             "name": "aile>117095",
             "w": "42",
-            "formated name": "'aile>zoologie'"
+            "formated name": "aile>zoologie"
         },
         "43807709": {
             "name": ":r484223115",
@@ -529,12 +529,12 @@
         "223691": {
             "name": "hippocampe>68467",
             "w": "50",
-            "formated name": "'hippocampe>poisson'"
+            "formated name": "hippocampe>poisson"
         },
         "251890": {
             "name": "barbue>68467",
             "w": "72",
-            "formated name": "'barbue>poisson'"
+            "formated name": "barbue>poisson"
         },
         "104000": {
             "name": "lotte",
@@ -554,7 +554,7 @@
         "214583": {
             "name": "labre>68467",
             "w": "50",
-            "formated name": "'labre>poisson'"
+            "formated name": "labre>poisson"
         },
         "57901": {
             "name": "lamproie",
@@ -599,7 +599,7 @@
         "270454": {
             "name": "tourterelle>140176",
             "w": "58",
-            "formated name": "'tourterelle>oiseau'"
+            "formated name": "tourterelle>oiseau"
         },
         "73827": {
             "name": "voler",
@@ -649,7 +649,7 @@
         "218648": {
             "name": "arbre>136507",
             "w": "426",
-            "formated name": "'arbre>végétal'"
+            "formated name": "arbre>végétal"
         },
         "1793001": {
             "name": ":r13478465",
@@ -694,7 +694,7 @@
         "218962": {
             "name": "rouget>68467",
             "w": "10",
-            "formated name": "'rouget>poisson'"
+            "formated name": "rouget>poisson"
         },
         "184959940": {
             "name": ":r581315400",
@@ -874,7 +874,7 @@
         "11008328": {
             "name": "ADN>30051",
             "w": "22",
-            "formated name": "'ADN>code génétique'"
+            "formated name": "ADN>code génétique"
         },
         "1655534": {
             "name": "c?lomate",
@@ -964,7 +964,7 @@
         "1636805": {
             "name": "oeil>44335",
             "w": "52",
-            "formated name": "'oeil>organe'"
+            "formated name": "oeil>organe"
         },
         "114327": {
             "name": "acide désoxyribonucléique",
@@ -979,12 +979,12 @@
         "240590": {
             "name": "arête>68467",
             "w": "18",
-            "formated name": "'arête>poisson'"
+            "formated name": "arête>poisson"
         },
         "218940": {
             "name": "poisson>17559",
             "w": "646",
-            "formated name": "'poisson>animal'"
+            "formated name": "poisson>animal"
         },
         "15421433": {
             "name": "en:warm-blooded species",
@@ -1004,7 +1004,7 @@
         "390927": {
             "name": "tête>112609",
             "w": "72",
-            "formated name": "'tête>anatomie'"
+            "formated name": "tête>anatomie"
         },
         "330215": {
             "name": "bilatéralement symétrique",
@@ -1039,10 +1039,10 @@
         "224422": {
             "name": "manger>113902>119570",
             "w": "212",
-            "formated name": "'manger>alimentation>absorber'"
+            "formated name": "manger>alimentation>absorber"
         },
         "137288": {
-            "name": "salimenter",
+            "name": "s'alimenter",
             "w": "170",
             "formated name": null
         },
@@ -1089,7 +1089,7 @@
         "6681658": {
             "name": "manger>113902",
             "w": "190",
-            "formated name": "'manger>alimentation'"
+            "formated name": "manger>alimentation"
         },
         "33882": {
             "name": "se nourrir",
@@ -1117,14 +1117,14 @@
             "formated name": null
         },
         "139709": {
-            "name": "senvoler",
+            "name": "s'envoler",
             "w": "188",
             "formated name": null
         },
         "259820": {
             "name": "vivre>160251",
             "w": "98",
-            "formated name": "'vivre>être en vie'"
+            "formated name": "vivre>être en vie"
         },
         "43253": {
             "name": "dormir",
@@ -1134,7 +1134,7 @@
         "251694": {
             "name": "mourir>126720",
             "w": "284",
-            "formated name": "'mourir>cesser de vivre'"
+            "formated name": "mourir>cesser de vivre"
         },
         "115440": {
             "name": "couver",
@@ -1179,7 +1179,7 @@
         "218905": {
             "name": "faune>71539",
             "w": "28",
-            "formated name": "'faune>animaux'"
+            "formated name": "faune>animaux"
         },
         "16110": {
             "name": "bouche",
@@ -1214,7 +1214,7 @@
         "241352": {
             "name": "ventre>112609",
             "w": "144",
-            "formated name": "'ventre>anatomie'"
+            "formated name": "ventre>anatomie"
         },
         "141814": {
             "name": "vertèbre",
@@ -1264,7 +1264,7 @@
         "213792": {
             "name": "coeur>213791",
             "w": "216",
-            "formated name": "'coeur>organe musculaire'"
+            "formated name": "coeur>organe musculaire"
         },
         "57875": {
             "name": "tube digestif",
@@ -1289,12 +1289,12 @@
         "240720": {
             "name": "squelette>112609",
             "w": "156",
-            "formated name": "'squelette>anatomie'"
+            "formated name": "squelette>anatomie"
         },
         "219363": {
             "name": "corps>112609",
             "w": "216",
-            "formated name": "'corps>anatomie'"
+            "formated name": "corps>anatomie"
         },
         "109785": {
             "name": "peau",
@@ -1354,7 +1354,7 @@
         "213644": {
             "name": "os>116980",
             "w": "434",
-            "formated name": "'os>squelette'"
+            "formated name": "os>squelette"
         },
         "95422": {
             "name": "cou",
@@ -1389,7 +1389,7 @@
         "233138": {
             "name": "tête>390963",
             "w": "82",
-            "formated name": "'tête>extrémité supérieure du corps'"
+            "formated name": "tête>extrémité supérieure du corps"
         },
         "74846": {
             "name": "corps",
@@ -1414,7 +1414,7 @@
         "214603": {
             "name": "queue>214624>140176",
             "w": "52",
-            "formated name": "'queue>queue d'animal>oiseau'"
+            "formated name": "queue>queue d'animal>oiseau"
         },
         "144846": {
             "name": "tête",
@@ -1424,7 +1424,7 @@
         "225934": {
             "name": "oeil>330323",
             "w": "268",
-            "formated name": "'oeil>organe de la vue'"
+            "formated name": "oeil>organe de la vue"
         },
         "36886": {
             "name": "faune",
@@ -1449,17 +1449,17 @@
         "237765": {
             "name": "patte>141795",
             "w": "58",
-            "formated name": "'patte>membre'"
+            "formated name": "patte>membre"
         },
         "233008": {
             "name": "bec>140176",
             "w": "54",
-            "formated name": "'bec>oiseau'"
+            "formated name": "bec>oiseau"
         },
         "215896": {
             "name": "aile>117095>140176",
             "w": "102",
-            "formated name": "'aile>zoologie>oiseau'"
+            "formated name": "aile>zoologie>oiseau"
         },
         "15297314": {
             "name": "en:deoxyribose nucleoprotein",
@@ -1579,17 +1579,17 @@
         "237444": {
             "name": "être>94160",
             "w": "64",
-            "formated name": "'être>existence'"
+            "formated name": "être>existence"
         },
         "240637": {
             "name": "colombe>115700",
             "w": "50",
-            "formated name": "'colombe>poutre'"
+            "formated name": "colombe>poutre"
         },
         "229806": {
             "name": "colombe>5205",
             "w": "52",
-            "formated name": "'colombe>paix'"
+            "formated name": "colombe>paix"
         },
         "290898": {
             "name": "Columba junoniae",
@@ -1844,7 +1844,7 @@
         "270455": {
             "name": "tourterelle>50889",
             "w": "50",
-            "formated name": "'tourterelle>gris'"
+            "formated name": "tourterelle>gris"
         },
         "52255": {
             "name": "arbre",
@@ -1889,22 +1889,22 @@
         "237443": {
             "name": "être>37229",
             "w": "72",
-            "formated name": "'être>se trouver'"
+            "formated name": "être>se trouver"
         },
         "237441": {
             "name": "être>85728",
             "w": "16",
-            "formated name": "'être>exister'"
+            "formated name": "être>exister"
         },
         "330963": {
             "name": "cordé>3674",
             "w": "50",
-            "formated name": "'cordé>botanique'"
+            "formated name": "cordé>botanique"
         },
         "215023": {
             "name": "pigeon>83368",
             "w": "64",
-            "formated name": "'pigeon>naïf'"
+            "formated name": "pigeon>naïf"
         },
         "10314012": {
             "name": "en:heterotroph",
@@ -1914,12 +1914,12 @@
         "3245297": {
             "name": "pigeon>118439",
             "w": "2",
-            "formated name": "'pigeon>ball-trap'"
+            "formated name": "pigeon>ball-trap"
         },
         "225848": {
             "name": "organisme>118203",
             "w": "52",
-            "formated name": "'organisme>corps humain'"
+            "formated name": "organisme>corps humain"
         },
         "242813729": {
             "name": ":r635581042",
@@ -1934,7 +1934,7 @@
         "225846": {
             "name": "organisme>332175",
             "w": "54",
-            "formated name": "'organisme>ensemble des organes'"
+            "formated name": "organisme>ensemble des organes"
         },
         "1482722": {
             "name": ":r13605806",
@@ -1979,22 +1979,22 @@
         "213550": {
             "name": "plume>48961",
             "w": "56",
-            "formated name": "'plume>parure'"
+            "formated name": "plume>parure"
         },
         "213546": {
             "name": "plume>54234",
             "w": "54",
-            "formated name": "'plume>écriture'"
+            "formated name": "plume>écriture"
         },
         "246521": {
             "name": "plume>71578",
             "w": "58",
-            "formated name": "'plume>lit'"
+            "formated name": "plume>lit"
         },
         "3178150": {
             "name": "plume>123034",
             "w": "0",
-            "formated name": "'plume>fellation'"
+            "formated name": "plume>fellation"
         },
         "58768": {
             "name": "organisme",
@@ -2009,7 +2009,7 @@
         "225849": {
             "name": "organisme>86627",
             "w": "52",
-            "formated name": "'organisme>organisation'"
+            "formated name": "organisme>organisation"
         },
         "1437326": {
             "name": ":r13605810",
@@ -2049,7 +2049,7 @@
         "237442": {
             "name": "être>136317",
             "w": "2",
-            "formated name": "'être>appartenir'"
+            "formated name": "être>appartenir"
         },
         "9620412": {
             "name": ":r216471447",
@@ -2074,7 +2074,7 @@
         "157007": {
             "name": "être>146885",
             "w": "50",
-            "formated name": "'être>Nom:Mas+SG'"
+            "formated name": "être>Nom:Mas+SG"
         },
         "3939928": {
             "name": "dbnary:fra:__ws_1_colombidé__nom__1",
@@ -2084,7 +2084,7 @@
         "234035": {
             "name": "être vivant>2442",
             "w": "4",
-            "formated name": "'être vivant>vivre'"
+            "formated name": "être vivant>vivre"
         },
         "1793079": {
             "name": ":r10726119",
@@ -2654,7 +2654,7 @@
         "208744589": {
             "name": "::>66:593630>24:126612",
             "w": "0",
-            "formated name": "'tourterelle>Adj: [peut] se poser'"
+            "formated name": "tourterelle>Adj: [peut] se poser"
         },
         "114288": {
             "name": "palombe",
@@ -2664,7 +2664,7 @@
         "3161654": {
             "name": "tumbler>74657",
             "w": "0",
-            "formated name": "'tumbler>pigeon'"
+            "formated name": "tumbler>pigeon"
         },
         "13750145": {
             "name": "streptopelia turtur",
@@ -2689,7 +2689,7 @@
         "593630": {
             "name": "tourterelle>171869",
             "w": "0",
-            "formated name": "'tourterelle>Adj:'"
+            "formated name": "tourterelle>Adj:"
         },
         "3162937": {
             "name": "Gallicolombe tristigmate",
@@ -2719,7 +2719,7 @@
         "157011": {
             "name": "être vivant>146882",
             "w": "50",
-            "formated name": "'être vivant>Ver:Inf'"
+            "formated name": "être vivant>Ver:Inf"
         },
         "15287364": {
             "name": "en:metazoon",
@@ -2729,7 +2729,7 @@
         "1969857": {
             "name": "florentin>117095",
             "w": "0",
-            "formated name": "'florentin>zoologie'"
+            "formated name": "florentin>zoologie"
         },
         "5670461": {
             "name": "Gallicolombe de Bartlett",
@@ -2739,7 +2739,7 @@
         "1395235": {
             "name": "être>171870",
             "w": "0",
-            "formated name": "'être>Nom:'"
+            "formated name": "être>Nom:"
         },
         "194261": {
             "name": "pigeon à cou rouge",
@@ -2879,7 +2879,7 @@
         "674295": {
             "name": "peau>146881",
             "w": "0",
-            "formated name": "'peau>Nom:Fem+SG'"
+            "formated name": "peau>Nom:Fem+SG"
         },
         "55101": {
             "name": "florentin",
@@ -2939,7 +2939,7 @@
         "214316": {
             "name": "rapace>140176",
             "w": "54",
-            "formated name": "'rapace>oiseau'"
+            "formated name": "rapace>oiseau"
         },
         "16045002": {
             "name": "eukaryote",
@@ -3097,7 +3097,7 @@
             "formated name": null
         },
         "16878039": {
-            "name": "système national dinformation interrégimes de lassurance maladie (SNIIRAM)",
+            "name": "système national d'information interrégimes de l'assurance maladie (SNIIRAM)",
             "w": "0",
             "formated name": null
         },
@@ -3137,12 +3137,12 @@
             "formated name": null
         },
         "15566941": {
-            "name": "en:have ones eye on",
+            "name": "en:have one's eye on",
             "w": "0",
             "formated name": null
         },
         "15566942": {
-            "name": "en:have ones beady eye on",
+            "name": "en:have one's beady eye on",
             "w": "0",
             "formated name": null
         },
@@ -3152,12 +3152,12 @@
             "formated name": null
         },
         "15266507": {
-            "name": "en:to have ones eye on",
+            "name": "en:to have one's eye on",
             "w": "0",
             "formated name": null
         },
         "15266508": {
-            "name": "en:to have ones beady eye on",
+            "name": "en:to have one's beady eye on",
             "w": "0",
             "formated name": null
         }
