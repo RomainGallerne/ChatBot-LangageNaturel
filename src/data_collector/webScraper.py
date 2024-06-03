@@ -6,16 +6,16 @@ from pathlib import Path
 #             HTTP Request Function               #
 ###################################################
 
-def http_request(data : str):
-    splited_data = data.split(">")
-    clean_data = splited_data[0]
-    print("Telechargement des données de : '" + clean_data + "'...")
-    url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + clean_data + "&rel="
+def http_request(data: str):
     try:
-        reponse = requests.get(url)
+        clean_data = data.split(">", 1)[0]
+        print("Téléchargement des données de : '" + clean_data + "'...")
+        url = "https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=" + clean_data + "&rel="
+        response = requests.get(url)
+        return response.text
     except requests.exceptions.RequestException as e:
         print("Erreur lors de la récupération de la page :", e)
-    return reponse.text
+        return None
 
 ###################################################
 #            Data Acquired Function               #
@@ -23,16 +23,15 @@ def http_request(data : str):
 #            Retourne Faux sinon                  #
 ###################################################
 
-def data_already_acquired(data : str):
-    splited_data = data.split(">")
-    clean_data = splited_data[0]
+def data_already_acquired(data: str):
     try:
-        with open("data/"+clean_data+".json", 'r', encoding='utf-8') as json_file:
-            #print("Données déjà acquises.")
+        clean_data = data.split(">", 1)[0]
+        file_path = f"data/{clean_data}.json"
+        if Path(file_path).is_file():
             return True
-    except FileNotFoundError as fnfe :
-        try :
-            Path("data").mkdir()
-        except FileExistsError as fee :
-            None
+        else:
+            Path("data").mkdir(exist_ok=True)  # Crée le répertoire 'data' s'il n'existe pas
+            return False
+    except Exception as e:
+        print("Une erreur est survenue :", e)
         return False
