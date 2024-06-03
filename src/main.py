@@ -1,5 +1,7 @@
+import time
 from resoners.deduction import *
 from resoners.induction import *
+from resoners.transitivite import *
 from utility.utils import *
 
 ###################################################
@@ -30,57 +32,63 @@ def affichage(deductions, inductions, transitivites, resultat_global, data1, dat
       la vérité de la relation (oui ou non) et la confiance associée.
     """
     clear_console()
-
     print("---------------------\nEntrez la requête au format :\n 'pigeon/r_agent-1/voler'\n---------------------\n")
     print(f"{data1}/{relation}/{data2}\n")
 
-    if resultat_global >= 5.0:
-        print("Cette propriété est VRAIE")
-    elif resultat_global <= -5.0:
-        print("Cette propriété est FAUSSE")
+    if resultat_global > 0.0:
+        print("Cette propriété est VRAIE (" + str(resultat_global) + ")")
+    elif resultat_global < -0.0:
+        print("Cette propriété est FAUSSE (" + str(resultat_global) + ")")
     else:
-        print("Cette propriété est PROBABLEMENT FAUSSE\nRien ne permet de l'inférer de façon probante.\n")
+        print("Cette propriété est PROBABLEMENT FAUSSE (" + str(resultat_global) + ")\nRien ne permet de l'inférer de façon probante.\n")
 
     arguments_global = deductions + inductions + transitivites
     arguments_global = sorted(arguments_global, key=lambda x: x["confiance"], reverse=True)
 
     rang_affiche = 0
-    for rang, argument in enumerate(arguments_global[:5]):
+    for rang, argument in enumerate(arguments_global):
+        if(rang_affiche >= 10):
+            break
 
         confiance = argument["confiance"]
 
-        if argument["weight_relation"] > 0.0 and resultat_global >= 5.0:
+        if argument["weight_relation"] > 0.0 and resultat_global > 0.0:
             verite = "oui"
-        elif argument["weight_relation"] < 0.0 and resultat_global <= -5.0:
+        elif argument["weight_relation"] < 0.0 and resultat_global < 0.0:
             verite = "non"
-        elif -5.0 <= resultat_global <= 5.0:
-            verite = "oui" if argument["weight_relation"] > 0.0 else "non"
         else:
+            #verite = "confus"
             continue
+            
         
         chaine = f"{rang_affiche} | {verite} | "
 
         if argument in deductions:
             relation1 = relation_id_to_name(argument["relation1"], dataJSON1)
-            relation2 = relation_id_to_name(argument["relation2"], dataJSON2)
 
             chaine += "(deduction) | "
             if element1 := argument["element1"]:
                 chaine += f"[{data1} {relation1} {element1}] & "
-            if element2 := argument["element2"]:
-                chaine += f"[{data2} {relation2} {element2}] & "
             if verite == "non":
                 chaine += "¬"
-            chaine += f"[{element1 if element1 else data1} {relation} {element2 if element2 else data2}]"
+            chaine += f"[{element1 if element1 else data1} {relation} {data2}]"
 
         elif argument in inductions:
             relation_ind = argument["relation"]
             chaine += "(induction) | "
-            if element1 := argument["element1"]:
-                chaine += f"[{data1} {relation_ind} {element1}] & "
+            if element := argument["element"]:
+                chaine += f"[{data1} {relation_ind} {element}] & "
             if verite == "non":
                 chaine += "¬"
-            chaine += f"[{element1} {relation} {data2}]"
+            chaine += f"[{element} {relation} {data2}]"
+            
+        elif argument in transitivites:
+            chaine += "(transitivité) | "
+            if element1 := argument["element1"]:
+                chaine += f"[{data1} {relation} {element1}] & "
+            if verite == "non":
+                chaine += "¬"
+            chaine += f"[{element1} {relation} {data2}]"    
 
         chaine += f" | {confiance}"
         print(chaine)
@@ -92,15 +100,30 @@ def affichage(deductions, inductions, transitivites, resultat_global, data1, dat
 
 def main():
     clear_console()
-    print("---------------------\nEntrez la requête au format :\n 'pigeon/r_agent-1/voler'\n---------------------\n")
+    print("---------------------\nPour nettoyer le cache tappez : 'nettoyer cache'")
+    print("---------------------\nEntrez la requête au format : 'aigle/r_agent-1/voler'\n---------------------\n")
     prompt = input()
     print("\n---------------------\n")
 
     try :
         data1, relation, data2 = prompt.split("/")
     except ValueError as ve :
-        print("Saisi incorrect")
-        return -1
+        try:
+            cache = prompt
+            if(cache != "nettoyer cache"):
+                print("Saisi incorrect")
+                return -1
+            else:
+                for fichier in os.listdir("data"):
+                    chemin_fichier = os.path.join("data", fichier)
+                    if os.path.isfile(chemin_fichier):
+                        print(chemin_fichier + "supprimé")
+                        os.remove(chemin_fichier)
+                print("---------------------\nLe cache a été correctement nettoyé\n---------------------\n")
+                return 0
+        except ValueError as ve :
+            print("Saisi incorrect")
+            return -1
 
     try:
         dataJSON1 = load_data(data1)
@@ -110,17 +133,19 @@ def main():
         return -1
 
     print("\n")
-    resultats_deductions = 0
-    resultats_induction = 0
-    resultats_transitivite = 0
+
+    temps_debut_total = time.time()
 
     deductions, resultats_deductions = get_clean_deduction_results(data1, data2, relation, dataJSON1, dataJSON2)
     inductions, resultats_inductions = get_clean_induction_results(data1, data2, relation, dataJSON1, dataJSON2)
-    transitivite, resultats_transitivites = [],0
-
+    transitivite, resultats_transitivites = get_clean_transitivite_results(data1, data2, relation, dataJSON1, dataJSON2)
+    
     resultat_global = resultats_deductions + resultats_inductions + resultats_transitivites
 
     affichage(deductions, inductions, transitivite, resultat_global, data1, data2, relation, dataJSON1, dataJSON2)
+
+    temps_execution_total = time.time() - temps_debut_total
+    print("\nTemps d'exécution (avec téléchargements):", format(temps_execution_total),"secondes")
 
 if __name__ == "__main__":
     main()

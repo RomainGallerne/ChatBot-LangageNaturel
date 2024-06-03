@@ -2,43 +2,27 @@ from math import sqrt, pow
 from utility.utils import *
 
 ###################################################
-#           Recherche d'éléments typiques         #
-###################################################
-
-def recherche_typique(data, dataJSON):
-  relations = dataJSON["relation"]
-  data_id = int(node_name_to_id(data, dataJSON))
-  typiques = []
-  nb_typiques = 0
-  for cle, valeur in relations.items():
-    if(nb_typiques >= 5):
-       break
-    try:
-      if (int(valeur["node1"])==data_id) and (int(valeur["type"])==13 and int(valeur["rank"])<=10): # La relation r_agent a pour id 13
-        typiques.append([valeur["rank"] or 11.0,valeur["node2"]])
-        nb_typiques += 1
-    except TypeError :
-      continue
-  return [typique[1] for typique in typiques][:8]
-
-###################################################
 #         Recherche d'éléments génériques         #
 ###################################################
 
+relations_generiques = [
+    6, #r_isa
+    10, #r_holo
+]
+
 def recherche_generique(data, dataJSON):
-  relations_generiques = [relation_name_to_id("r_isa",dataJSON), relation_name_to_id("r_holo",dataJSON)]
+    relations = dataJSON["relation"].items()
+    generiques = []
+    data_id = node_name_to_id(data, dataJSON)
 
-  relations = dataJSON["relation"]
-  generiques = []
-  data_id = int(node_name_to_id(data, dataJSON))
+    for k, v in relations:
+        if(v["rank"] is None):
+            continue
+        if v["node1"] == data_id and v["type"] in relations_generiques and v["rank"] <= 10:
+            generiques.append({"poid": v["wnormed"] or 1.0, "element": v["node2"], "type": v["type"]})
 
-  relations = {k: v for k, v in relations.items() if v["node1"] == data_id and v["type"] in relations_generiques}
-
-  for relation in relations.values() :
-    generiques.append({"rank": relation["rank"],"poid": relation["w"],"element": relation["node2"], "type": relation["type"]})
-
-  generiques = sorted(generiques, key=lambda item: abs(item["poid"]), reverse=True)
-  return generiques[:8]
+    generiques.sort(key=lambda item: abs(item["poid"]), reverse=True)
+    return generiques
 
 ###################################################
 #            Fonctions de déduction               #
@@ -67,87 +51,31 @@ def deduction(data1, data2, relation, dataJSON1, dataJSON2):
         - element2 (str, optional): Le nom de l'élément 2.
     """
     # Elements utilitaires
-    relations_dataJSON1 = dataJSON1["relation"]
-    relations_dataJSON2 = dataJSON2["relation"]
     deductions = []
-    data1_id = node_name_to_id(data1, dataJSON1)
     data2_id = node_name_to_id(data2, dataJSON2)
     relation_id = relation_name_to_id(relation, dataJSON1)
 
-    # Recherche des éléments typiques de la donnée data2 (qui peut faire data2 ?)
-    #typiques = recherche_typique(data2, dataJSON2)
-
-    #if len(typiques) != 0:
-        # Si l'élément a des typiques, on ne s'intéresse qu'à eux
-        #if(data1_id in typiques):
-          #elements1 = recherche_generique(data1, dataJSON1)
-        #else: elements1 = typiques
-    #else:
-        # Sinon on prend tous les génériques
-        #elements1 = recherche_generique(data1, dataJSON1)
-
-    elements1 = recherche_generique(data1, dataJSON1)
-    elements2 = recherche_generique(data2, dataJSON2)
+    elements = recherche_generique(data1, dataJSON1)
+    name_cache = {elem["element"]: node_id_to_name(elem["element"], dataJSON1) for elem in elements}
+    data_cache = {name: load_data(name) for name in name_cache.values() if contains_alphanumeric(name)}
 
     # Recherche des relations dans lesquelles data1 est un X, et X est en relation avec data2
-    for element in elements1:
-        for valeur in relations_dataJSON2.values():
-            if valeur["type"] == relation_id and valeur["node1"] == element["element"] and valeur["node2"] == data2_id:
-                deductions.append({
-                    "rank_relation": valeur["rank"] if valeur["rank"] is not None else 11.0,
-                    "weight_relation": valeur["w"],
-                    "rank_element_1": element["rank"] if element["rank"] is not None else 11.0,
-                    "weight_element_1": element["poid"],
-                    "rank_element_2": None,
-                    "weight_element_2": None,
-                    "element1": str(node_id_to_name(element["element"], dataJSON1)),
-                    "element2": None,
-                    "relation1": element["type"],
-                    "relation2": None
-                })
+    for element in elements:
+        elem_name = element["element"]
 
-    # Recherche des relations dans lesquelles data2 est un Y, et data1 est en relation avec Y
-    for element in elements2:
-        for valeur in relations_dataJSON1.values():
-            if valeur["type"] == relation_id and valeur["node2"] == element["element"] and valeur["node1"] == data1_id:
-                deductions.append({
-                    "rank_relation": valeur["rank"] if valeur["rank"] is not None else 11.0,
-                    "weight_relation": valeur["w"],
-                    "rank_element_1": None,
-                    "weight_element_1": None,
-                    "rank_element_2": element["rank"] if element["rank"] is not None else 11.0,
-                    "weight_element_2": element["poid"],
-                    "element1": None,
-                    "element2": str(node_id_to_name(element["element"], dataJSON2)),
-                    "relation1": None,
-                    "relation2": element["type"]
-                })
-
-    # Recherche des relations dans lesquelles data1 est un X, et data2 est un Y, et X est en relation avec Y
-    for element1 in elements1:
-        name = node_id_to_name(element1["element"], dataJSON1)
-        if(not contains_alphanumeric(name)):
-           continue
-        dataJSON_element = load_data(name)  # Chargement des données nécessaires
-        relations_dataJSON_element = dataJSON_element["relation"]
-
-        for valeur in relations_dataJSON_element.values():
-            if valeur["type"] == relation_id and valeur["node1"] == element1["element"] and valeur["node2"] in elements2:
-                for element2 in elements2:
-                    if valeur["node2"] == element2["element"]:
-                        deductions.append({
-                            "rank_relation": valeur["rank"] if valeur["rank"] is not None else 11.0,
-                            "weight_relation": valeur["w"],
-                            "rank_element_1": element1["rank"] if element1["rank"] is not None else 11.0,
-                            "weight_element_1": element1["poid"],
-                            "rank_element_2": element2["rank"] if element2["rank"] is not None else 11.0,
-                            "weight_element_2": element2["poid"],
-                            "element1": str(node_id_to_name(element1["element"], dataJSON1)),
-                            "element2": str(node_id_to_name(element2["element"], dataJSON2)),
-                            "relation1": element1["type"],
-                            "relation2": element2["type"]
-                        })
-
+        if elem_name in name_cache:
+            if(name_cache[elem_name] == "::"):
+                continue
+            dataJSON_element = data_cache[name_cache[elem_name]]
+            relations_dataJSON_element = dataJSON_element["relation"]
+            for valeur in relations_dataJSON_element.values():
+                if valeur["type"] == relation_id and valeur["node1"] == elem_name and valeur["node2"] == data2_id:
+                    deductions.append({
+                        "weight_relation": valeur["wnormed"] or 1.0,
+                        "weight_element_1": element["poid"],
+                        "element1": str(name_cache[elem_name]),
+                        "relation1": element["type"],
+                    })
     return deductions
 
 ###################################################
@@ -179,38 +107,12 @@ def get_clean_deduction_results(data1, data2, relation, dataJSON1, dataJSON2):
 
         # On booste les relations négatives pour ne pas les rater
         if weight_relation < 0.0:
-            resultat_global -= pow(weight_relation, 3.0)
+            resultat_global += 3.0 * weight_relation
 
-        relation_weight = float(weight_relation)
-        relation_rank = float(ded["rank_relation"])
-        
-        if ded["element1"] is not None and ded["element2"] is not None:
-            generique_rank = float(ded["rank_element_1"]) + float(ded["rank_element_2"])
-            generique_weight = float(ded["weight_element_1"]) + float(ded["weight_element_2"])
-            confiance = math.sqrt(abs(moyenne_quad([generique_weight, relation_weight]) / moyenne_quad([generique_rank, relation_rank])))
-        elif ded["element1"] is not None:
-            generique_rank = float(ded["rank_element_1"])
-            generique_weight = float(ded["weight_element_1"])
-            confiance = abs(moyenne_quad([generique_weight, relation_weight]) / moyenne_quad([generique_rank, relation_rank]))
-        elif ded["element2"] is not None:
-            generique_rank = float(ded["rank_element_2"])
-            generique_weight = float(ded["weight_element_2"])
-            confiance = math.sqrt(abs(moyenne_quad([generique_weight, relation_weight]) / moyenne_quad([generique_rank, relation_rank])))
-        else:
-            confiance = 0.0
+        generique_weight = float(ded["weight_element_1"])
+        confiance = moyenne_geo([abs(generique_weight), abs(weight_relation)])
+        ded["confiance"] = confiance
 
-        ded["confiance"] = abs(confiance)
-        
-    unique_deductions = {}
-    for ded in deductions:
-        key = (ded["element1"], ded["element2"])
-        if key in unique_deductions:
-            if ded["confiance"] > unique_deductions[key]["confiance"]:
-                unique_deductions[key] = ded
-        else:
-            unique_deductions[key] = ded
+    deductions.sort(key=lambda x: x["confiance"], reverse=True)
 
-    deduped_deductions = list(unique_deductions.values())
-    deduped_deductions.sort(key=lambda x: x["confiance"], reverse=True)
-
-    return deduped_deductions[:10], resultat_global
+    return deductions, resultat_global
