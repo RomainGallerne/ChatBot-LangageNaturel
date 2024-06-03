@@ -1,0 +1,125 @@
+{
+    "type_noeud": {
+        "1": {
+            "ntname": "n_term"
+        },
+        "4": {
+            "ntname": "n_pos"
+        },
+        "15": {
+            "ntname": "n_relation_name"
+        },
+        "36": {
+            "ntname": "n_data_pot"
+        }
+    },
+    "noeud": {
+        "15010444": {
+            "name": "r_lieu",
+            "w": "0",
+            "formated name": null
+        },
+        "15010428": {
+            "name": "Relation:Name",
+            "w": "50",
+            "formated name": null
+        },
+        "135190": {
+            "name": "lieu",
+            "w": "3965",
+            "formated name": null
+        }
+    },
+    "type_relation": {
+        "0": {
+            "trname": "r_associated",
+            "trgpname": "idÃ©e associÃ©e"
+        },
+        "4": {
+            "trname": "r_pos",
+            "trgpname": "POS"
+        },
+        "11": {
+            "trname": "r_locution",
+            "trgpname": "locution"
+        },
+        "36": {
+            "trname": "r_infopot",
+            "trgpname": "information potentielle"
+        }
+    },
+    "relation": {
+        "392040860": {
+            "node1": 15010444,
+            "node2": 254877,
+            "type": 36,
+            "w": 75,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "392040856": {
+            "node1": 15010444,
+            "node2": 2585997,
+            "type": 36,
+            "w": 59,
+            "wnormed": 0.787,
+            "rank": 2
+        },
+        "392040861": {
+            "node1": 15010444,
+            "node2": 273221,
+            "type": 36,
+            "w": 32,
+            "wnormed": 0.427,
+            "rank": 3
+        },
+        "392040678": {
+            "node1": 15010444,
+            "node2": 15010428,
+            "type": 4,
+            "w": 30,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "392040859": {
+            "node1": 15010444,
+            "node2": 254876,
+            "type": 36,
+            "w": 29,
+            "wnormed": 0.387,
+            "rank": 4
+        },
+        "392040858": {
+            "node1": 15010444,
+            "node2": 241794,
+            "type": 36,
+            "w": 6,
+            "wnormed": 0.08,
+            "rank": 5
+        },
+        "392040857": {
+            "node1": 15010444,
+            "node2": 223173,
+            "type": 36,
+            "w": 2,
+            "wnormed": 0.027,
+            "rank": 6
+        },
+        "392040855": {
+            "node1": 15010444,
+            "node2": 135190,
+            "type": 0,
+            "w": 1,
+            "wnormed": 1.0,
+            "rank": 1
+        },
+        "392040854": {
+            "node1": 135190,
+            "node2": 15010444,
+            "type": 11,
+            "w": 34,
+            "wnormed": null,
+            "rank": null
+        }
+    }
+}
