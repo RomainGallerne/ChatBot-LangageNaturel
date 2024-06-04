@@ -14,9 +14,12 @@ def load_data(data: str):
         clean_data = clean_data[0]
     else:
         clean_data = data
-    processData(clean_data)
-    with open(f"data/{clean_data}.json", "r", encoding="utf-8") as file:
-        return json.load(file)
+    retour = processData(clean_data)
+    if(retour != "erreur"):
+        with open(f"data/{clean_data}.json", "r", encoding="utf-8") as file:
+            return json.load(file)
+    else:
+        return {"type_noeud": {},"noeud": {}, "type_relation": {}, "relation":{}}
 
 ###################################################
 #   Traitement du tuple JSON en langage naturel   #

@@ -57,23 +57,24 @@ def deduction(data1, data2, relation, dataJSON1, dataJSON2):
 
     elements = recherche_generique(data1, dataJSON1)
     name_cache = {elem["element"]: node_id_to_name(elem["element"], dataJSON1) for elem in elements}
-    data_cache = {name: load_data(name) for name in name_cache.values() if contains_alphanumeric(name)}
+    data_cache = {name: load_data(name) for name in name_cache.values() if name is not None and contains_alphanumeric(name)}
 
     # Recherche des relations dans lesquelles data1 est un X, et X est en relation avec data2
     for element in elements:
         elem_name = element["element"]
-
+        
         if elem_name in name_cache:
-            if(name_cache[elem_name] == "::"):
+            name_cache_elem = name_cache[elem_name]
+            if(name_cache_elem == "::" or "?" in name_cache_elem):
                 continue
-            dataJSON_element = data_cache[name_cache[elem_name]]
+            dataJSON_element = data_cache[name_cache_elem]
             relations_dataJSON_element = dataJSON_element["relation"]
             for valeur in relations_dataJSON_element.values():
                 if valeur["type"] == relation_id and valeur["node1"] == elem_name and valeur["node2"] == data2_id:
                     deductions.append({
                         "weight_relation": valeur["wnormed"] or 1.0,
                         "weight_element_1": element["poid"],
-                        "element1": str(name_cache[elem_name]),
+                        "element1": str(name_cache_elem),
                         "relation1": element["type"],
                     })
     return deductions

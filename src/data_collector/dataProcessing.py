@@ -13,6 +13,8 @@ def generate_json(data : str, json_text : str):
 
     # Trouve la balise <CODE> et extrait son contenu
     code_bal = soup.find('code')
+    if(code_bal is None):
+        return -1
 
     #Trie des lignes et préparation du format JSON
     JSON_new = {}
@@ -80,7 +82,10 @@ def processData(data : str = ""):
     #text = input("donnee a recuperer : ")
     if(not(data_already_acquired(data))):
         reponse = http_request(data)
-        generate_json(data, reponse)
-        return True
+        retour = generate_json(data, reponse)
+        if(retour == -1):
+            return "erreur"
+        else:
+            return True
     else:
         return False
