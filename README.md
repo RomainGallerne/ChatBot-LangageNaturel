@@ -1,47 +1,30 @@
-Interface : 
-	- Simple en console
+### Résumé
+Développement d'un moteur permettant d'interroger une base de données en ligne et d'inférer des connaissances.
 
-Fonctionnement : 
-	- Récupérer un fichier de type "view-source:https://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel=pigeon&rel=", ici pour les pigeons 
-	et l'enregister (SQL, fichier, etc...) puis permettre d'interroger en réalisant des inférences.
-	- Attention à la polysémie : un même mot peut avoir plusieurs sens : pigeon l'animal ou pigean celui qui se fait avoir.
-	- Attention aux synonimes : livre synonyme de 500g ? Oui car une livre vaut 500g. Il ne faut pas faire ce genre d'inférence.
-	- Possibilité de boucher les trous ou corriger les erreurs.
-	- Réponse à une requête en moins d'une seconde.
+Le moteur interroge une base de connaissances en ligne, en l'occurrence la base JeuxDeMots de l'Université de Montpellier. À l'aide des connaissances présentes dans cette base, le moteur est capable d'effectuer une série d'opérations pour inférer de nouvelles connaissances.
 
-Requêtes :
-	- pigeon r.agent-1 voler ?
+Pour cela, trois types d'algorithmes d'inférence sont utilisés :
+	- Algorithme de déduction
+ 	- Algotiyhme d'induction
+  	- Algorithme de transitivité des propriétés
 
-Types d'inférences :
-	- Déductif
-		"A isa C" et "C agent-1 B" => "A agent-1 B"
-	- Inductif
-	- Abductif
-	- La relation la plus importante sera "isa"
+Le moteur est donc capable d'effectuer des raisonnements argumentés sur divers éléments. Il peut, par exemple, expliquer que :
+	- Un pigeon vole car il s'agit d'un oiseau et qu'à défault d'exception les oiseaux volent.
+ 	- Une autruche ne vole pas car il s'agit d'un oiseau terrestre et les oiseaux terrestres sont une exception des oiseaux qui ne vole pas.
+  	- Une feuille est une partie d'un arbre car il s'agit d'une partie d'une plante et un arbre est une plante.
+   	...
 
-Evaluation :
-	- Soutenance après les examens (sans slides)
-	- Via discord (avec les exemples les plus tordus et les polysémies les plus bizarres)
-	- Code à rendre après la soutenance avec un README clair et simple pour installer
-	- Pas de rapports
-	- Groupe de 2
+### Utilisation
+Il faut intéroger le modèle sous la forme suivante :
+```
+autruche/r_agent-1/voler
+```
+La liste des relations admises et le détails de leurs significations sont consultables sur le site officiel de la base de données de JeuxDeMots.
 
-A l'examen écrit :
-	- Questions sur inférence
-	- Questions sur le projet (algorithme utilisés, problèmes trouvés)
-
-Tâches :
-	- Extraction des données brut vers format utilisable
-		- Récupération page
-		- Traitement code source (isolé les parties <CODES>...)
-		- Initialisation BD SQL
-		- Insertion BD SQL
-	- Algorithme de Requetage
-		- Interrogation "bête" -> Est-ce que le tuples est présent de base ?
-		- Génération du tuple opposé
-		- Inférence par ordre de rank (ordre anti-général) jusqu'à inférer le tuple souhaité ou le tuple opposé
-			- Différents type inférence possibles
-		- Enregistrement du chemin d'inférence
-	- Interface utilisateur
-		- Format des requêtes
-		- Génération du texte d'explication
+### Copyright
+```
+« Copyright © 19/05/2024, Romain GALLERNE, Loris BENAITHIER Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The Software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders X be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the Software.
+Except as contained in this notice, the name of Romain GALLERNE and Loris BENAITHIER shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from Romain GALLERNE and Loris BENAITHIER. »
+```
