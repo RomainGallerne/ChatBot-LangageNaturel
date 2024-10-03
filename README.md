@@ -4,15 +4,15 @@ Développement d'un moteur permettant d'interroger une base de données en ligne
 Le moteur interroge une base de connaissances en ligne, en l'occurrence la base JeuxDeMots de l'Université de Montpellier. À l'aide des connaissances présentes dans cette base, le moteur est capable d'effectuer une série d'opérations pour inférer de nouvelles connaissances.
 
 Pour cela, trois types d'algorithmes d'inférence sont utilisés :
-	* Algorithme de déduction
- 	* Algotiyhme d'induction
-  	* Algorithme de transitivité des propriétés
+- Algorithme de déduction
+- Algotiyhme d'induction
+- Algorithme de transitivité des propriétés
 
 Le moteur est donc capable d'effectuer des raisonnements argumentés sur divers éléments. Il peut, par exemple, expliquer que :
-	* Un pigeon vole car il s'agit d'un oiseau et qu'à défault d'exception les oiseaux volent.
- 	* Une autruche ne vole pas car il s'agit d'un oiseau terrestre et les oiseaux terrestres sont une exception des oiseaux qui ne vole pas.
-  	* Une feuille est une partie d'un arbre car il s'agit d'une partie d'une plante et un arbre est une plante.
-   	...
+- Un pigeon vole car il s'agit d'un oiseau et qu'à défault d'exception les oiseaux volent.
+- Une autruche ne vole pas car il s'agit d'un oiseau terrestre et les oiseaux terrestres sont une exception des oiseaux qui ne vole pas.
+- Une feuille est une partie d'un arbre car il s'agit d'une partie d'une plante et un arbre est une plante.
+...
 
 ### Utilisation
 Il faut intéroger le modèle sous la forme suivante :
